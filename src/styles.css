@@ -190,11 +190,10 @@ img {
   opacity: 0.28;
 }
 
-.hero-grid,
-.split-grid {
-  position: relative;
+.hero-grid {
   display: grid;
-  gap: 2.5rem;
+  grid-template-columns: 1.1fr 0.9fr; /* gives more space to left, less to right */
+  gap: 2rem;
 }
 
 .hero-grid {
@@ -247,17 +246,16 @@ img {
   margin-top: 2rem;
 }
 
- .hero-card-wrap {
+.hero-card-wrap {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding-right: 3rem;
-
+  transform: translateX(40px); /* pushes it further right */
 }
 
 .hero-card-outer {
   width: 100%;
-  max-width: 28rem; /* was 34rem → smaller */
+  max-width: 26rem; /* was 34rem → smaller */
   border-radius: 2rem;
   border: 1px solid rgba(255, 255, 255, 0.15);
   background: rgba(255, 255, 255, 0.1);
