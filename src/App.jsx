@@ -1,3 +1,6 @@
+import React from "react";
+import "./styles.css";
+import Badboy from "./Badboy";
 const navItems = ['Inventory', 'Service', 'About Us', 'Contact']
 const logoSrc = '/Intercoastal.jpg'
 
@@ -219,6 +222,7 @@ export default function App() {
           </div>
         </section>
       </main>
+      <Badboy />
     </div>
   )
 }
