@@ -142,8 +142,10 @@ export default function App() {
     {item.button}
   </a>
 </div>
-        </section>
-
+</div>  
+</div>            
+</section>              
+        
         <section id="service" className="section section-tint">
           <div className="container split-grid">
             <div>
