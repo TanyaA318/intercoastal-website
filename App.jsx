@@ -86,7 +86,7 @@ export default function App() {
               <div className="hero-card-outer">
                 <div className="hero-card-inner">
                   <div className="hero-card-heading">
-                    <img src={logoSrc} alt="Intercoastal badge" className="hero-card-logo" />
+                    <img src="/Logo Intercoastal.jpg" alt="Intercoastal badge" className="hero-logo" />
                     <div>
                       <p className="card-kicker">Intercoastal Outdoor Equipment</p>
                       <h3 className="hero-card-title">Clean. Coastal. Strong.</h3>
