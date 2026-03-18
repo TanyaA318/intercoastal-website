@@ -1,6 +1,6 @@
 import BadBoy from "./BadBoy"
 const navItems = ['Inventory', 'Service', 'About Us', 'Contact']
-const logoSrc = '/Intercoastal.jpg'
+const logoSrc = "/Logo Intercoastal.jpg"
 
 const inventoryCategories = [
   {
