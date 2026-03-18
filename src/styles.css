@@ -552,3 +552,42 @@ img {
     padding: 1.25rem;
   }
 }
+
+.inventory {
+  padding: 60px 20px;
+  background: #f8f8f8;
+}
+
+.inventory-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.inventory-card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.inventory-card:hover {
+  transform: translateY(-5px);
+}
+
+.inventory-card h3 {
+  margin-bottom: 10px;
+}
+
+.inventory-card button {
+  margin-top: 15px;
+  padding: 10px 16px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
