@@ -69,7 +69,7 @@ export default function App() {
           <div className="hero-glow" />
           <div className="container hero-grid">
             <div className="hero-copy">
-              <p className="section-kicker hero-kicker">New • Used • Service</p>
+              <p className="hero-kicker">AUTHORIZED BAD BOY DEALER</p>
               <h2 className="hero-title">Built for hard work, backed by coastal grit.</h2>
               <p className="hero-text">
                 Intercoastal Outdoor Equipment offers new and used inventory, trusted service, and practical guidance for homeowners, landowners, and commercial customers across northeastern North Carolina.
