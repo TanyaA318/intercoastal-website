@@ -1,3 +1,4 @@
+import BadBoy from "./BadBoy"
 const navItems = ['Inventory', 'Service', 'About Us', 'Contact']
 const logoSrc = '/Intercoastal.jpg'
 
@@ -222,3 +223,4 @@ export default function App() {
     </div>
   )
 }
+<BadBoy />
