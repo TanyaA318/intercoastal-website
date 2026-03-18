@@ -204,7 +204,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 40rem;
+  max-width: 34rem;
   position: relative;
   z-index: 2;
 }
@@ -251,8 +251,8 @@ img {
 
 .hero-card-wrap {
   position: absolute;
-  right: 0.5rem;          /* was 2.5rem → this moves it further right */
   top: 50%;
+  right: -4rem;
   transform: translateY(-50%);
   z-index: 2;
 }
