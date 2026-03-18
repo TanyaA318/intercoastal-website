@@ -6,16 +6,19 @@ const logoSrc = '/Intercoastal.jpg'
 
 const inventoryCategories = [
   {
-    title: 'New Inventory',
-    text: 'Shop dependable new outdoor equipment selected for performance, durability, and long days in the field.',
+    title: 'New Bad Boy Mowers',
+    text: 'Built for power, durability, and performance for homeowners and commercial users alike.',
+    button: 'View Models',
   },
   {
-    title: 'Used Inventory',
-    text: 'Browse quality pre-owned equipment that delivers value, reliability, and practical performance.',
+    title: 'Used & Trade-Ins',
+    text: 'Reliable trade-ins and pre-owned equipment ready to get back to work.',
+    button: 'Browse Inventory',
   },
   {
-    title: 'Service & Repair',
-    text: 'Keep your equipment working hard with routine maintenance, repairs, and responsive local support.',
+    title: 'Service & Repairs',
+    text: 'Keep your mower and equipment running strong with dependable local service.',
+    button: 'Schedule Service',
   },
 ]
 
