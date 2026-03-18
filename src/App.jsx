@@ -134,15 +134,14 @@ export default function App() {
 </p>
 
             <div className="card-grid card-grid-three">
-              {inventoryCategories.map((item) => (
-                <div key={item.title} className="info-card">
-                  <div className="icon-placeholder" />
-                  <h4 className="card-title">{item.title}</h4>
-                  <p className="card-text">{item.text}</p>
-                </div>
-              ))}
-            </div>
-          </div>
+              <div key={item.title} className="info-card">
+  <div className="icon-placeholder" />
+  <h4 className="card-title">{item.title}</h4>
+  <p className="card-text">{item.text}</p>
+  <a href="#contact" className="button button-secondary">
+    {item.button}
+  </a>
+</div>
         </section>
 
         <section id="service" className="section section-tint">
