@@ -247,10 +247,11 @@ img {
   margin-top: 2rem;
 }
 
-.hero-card-wrap {
+  .hero-card-wrap {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
+  padding-right: 3rem;
 }
 
 .hero-card-outer {
