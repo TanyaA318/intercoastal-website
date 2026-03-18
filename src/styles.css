@@ -252,7 +252,7 @@ img {
 .hero-card-wrap {
   position: absolute;
   top: 50%;
-  right: -1rem;
+  right: -5rem;
   transform: translateY(-50%);
   z-index: 2;
 }
