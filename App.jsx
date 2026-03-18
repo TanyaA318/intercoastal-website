@@ -4,16 +4,19 @@ const logoSrc = "/logo.jpg"
 
 const inventoryCategories = [
   {
-    title: 'New Inventory',
-    text: 'Shop dependable new outdoor equipment selected for performance, durability, and long days in the field.',
+    title: 'New Bad Boy Mowers',
+    text: 'Built for power, durability, and performance for homeowners and commercial users alike.',
+    button: 'View Models',
   },
   {
-    title: 'Used Inventory',
-    text: 'Browse quality pre-owned equipment that delivers value, reliability, and practical performance.',
+    title: 'Used & Trade-Ins',
+    text: 'Reliable trade-ins and pre-owned equipment ready to get back to work.',
+    button: 'Browse Inventory',
   },
   {
-    title: 'Service & Repair',
-    text: 'Keep your equipment working hard with routine maintenance, repairs, and responsive local support.',
+    title: 'Service & Repairs',
+    text: 'Keep your mower and equipment running strong with dependable local service.',
+    button: 'Schedule Service',
   },
 ]
 
@@ -123,10 +126,10 @@ export default function App() {
           <div className="container">
             <div className="section-intro max-copy">
               <p className="section-kicker">Inventory</p>
-              <h3 className="section-title">New and used equipment you can count on</h3>
+              <h2 className="section-title">Your Local Source for Bad Boy Mowers, Service & Equipment</h2>
               <p className="section-text">
-                Whether you are upgrading your property equipment or looking for dependable value in used machinery, we make it easier to find the right fit for your needs and budget.
-              </p>
+  Authorized Bad Boy dealer serving northeastern North Carolina.
+</p>
             </div>
 
             <div className="card-grid card-grid-three">
