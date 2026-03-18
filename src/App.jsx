@@ -127,12 +127,11 @@ export default function App() {
         <section id="inventory" className="section">
           <div className="container">
             <div className="section-intro max-copy">
-              <p className="section-kicker">Inventory</p>
-              <h3 className="section-title">New and used equipment you can count on</h3>
-              <p className="section-text">
-                Whether you are upgrading your property equipment or looking for dependable value in used machinery, we make it easier to find the right fit for your needs and budget.
-              </p>
-            </div>
+             <p className="section-kicker">Bad Boy Dealer</p>
+<h2 className="section-title">Your Local Source for Bad Boy Mowers, Service & Equipment</h2>
+<p className="section-text">
+  Authorized Bad Boy dealer serving northeastern North Carolina.
+</p>
 
             <div className="card-grid card-grid-three">
               {inventoryCategories.map((item) => (
