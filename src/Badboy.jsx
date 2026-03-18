@@ -24,6 +24,34 @@ export default function BadBoy() {
           strength, cut quality, and reliability.
         </p>
       </section>
+      
+      <section className="inventory">
+  <div className="container">
+    <h2 className="section-title">Featured Inventory</h2>
+
+    <div className="inventory-grid">
+
+      <div className="inventory-card">
+        <h3>New Bad Boy Mowers</h3>
+        <p>Explore the latest Bad Boy zero-turn mowers built for power and durability.</p>
+        <button>View New Inventory</button>
+      </div>
+
+      <div className="inventory-card">
+        <h3>Used & Trade-Ins</h3>
+        <p>Quality pre-owned mowers and recent trade-ins ready to work.</p>
+        <button>Browse Inventory</button>
+      </div>
+
+      <div className="inventory-card">
+        <h3>Service & Repairs</h3>
+        <p>Keep your equipment running strong with expert service and maintenance.</p>
+        <button>Schedule Service</button>
+      </div>
+
+    </div>
+  </div>
+</section>
 
       {/* RESIDENTIAL */}
       <section className="section">
