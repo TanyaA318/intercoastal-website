@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 import Badboy from "./Badboy";
 const navItems = ['Inventory', 'Service', 'About Us', 'Contact']
-const logoSrc = '/Intercoastal.jpg'
+const logoSrc = '/logo.jpg'
 
 const inventoryCategories = [
   {
