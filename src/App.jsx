@@ -106,7 +106,7 @@ export default function App() {
                 <div key={item.title} className="info-card">
                   <h4 className="card-title">{item.title}</h4>
                   <p className="card-text">{item.text}</p>
-                  <a href="#contact" className="button button-secondary">
+                  <a href={item.link} className="button button-secondary">
                     {item.button}
                   </a>
                 </div>
