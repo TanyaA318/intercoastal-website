@@ -124,27 +124,30 @@ export default function App() {
           </div>
         </section>
 
-        <section id="inventory" className="section">
-          <div className="container">
-            <div className="section-intro max-copy">
-             <p className="section-kicker">Bad Boy Dealer</p>
-<h2 className="section-title">Your Local Source for Bad Boy Mowers, Service & Equipment</h2>
-<p className="section-text">
-  Authorized Bad Boy dealer serving northeastern North Carolina.
-</p>
+      <section id="inventory" className="section">
+  <div className="container">
+    <div className="section-intro max-copy">
+      <p className="section-kicker">Bad Boy Dealer</p>
+      <h2 className="section-title">Your Local Source for Bad Boy Mowers, Service & Equipment</h2>
+      <p className="section-text">
+        Authorized Bad Boy dealer serving northeastern North Carolina.
+      </p>
+    </div>
 
-            <div className="card-grid card-grid-three">
-              <div key={item.title} className="info-card">
-  <div className="icon-placeholder" />
-  <h4 className="card-title">{item.title}</h4>
-  <p className="card-text">{item.text}</p>
-  <a href="#contact" className="button button-secondary">
-    {item.button}
-  </a>
-</div>
-</div>  
-</div>            
-</section>              
+    <div className="card-grid card-grid-three">
+      {inventoryCategories.map((item) => (
+        <div key={item.title} className="info-card">
+          <div className="icon-placeholder" />
+          <h4 className="card-title">{item.title}</h4>
+          <p className="card-text">{item.text}</p>
+          <a href="#contact" className="button button-secondary">
+            {item.button}
+          </a>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
         
         <section id="service" className="section section-tint">
           <div className="container split-grid">
@@ -224,8 +227,8 @@ export default function App() {
             </div>
           </div>
         </section>
+             <Badboy />
       </main>
-      <Badboy />
     </div>
   )
 }
