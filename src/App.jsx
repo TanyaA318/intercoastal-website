@@ -1,6 +1,5 @@
 import React from "react";
 import "./styles.css";
-import Badboy from "./Badboy";
 
 const navItems = ["Inventory", "Service", "About Us", "Contact"];
 const logoSrc = "/logo.jpg";
@@ -73,7 +72,6 @@ export default function App() {
       </header>
 
       <main id="top">
-        {/* HERO */}
         <section className="hero-section">
           <div className="container hero-grid">
             <div className="hero-copy">
@@ -98,7 +96,6 @@ export default function App() {
           </div>
         </section>
 
-        {/* CARDS UNDER HERO */}
         <section id="inventory" className="section">
           <div className="container">
             <div className="card-grid card-grid-three">
@@ -115,10 +112,6 @@ export default function App() {
           </div>
         </section>
 
-        {/* BADBOY SECTION */}
-        <Badboy />
-
-        {/* SERVICE */}
         <section id="service" className="section section-tint">
           <div className="container split-grid">
             <div>
@@ -135,7 +128,6 @@ export default function App() {
           </div>
         </section>
 
-        {/* ABOUT */}
         <section id="about-us" className="section">
           <div className="container">
             <div className="card-grid card-grid-two">
@@ -149,7 +141,6 @@ export default function App() {
           </div>
         </section>
 
-        {/* CONTACT */}
         <section id="contact" className="section section-dark">
           <div className="container">
             <h3>Contact Us</h3>
