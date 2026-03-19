@@ -121,11 +121,14 @@ export default function App() {
               <h3 className="section-title">
                 Service support that keeps you moving
               </h3>
-              <ul>
-                {strengths.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
+              <ul className="strength-list">
+  {strengths.map((item) => (
+    <li key={item} className="strength-item">
+      <span className="strength-dot"></span>
+      <span>{item}</span>
+    </li>
+  ))}
+</ul>
             </div>
           </div>
         </section>
