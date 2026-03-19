@@ -192,12 +192,8 @@ img {
 
 .hero-grid {
   position: relative;
-  padding: 4rem 0;
-  min-height: 34rem;
-}
-
-.hero-grid {
-  padding: 4rem 0;
+  padding: 3.25rem 0;
+  min-height: 31rem;
 }
 
 .hero-copy {
@@ -410,9 +406,9 @@ img {
 .strength-list {
   list-style: none;
   padding: 0;
-  margin: 2rem 0 0;
+  margin: 1.25rem 0 0;
   display: grid;
-  gap: 1rem;
+  gap: 0.85rem;
 }
 
 .strength-item {
@@ -559,45 +555,6 @@ img {
   .contact-card {
     padding: 1.25rem;
   }
-}
-
-.inventory {
-  padding: 60px 20px;
-  background: #f8f8f8;
-}
-
-.inventory-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  margin-top: 30px;
-}
-
-.inventory-card {
-  background: white;
-  padding: 25px;
-  border-radius: 10px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-  text-align: center;
-  transition: transform 0.2s ease;
-}
-
-.inventory-card:hover {
-  transform: translateY(-5px);
-}
-
-.inventory-card h3 {
-  margin-bottom: 10px;
-}
-
-.inventory-card button {
-  margin-top: 15px;
-  padding: 10px 16px;
-  background: black;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
 
 .section-intro {
   margin-bottom: 1.25rem;
