@@ -9,16 +9,19 @@ const inventoryCategories = [
     title: "New Bad Boy Mowers",
     text: "Built for power, durability, and performance for homeowners and commercial users alike.",
     button: "View Models",
+    link: "#inventory", // or future /inventory page
   },
   {
     title: "Used & Trade-Ins",
     text: "Reliable trade-ins and pre-owned equipment ready to get back to work.",
     button: "Browse Inventory",
+    link: "#inventory",
   },
   {
     title: "Service & Repairs",
     text: "Keep your mower and equipment running strong with dependable local service.",
     button: "Schedule Service",
+    link: "#service",
   },
 ];
 
