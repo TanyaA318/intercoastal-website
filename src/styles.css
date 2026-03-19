@@ -559,3 +559,15 @@ img {
 .section-intro {
   margin-bottom: 1.25rem;
 }
+
+.inventory-card-grid {
+  display: grid;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 700px) {
+  .inventory-card-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
