@@ -68,24 +68,27 @@ export default function App() {
       </header>
 
       <main id="top">
-        <section className="hero-section">
-          <div className="hero-glow" />
-          <div className="container hero-grid">
-            <div className="hero-copy">
-              <p className="hero-kicker">AUTHORIZED BAD BOY DEALER</p>
-              <h2 className="hero-title">Built for hard work, backed by coastal grit.</h2>
-              <p className="hero-text">
-                Intercoastal Outdoor Equipment offers new and used inventory, trusted service, and practical guidance for homeowners, landowners, and commercial customers across northeastern North Carolina.
-              </p>
-              <div className="hero-actions">
-                <a href="#inventory" className="button button-light">
-                  Browse Inventory
-                </a>
-                <a href="#service" className="button button-outline-light">
-                  Schedule Service
-                </a>
-              </div>
-            </div>
+       <section className="hero-section">
+  ...
+</section>
+
+<section id="inventory" className="section">
+  ...
+</section>
+
+<Badboy />
+
+<section id="service" className="section section-tint">
+  ...
+</section>
+
+<section id="about-us" className="section">
+  ...
+</section>
+
+<section id="contact" className="section section-dark">
+  ...
+</section>
 
             <div className="hero-card-wrap">
               <div className="hero-card-outer">
