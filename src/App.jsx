@@ -67,28 +67,29 @@ export default function App() {
         </div>
       </header>
 
-      <main id="top">
-       <section className="hero-section">
-  ...
-</section>
+     <main id="top">
+  <section className="hero-section">
+    ...
+  </section>
 
-<section id="inventory" className="section">
-  ...
-</section>
+  <section id="inventory" className="section">
+    ...
+  </section>
 
-<Badboy />
+  <Badboy />
 
-<section id="service" className="section section-tint">
-  ...
-</section>
+  <section id="service" className="section section-tint">
+    ...
+  </section>
 
-<section id="about-us" className="section">
-  ...
-</section>
+  <section id="about-us" className="section">
+    ...
+  </section>
 
-<section id="contact" className="section section-dark">
-  ...
-</section>
+  <section id="contact" className="section section-dark">
+    ...
+  </section>
+</main>
 
             <div className="hero-card-wrap">
               <div className="hero-card-outer">
@@ -230,9 +231,5 @@ export default function App() {
             </div>
           </div>
         </section>
-             <Badboy />
-      </main>
-    </div>
-  )
-}
+  }
 
