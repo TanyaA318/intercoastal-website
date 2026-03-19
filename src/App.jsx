@@ -46,7 +46,7 @@ export default function App() {
       <header className="site-header">
         <div className="container header-inner">
           <a href="#top" className="brand">
-            <img src={logoSrc} className="brand-logo" />
+            <img src={logoSrc} className="brand-logo" alt="Intercoastal Outdoor Equipment logo" />
             <div>
               <p className="brand-kicker">Intercoastal</p>
               <h1 className="brand-title">Outdoor Equipment</h1>
@@ -118,7 +118,6 @@ export default function App() {
               <h3 className="section-title">
                 Service support that keeps you moving
               </h3>
-
               <ul>
                 {strengths.map((item) => (
                   <li key={item}>{item}</li>
