@@ -3,25 +3,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Inventory from "./Inventory";
 import "./styles.css";
 
-  {
-    title: "New Bad Boy Mowers",
-    text: "Built for power, durability, and performance for homeowners and commercial users alike.",
-    button: "View Models",
-    link: "#contact",
-  },
-  {
-    title: "Used & Trade-Ins",
-    text: "Reliable trade-ins and pre-owned equipment ready to get back to work.",
-    button: "Browse Inventory",
-    link: "#contact",
-  },
-  {
-    title: "Service & Repairs",
-    text: "Keep your mower and equipment running strong with dependable local service.",
-    button: "Schedule Service",
-    link: "#service",
-  },
-];
+const logoSrc = "/logo.jpg";
 
 const strengths = [
   "New and used equipment options",
@@ -47,21 +29,23 @@ function HomePage() {
       <header className="site-header">
         <div className="container header-inner">
           <a href="#top" className="brand">
-            <img src={logoSrc} className="brand-logo" alt="Intercoastal Outdoor Equipment logo" />
+            <img
+              src={logoSrc}
+              className="brand-logo"
+              alt="Intercoastal Outdoor Equipment logo"
+            />
             <div>
               <p className="brand-kicker">Intercoastal</p>
               <h1 className="brand-title">Outdoor Equipment</h1>
             </div>
           </a>
 
-<nav className="desktop-nav">
-  <Link to="/inventory" className="button button-light">
-  Browse Inventory
-</Link>
-  <a href="#service" className="nav-link">Service</a>
-  <a href="#about-us" className="nav-link">About Us</a>
-  <a href="#contact" className="nav-link">Contact</a>
-</nav>
+          <nav className="desktop-nav">
+            <Link to="/inventory" className="nav-link">Inventory</Link>
+            <a href="#service" className="nav-link">Service</a>
+            <a href="#about-us" className="nav-link">About Us</a>
+            <a href="#contact" className="nav-link">Contact</a>
+          </nav>
 
           <a href="#contact" className="button button-primary">
             Contact Us
@@ -83,9 +67,9 @@ function HomePage() {
               </p>
 
               <div className="hero-actions">
-                <a href="#inventory" className="button button-light">
+                <Link to="/inventory" className="button button-light">
                   Browse Inventory
-                </a>
+                </Link>
                 <a href="#service" className="button button-outline-light">
                   Schedule Service
                 </a>
@@ -93,7 +77,7 @@ function HomePage() {
             </div>
           </div>
         </section>
-        
+
         <section id="service" className="section section-tint">
           <div className="container split-grid">
             <div>
@@ -101,13 +85,13 @@ function HomePage() {
                 Service support that keeps you moving
               </h3>
               <ul className="strength-list">
-  {strengths.map((item) => (
-    <li key={item} className="strength-item">
-      <span className="strength-dot"></span>
-      <span>{item}</span>
-    </li>
-  ))}
-</ul>
+                {strengths.map((item) => (
+                  <li key={item} className="strength-item">
+                    <span className="strength-dot"></span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </section>
