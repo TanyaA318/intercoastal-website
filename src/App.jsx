@@ -3,8 +3,6 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Inventory from "./Inventory";
 import "./styles.css";
 
-const logoSrc = "/logo.jpg";
-
   {
     title: "New Bad Boy Mowers",
     text: "Built for power, durability, and performance for homeowners and commercial users alike.",
