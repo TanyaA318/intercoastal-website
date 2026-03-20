@@ -1,6 +1,4 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Inventory from "./Inventory";
 import "./styles.css";
 
 const logoSrc = "/logo.jpg";
@@ -23,7 +21,7 @@ const aboutCards = [
   },
 ];
 
-function HomePage() {
+export default function App() {
   return (
     <div className="page-shell">
       <header className="site-header">
@@ -41,7 +39,6 @@ function HomePage() {
           </a>
 
           <nav className="desktop-nav">
-            <Link to="/inventory" className="nav-link">Inventory</Link>
             <a href="#service" className="nav-link">Service</a>
             <a href="#about-us" className="nav-link">About Us</a>
             <a href="#contact" className="nav-link">Contact</a>
@@ -67,9 +64,9 @@ function HomePage() {
               </p>
 
               <div className="hero-actions">
-                <Link to="/inventory" className="button button-light">
-                  Browse Inventory
-                </Link>
+                <a href="#contact" className="button button-light">
+                  Contact Us
+                </a>
                 <a href="#service" className="button button-outline-light">
                   Schedule Service
                 </a>
@@ -117,16 +114,5 @@ function HomePage() {
         </section>
       </main>
     </div>
-  );
-}
-
-export default function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/inventory" element={<Inventory />} />
-      </Routes>
-    </BrowserRouter>
   );
 }
