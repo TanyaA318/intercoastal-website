@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Inventory from "./Inventory";
+import "./styles.css";
 
 const navItems = ["Inventory", "Service", "About Us", "Contact"];
 const logoSrc = "/logo.jpg";
