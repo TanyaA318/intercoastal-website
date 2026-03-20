@@ -1,5 +1,6 @@
 import React from "react";
-import "./styles.css";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Inventory from "./Inventory";
 
 const navItems = ["Inventory", "Service", "About Us", "Contact"];
 const logoSrc = "/logo.jpg";
@@ -43,7 +44,7 @@ const aboutCards = [
   },
 ];
 
-export default function App() {
+function HomePage() {
   return (
     <div className="page-shell">
       <header className="site-header">
@@ -56,17 +57,12 @@ export default function App() {
             </div>
           </a>
 
-          <nav className="desktop-nav">
-            {navItems.map((item) => (
-              <a
-                key={item}
-                href={`#${item.toLowerCase().replace(/\s+/g, "-")}`}
-                className="nav-link"
-              >
-                {item}
-              </a>
-            ))}
-          </nav>
+<nav className="desktop-nav">
+  <Link to="/inventory" className="nav-link">Inventory</Link>
+  <a href="#service" className="nav-link">Service</a>
+  <a href="#about-us" className="nav-link">About Us</a>
+  <a href="#contact" className="nav-link">Contact</a>
+</nav>
 
           <a href="#contact" className="button button-primary">
             Contact Us
@@ -98,23 +94,7 @@ export default function App() {
             </div>
           </div>
         </section>
-
-        <section id="inventory" className="section">
-          <div className="container">
-            <div className="card-grid card-grid-three">
-              {inventoryCategories.map((item) => (
-                <div key={item.title} className="info-card">
-                  <h4 className="card-title">{item.title}</h4>
-                  <p className="card-text">{item.text}</p>
-                  <a href={item.link} className="button button-secondary">
-                    {item.button}
-                  </a>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
+        
         <section id="service" className="section section-tint">
           <div className="container split-grid">
             <div>
@@ -154,5 +134,16 @@ export default function App() {
         </section>
       </main>
     </div>
+  );
+}
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/inventory" element={<Inventory />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
