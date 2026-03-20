@@ -59,7 +59,9 @@ function HomePage() {
           </a>
 
 <nav className="desktop-nav">
-  <Link to="/inventory" className="nav-link">Inventory</Link>
+  <Link to="/inventory" className="button button-light">
+  Browse Inventory
+</Link>
   <a href="#service" className="nav-link">Service</a>
   <a href="#about-us" className="nav-link">About Us</a>
   <a href="#contact" className="nav-link">Contact</a>
