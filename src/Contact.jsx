@@ -25,7 +25,7 @@ export default function Contact() {
 
             <div className="contact-info-block contact-info-block-compact">
               <h3>Email</h3>
-              <p>(add business email here)</p>
+<p>Business email coming soon</p>
             </div>
 
             <div className="contact-info-block contact-info-block-compact">
