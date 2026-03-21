@@ -19,26 +19,7 @@ const categories = [
 export default function Inventory() {
   return (
     <div className="page-shell">
-      <header className="site-header">
-        <div className="container header-inner">
-          <a href="/" className="brand">
-            <img
-              src="/logo.jpg"
-              className="brand-logo"
-              alt="Intercoastal Outdoor Equipment logo"
-            />
-            <div>
-              <p className="brand-kicker">Intercoastal</p>
-              <h1 className="brand-title">Outdoor Equipment</h1>
-            </div>
-          </a>
-
-          <a href="/#contact" className="button button-primary">
-            Contact Us
-          </a>
-        </div>
-      </header>
-
+      
       <main>
         <section className="section inventory-page-section">
           <div className="container">
