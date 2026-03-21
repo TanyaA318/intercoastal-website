@@ -633,9 +633,10 @@ img {
 }
 
 @media (max-width: 860px) {
-  .contact-page {
-    grid-template-columns: 1fr;
-  }
+.contact-page {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 40px;
 }
 
 .contact-intro {
