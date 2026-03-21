@@ -21,12 +21,7 @@ export default function Contact() {
             <div className="contact-info-block contact-info-block-compact">
               <h3>Phone</h3>
               <p>Business phone coming soon</p>
-            </div>
-
-            <div className="contact-info-block contact-info-block-compact">
-           <h3>Email</h3>
-<p>Please use the contact form above for all inquiries</p>
-            </div>
+            </div>           
 
             <div className="contact-info-block contact-info-block-compact">
               <h3>Hours</h3>
