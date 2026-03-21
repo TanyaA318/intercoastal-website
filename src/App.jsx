@@ -1,5 +1,10 @@
 import React from "react";
+import { Link, Routes, Route } from "react-router-dom";
 import "./styles.css";
+import Inventory from "./Inventory";
+import Service from "./Service";
+import About from "./About";
+import Contact from "./Contact";
 
 const logoSrc = "/logo.jpg";
 
@@ -21,12 +26,73 @@ const aboutCards = [
   },
 ];
 
+function HomePage() {
+  return (
+    <main id="top">
+      <section className="hero-section">
+        <div className="container hero-grid">
+          <div className="hero-copy">
+            <p className="hero-kicker">AUTHORIZED BAD BOY DEALER</p>
+            <h2 className="hero-title">
+              Built for hard work, backed by coastal grit.
+            </h2>
+            <p className="hero-text">
+              Intercoastal Outdoor Equipment offers new and used inventory,
+              trusted service, and practical guidance across northeastern NC.
+            </p>
+
+            <div className="hero-actions">
+              <Link to="/inventory" className="button button-light">
+                Browse Inventory
+              </Link>
+              <Link to="/service" className="button button-outline-light">
+                Schedule Service
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="section section-tint">
+        <div className="container split-grid">
+          <div>
+            <h3 className="section-title">
+              Service support that keeps you moving
+            </h3>
+            <ul className="strength-list">
+              {strengths.map((item) => (
+                <li key={item} className="strength-item">
+                  <span className="strength-dot"></span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="card-grid card-grid-two">
+            {aboutCards.map((card) => (
+              <div key={card.title} className="info-card">
+                <h4>{card.title}</h4>
+                <p>{card.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}
+
 export default function App() {
   return (
     <div className="page-shell">
       <header className="site-header">
         <div className="container header-inner">
-          <a href="#top" className="brand">
+          <Link to="/" className="brand">
             <img
               src={logoSrc}
               className="brand-logo"
@@ -36,83 +102,28 @@ export default function App() {
               <p className="brand-kicker">Intercoastal</p>
               <h1 className="brand-title">Outdoor Equipment</h1>
             </div>
-          </a>
+          </Link>
 
           <nav className="desktop-nav">
-            <a href="#service" className="nav-link">Service</a>
-            <a href="#about-us" className="nav-link">About Us</a>
-            <a href="#contact" className="nav-link">Contact</a>
+            <Link to="/inventory" className="nav-link">Inventory</Link>
+            <Link to="/service" className="nav-link">Service</Link>
+            <Link to="/about" className="nav-link">About Us</Link>
+            <Link to="/contact" className="nav-link">Contact</Link>
           </nav>
 
-          <a href="#contact" className="button button-primary">
+          <Link to="/contact" className="button button-primary">
             Contact Us
-          </a>
+          </Link>
         </div>
       </header>
 
-      <main id="top">
-        <section className="hero-section">
-          <div className="container hero-grid">
-            <div className="hero-copy">
-              <p className="hero-kicker">AUTHORIZED BAD BOY DEALER</p>
-              <h2 className="hero-title">
-                Built for hard work, backed by coastal grit.
-              </h2>
-              <p className="hero-text">
-                Intercoastal Outdoor Equipment offers new and used inventory,
-                trusted service, and practical guidance across northeastern NC.
-              </p>
-
-              <div className="hero-actions">
-                <a href="#contact" className="button button-light">
-                  Contact Us
-                </a>
-                <a href="#service" className="button button-outline-light">
-                  Schedule Service
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="service" className="section section-tint">
-          <div className="container split-grid">
-            <div>
-              <h3 className="section-title">
-                Service support that keeps you moving
-              </h3>
-              <ul className="strength-list">
-                {strengths.map((item) => (
-                  <li key={item} className="strength-item">
-                    <span className="strength-dot"></span>
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        <section id="about-us" className="section">
-          <div className="container">
-            <div className="card-grid card-grid-two">
-              {aboutCards.map((card) => (
-                <div key={card.title} className="info-card">
-                  <h4>{card.title}</h4>
-                  <p>{card.text}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        <section id="contact" className="section section-dark">
-          <div className="container">
-            <h3>Contact Us</h3>
-            <p>168 US-158 W Camden, NC</p>
-          </div>
-        </section>
-      </main>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/inventory" element={<Inventory />} />
+        <Route path="/service" element={<Service />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }
