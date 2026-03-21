@@ -698,3 +698,24 @@ img {
   text-align: center;
   padding: 1.5rem;
 }
+
+.contact-info-block-compact {
+  padding: 1.15rem 1.35rem;
+}
+
+.contact-form select {
+  width: 100%;
+  border: 1px solid #d8e3ef;
+  border-radius: 1rem;
+  padding: 0.9rem 1rem;
+  background: #fff;
+  color: #17395f;
+  font: inherit;
+}
+
+.form-note {
+  margin: 0.25rem 0 0;
+  font-size: 0.92rem;
+  color: #567089;
+  line-height: 1.6;
+}
