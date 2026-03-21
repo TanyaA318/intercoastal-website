@@ -23,12 +23,10 @@ export default function Contact() {
               <p>Business phone coming soon</p>
             </div>           
 
-            <div className="contact-info-block contact-info-block-compact">
-              <h3>Hours</h3>
-              <p>Business hours coming soon</p>
-              <p>Opening May 1, 2026</p>
-            </div>
-          </div>
+          <div className="contact-info-block contact-info-block-compact">
+  <h3>Hours</h3>
+  <p>Opening May 1, 2026</p>
+</div>
 
           <div className="contact-form-card">
             <h2>Send Us a Message</h2>
