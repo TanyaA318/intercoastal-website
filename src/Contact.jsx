@@ -21,12 +21,13 @@ export default function Contact() {
             <div className="contact-info-block contact-info-block-compact">
               <h3>Phone</h3>
               <p>Business phone coming soon</p>
-            </div>           
+            </div>
 
-          <div className="contact-info-block contact-info-block-compact">
-  <h3>Hours</h3>
-  <p>Opening May 1, 2026</p>
-</div>
+            <div className="contact-info-block contact-info-block-compact">
+              <h3>Hours</h3>
+              <p>Opening May 1, 2026</p>
+            </div>
+          </div>
 
           <div className="contact-form-card">
             <h2>Send Us a Message</h2>
