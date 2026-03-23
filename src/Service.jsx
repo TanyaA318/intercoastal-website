@@ -83,12 +83,13 @@ export default function Service() {
               <input type="text" id="unitInfo" name="unitInfo" />
             </div>
 
-            <div className="form-group">
-              <label htmlFor="message">
-                Please tell us what service you need or what issue you're experiencing
-              </label>
-              <textarea id="message" name="message" rows="6"></textarea>
-            </div>
+<div className="form-group">
+  <label htmlFor="message">Message</label>
+  <textarea id="message" name="message" rows="6"></textarea>
+  <p className="form-note">
+    Please tell us what service you need or what issue you're experiencing.
+  </p>
+</div>
 
             <button type="submit" className="btn btn-primary">
               Schedule Service
