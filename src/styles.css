@@ -742,7 +742,7 @@ img {
 }
 
 .service-section {
-  margin-top: 48px;
+  margin-top: 56px;
 }
 
 .service-section h2 {
@@ -813,7 +813,7 @@ img {
 }
 
 .form-group label {
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   font-weight: 600;
   color: #143b63;
   line-height: 1.4;
@@ -857,6 +857,20 @@ img {
   font-weight: 700;
   cursor: pointer;
 }
+
+  .service-form input:hover,
+.service-form textarea:hover {
+  border-color: #9fb8cf;
+}
+
+ .service-form .btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px rgba(20, 59, 99, 0.15);
+}
+
+.service-form textarea {
+  min-height: 200px;
+} 
 
 .form-note {
   margin: 0.25rem 0 0;
