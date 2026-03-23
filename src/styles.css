@@ -950,4 +950,71 @@ img {
   .service-section h2 {
     font-size: 1.7rem;
   }
+
+.service-form {
+  margin-top: 24px;
+  max-width: 760px;
 }
+
+.service-form .form-row {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.service-form .form-group {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  width: 100% !important;
+  margin-bottom: 18px !important;
+}
+
+.service-form .form-group label {
+  display: block !important;
+  width: 100% !important;
+  margin-bottom: 8px !important;
+}
+
+.service-form input[type="text"],
+.service-form input[type="email"],
+.service-form input[type="tel"],
+.service-form textarea {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  box-sizing: border-box !important;
+  padding: 14px 16px !important;
+  font-size: 1rem !important;
+  border: 1px solid #bfd0df !important;
+  border-radius: 12px !important;
+  background: #fff !important;
+  color: #143b63 !important;
+}
+
+.service-form input[type="text"],
+.service-form input[type="email"],
+.service-form input[type="tel"] {
+  min-height: 52px !important;
+}
+
+.service-form textarea {
+  min-height: 220px !important;
+  resize: vertical !important;
+}
+
+.service-form .btn {
+  width: 100% !important;
+  min-height: 54px !important;
+  margin-top: 12px !important;
+}
+
+@media (max-width: 860px) {
+  .service-form .form-row {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+
