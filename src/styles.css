@@ -872,4 +872,11 @@ img {
   .service-section h2 {
     font-size: 1.7rem;
   }
+
+.form-note {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: #567089;
+  line-height: 1.6;
+}
 }
