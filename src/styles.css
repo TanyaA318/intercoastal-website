@@ -858,6 +858,13 @@ img {
   cursor: pointer;
 }
 
+.form-note {
+  margin: 0.25rem 0 0;
+  font-size: 0.92rem;
+  color: #567089;
+  line-height: 1.6;
+}
+
 @media (max-width: 860px) {
   .service-grid,
   .form-row {
@@ -872,11 +879,4 @@ img {
   .service-section h2 {
     font-size: 1.7rem;
   }
-
-.form-note {
-  margin: 0.25rem 0 0;
-  font-size: 0.92rem;
-  color: #567089;
-  line-height: 1.6;
-}
 }
