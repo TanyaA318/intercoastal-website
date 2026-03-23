@@ -891,6 +891,15 @@ img {
     padding: 22px;
   }
 
+  .service-form {
+  margin-top: 24px;
+  max-width: 720px;
+}
+
+  .form-group {
+  width: 100%;
+}
+  
   .service-section h2 {
     font-size: 1.7rem;
   }
