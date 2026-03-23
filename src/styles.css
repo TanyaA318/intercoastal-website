@@ -874,8 +874,8 @@ img {
   }
 
 .form-note {
-  margin-top: 8px;
-  font-size: 0.95rem;
+  margin: 0.25rem 0 0;
+  font-size: 0.92rem;
   color: #567089;
   line-height: 1.6;
 }
