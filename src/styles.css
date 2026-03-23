@@ -728,4 +728,148 @@ img {
   color: #567089;
   line-height: 1.6;
 }
+
+.service-intro {
+  max-width: 760px;
+  margin-bottom: 36px;
+}
+
+.service-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #567089;
+  max-width: 720px;
+}
+
+.service-section {
+  margin-top: 48px;
+}
+
+.service-section h2 {
+  margin-bottom: 16px;
+  font-size: 2rem;
+  color: #143b63;
+}
+
+.service-section p {
+  max-width: 820px;
+  line-height: 1.7;
+  color: #567089;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.service-card {
+  background: #ffffff;
+  border: 1px solid #d7e3ef;
+  border-radius: 16px;
+  padding: 18px 20px;
+  font-weight: 600;
+  color: #143b63;
+  box-shadow: 0 8px 24px rgba(20, 59, 99, 0.06);
+}
+
+.service-note {
+  margin-top: 18px;
+  font-size: 1rem;
+  color: #567089;
+}
+
+.trust-section {
+  background: #f7fafc;
+  border: 1px solid #dbe7f1;
+  border-radius: 20px;
+  padding: 28px;
+}
+
+.service-form-section {
+  background: #ffffff;
+  border: 1px solid #dbe7f1;
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: 0 10px 30px rgba(20, 59, 99, 0.06);
+}
+
+.service-form {
+  margin-top: 24px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #143b63;
+  line-height: 1.4;
+}
+
+.service-form input,
+.service-form textarea {
+  width: 100%;
+  padding: 14px 16px;
+  font-size: 1rem;
+  border: 1px solid #bfd0df;
+  border-radius: 12px;
+  background: #fff;
+  color: #143b63;
+  box-sizing: border-box;
+}
+
+.service-form input {
+  min-height: 52px;
+}
+
+.service-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+
+.service-form input:focus,
+.service-form textarea:focus {
+  outline: none;
+  border-color: #1b5fa7;
+  box-shadow: 0 0 0 3px rgba(27, 95, 167, 0.12);
+}
+
+.service-form .btn {
+  width: 100%;
+  min-height: 54px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media (max-width: 860px) {
+  .service-grid,
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .service-form-section,
+  .trust-section {
+    padding: 22px;
+  }
+
+  .service-section h2 {
+    font-size: 1.7rem;
+  }
 }
