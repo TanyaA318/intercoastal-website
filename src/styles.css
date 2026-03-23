@@ -899,6 +899,10 @@ img {
   .form-group {
   width: 100%;
 }
+
+  .service-form-section {
+  max-width: 900px;
+}
   
   .service-section h2 {
     font-size: 1.7rem;
