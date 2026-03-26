@@ -24,9 +24,7 @@ export default function Inventory() {
           <div className="container">
             <p className="section-kicker">Inventory</p>
 
-            <h2 className="section-title" style={{ color: "#f47c20" }}>
-              Inventory Coming Soon
-            </h2>
+            <h2 className="section-title">Inventory Coming Soon</h2>
 
             <p className="section-text">
               We are preparing for our May 1, 2026 opening. Inventory listings
@@ -36,7 +34,7 @@ export default function Inventory() {
             <div className="inventory-card-grid">
               {categories.map((item) => (
                 <div key={item.title} className="info-card">
-                  <h3 className="card-title" style={{ color: "#f47c20" }}>
+                  <h3 className="card-title">{item.title}</h3>
                     {item.title}
                   </h3>
                   <p className="card-text">{item.text}</p>
