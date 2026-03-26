@@ -1016,11 +1016,10 @@ img {
   .service-form .form-row {
     grid-template-columns: 1fr !important;
   }
+}
 
 /* Inventory page only styling */
-
 .section.inventory-page-section h2.section-title,
 .section.inventory-page-section .info-card h3.card-title {
   color: #f47c20 !important;
 }
- }
