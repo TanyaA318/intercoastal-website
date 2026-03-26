@@ -1019,17 +1019,11 @@ img {
 
 /* Inventory page only styling */
 
-.inventory-page-section .section-title {
-  color: #f47c20; /* Bad Boy orange */
-}
-
-.inventory-page-section .card-title {
-  color: #f47c20; /* Bad Boy orange */
-}
-
-  /* Inventory page only styling */
-.inventory-page-section .section-title,
-.inventory-page-section .card-title {
+.inventory-page-section h2.section-title {
   color: #f47c20 !important;
 }
+
+.inventory-page-section .info-card h3 {
+  color: #f47c20 !important;
 }
+ }
