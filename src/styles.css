@@ -1026,4 +1026,9 @@ img {
 .inventory-page-section .info-card h3 {
   color: #f47c20 !important;
 }
+
+  .inventory-page-section .section-title,
+.inventory-page-section .info-card .card-title {
+  color: #f47c20 !important;
+}
  }
