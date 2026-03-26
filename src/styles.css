@@ -1026,4 +1026,10 @@ img {
 .inventory-page-section .card-title {
   color: #f47c20; /* Bad Boy orange */
 }
+
+  /* Inventory page only styling */
+.inventory-page-section .section-title,
+.inventory-page-section .card-title {
+  color: #f47c20 !important;
+}
 }
