@@ -1019,16 +1019,8 @@ img {
 
 /* Inventory page only styling */
 
-.inventory-page-section h2.section-title {
-  color: #f47c20 !important;
-}
-
-.inventory-page-section .info-card h3 {
-  color: #f47c20 !important;
-}
-
-  .inventory-page-section .section-title,
-.inventory-page-section .info-card .card-title {
+.section.inventory-page-section h2.section-title,
+.section.inventory-page-section .info-card h3.card-title {
   color: #f47c20 !important;
 }
  }
