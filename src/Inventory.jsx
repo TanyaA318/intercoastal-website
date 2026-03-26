@@ -33,10 +33,10 @@ export default function Inventory() {
 
             <div className="inventory-card-grid">
               {categories.map((item) => (
-                <div key={item.title} className="info-card">
-                  <h3 className="card-title">{item.title}</h3>
-                    {item.title}
-                  </h3>
+               <div key={item.title} className="info-card">
+  <h3 className="card-title">{item.title}</h3>
+  <p className="card-text">{item.text}</p>
+</div>
                   <p className="card-text">{item.text}</p>
                 </div>
               ))}
