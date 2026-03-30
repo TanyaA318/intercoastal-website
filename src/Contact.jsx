@@ -49,8 +49,16 @@ export default function Contact() {
                 loading="lazy"
                 title="Intercoastal Outdoor Equipment location map"
               ></iframe>
-            </div>
-          </div>
+               <a
+    href="https://www.google.com/maps/dir/?api=1&destination=168+US-158+W+Camden+NC"
+    target="_blank"
+    rel="noreferrer"
+    className="button button-primary map-button"
+  >
+    Get Directions
+  </a>
+</div>
+</div>
 
           <div className="contact-form-card">
             <h2>Send Us a Message</h2>
