@@ -45,20 +45,21 @@ export default function Contact() {
                 width="100%"
                 height="250"
                 style={{ border: 0, borderRadius: "12px" }}
-                allowFullScreen=""
+                allowFullScreen
                 loading="lazy"
                 title="Intercoastal Outdoor Equipment location map"
-              ></iframe>
-               <a
-    href="https://www.google.com/maps/dir/?api=1&destination=168+US-158+W+Camden+NC"
-    target="_blank"
-    rel="noreferrer"
-    className="button button-primary map-button"
-  >
-    Get Directions
-  </a>
-</div>
-</div>
+              />
+
+              <a
+                href="https://www.google.com/maps/dir/?api=1&destination=168+US-158+W+Camden+NC"
+                target="_blank"
+                rel="noreferrer"
+                className="button button-primary map-button"
+              >
+                Get Directions
+              </a>
+            </div>
+          </div>
 
           <div className="contact-form-card">
             <h2>Send Us a Message</h2>
@@ -92,7 +93,7 @@ export default function Contact() {
 
               <label>
                 Message
-                <textarea rows="6" placeholder="How can we help you?"></textarea>
+                <textarea rows="6" placeholder="How can we help you?" />
               </label>
 
               <button type="submit" className="button button-primary">
