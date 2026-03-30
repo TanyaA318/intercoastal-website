@@ -1106,6 +1106,11 @@ img {
   color: #17395f;
 }
 
+.map-button {
+  margin-top: 12px;
+  width: 100%;
+}
+
 /* Inventory page only styling */
 .section.inventory-page-section h2.section-title,
 .section.inventory-page-section .info-card h3.card-title {
