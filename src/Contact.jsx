@@ -36,9 +36,9 @@ export default function Contact() {
     <li><span>Saturday</span><span>8:00 AM - 2:00 PM</span></li>
     <li><span>Sunday</span><span>Closed</span></li>
   </ul>
-</div>
+</div> {/* ← CLOSE contact-info-panel */}
 
-          <div className="contact-form-card">
+<div className="contact-form-card">
             <h2>Send Us a Message</h2>
 
             <form className="contact-form">
@@ -83,7 +83,29 @@ export default function Contact() {
             </form>
           </div>
         </div>
-      </div>
-    </main>
+        
+<div className="contact-socials">
+  <p className="social-text">Prefer to reach out another way?</p>
+
+  <a
+    href="https://facebook.com/"
+    target="_blank"
+    rel="noreferrer"
+    className="social-btn"
+  >
+    Message Us on Facebook
+  </a>
+
+  <a
+    href="https://instagram.com/"
+    target="_blank"
+    rel="noreferrer"
+    className="social-btn social-btn-outline"
+  >
+    Follow Us on Instagram
+  </a>
+</div>
+</div>
+</main>
   );
 }
