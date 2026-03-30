@@ -1091,6 +1091,21 @@ img {
   color: #0b5ea8;
 }
 
+.map-card {
+  margin-top: 20px;
+  background: #ffffff;
+  border: 1px solid #d8e3ef;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  box-shadow: 0 12px 24px rgba(23, 57, 95, 0.06);
+}
+
+.map-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #17395f;
+}
+
 /* Inventory page only styling */
 .section.inventory-page-section h2.section-title,
 .section.inventory-page-section .info-card h3.card-title {
