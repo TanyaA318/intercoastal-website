@@ -35,22 +35,25 @@ export default function Contact() {
                 <li><span>Saturday</span><span>  8:00 AM - 2:00 PM</span></li>
                 <li><span>Sunday</span><span>    Closed</span></li>
               </ul>
-            </div>
+            </div>            
+
+        <div className="map-card">
+          <h3>Find Us</h3>
+
+          <iframe
+            src="https://www.google.com/maps?q=168+US-158+W+Camden+NC&output=embed"
+            width="100%"
+            height="250"
+            style={{ border: 0, borderRadius: "12px" }}
+            allowFullScreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+
+      <div className="contact-form-card">
           </div>
-
-          <div className="map-card">
-  <h3>Find Us</h3>
-
-  <iframe
-    src="https://www.google.com/maps?q=168+US-158+W+Camden+NC&output=embed"
-    width="100%"
-    height="250"
-    style={{ border: 0, borderRadius: "12px" }}
-    allowFullScreen=""
-    loading="lazy"
-  ></iframe>
-</div>
-
+     
           <div className="contact-form-card">
             <h2>Send Us a Message</h2>
 
