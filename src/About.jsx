@@ -91,6 +91,17 @@ export default function About() {
           </p>
         </section>
 
+        <section className="about-cta">
+  <h2>Ready to Get Started?</h2>
+  <p>
+    Browse our inventory or reach out to our team with any questions about
+    equipment, service, or availability.
+  </p>
+  <div className="about-cta-buttons">
+    <a href="/inventory" className="btn-primary">View Inventory</a>
+    <a href="/contact" className="btn-secondary">Contact Our Team</a>
+  </div>
+</section>
       </div>
     </main>
   );
