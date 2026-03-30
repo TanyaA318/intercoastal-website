@@ -1050,6 +1050,47 @@ img {
   text-align: left;
 }
 
+.contact-socials {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.social-text {
+  margin-bottom: 6px;
+  color: #5f7893;
+}
+
+.social-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 12px 18px;
+  border-radius: 999px;
+
+  background: #0b5ea8;
+  color: #ffffff;
+  font-weight: 600;
+
+  text-decoration: none;
+  width: fit-content;
+
+  transition: 0.2s ease;
+}
+
+.social-btn:hover {
+  opacity: 0.9;
+}
+
+.social-btn-outline {
+  background: transparent;
+  border: 2px solid #0b5ea8;
+  color: #0b5ea8;
+}
+
 /* Inventory page only styling */
 .section.inventory-page-section h2.section-title,
 .section.inventory-page-section .info-card h3.card-title {
