@@ -27,13 +27,13 @@ export default function Contact() {
               <p className="opening-note">Opening May 1, 2026</p>
 
               <ul className="hours-list">
-                <li><span>Monday</span><span> 8:00 AM - 5:00 PM</span></li>
-                <li><span>Tuesday</span><span> 8:00 AM - 5:00 PM</span></li>
+                <li><span>Monday</span><span>    8:00 AM - 5:00 PM</span></li>
+                <li><span>Tuesday</span><span>   8:00 AM - 5:00 PM</span></li>
                 <li><span>Wednesday</span><span> 8:00 AM - 5:00 PM</span></li>
-                <li><span>Thursday</span><span> 8:00 AM - 5:00 PM</span></li>
-                <li><span>Friday</span><span> 8:00 AM - 5:00 PM</span></li>
-                <li><span>Saturday</span><span> 8:00 AM - 2:00 PM</span></li>
-                <li><span>Sunday</span><span> Closed</span></li>
+                <li><span>Thursday</span><span>  8:00 AM - 5:00 PM</span></li>
+                <li><span>Friday</span><span>    8:00 AM - 5:00 PM</span></li>
+                <li><span>Saturday</span><span>  8:00 AM - 2:00 PM</span></li>
+                <li><span>Sunday</span><span>    Closed</span></li>
               </ul>
             </div>
           </div>
