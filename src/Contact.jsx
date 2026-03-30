@@ -10,22 +10,8 @@ export default function Contact() {
           </p>
         </div>
 
-       <div className="contact-page contact-page-structured">
-
-  {/* LEFT COLUMN */}
-  <div className="contact-info-panel">
-    Address
-    Phone
-    Hours
-    Map
-  </div>
-
-  {/* RIGHT COLUMN */}
-  <div className="contact-form-card">
-    Form
-  </div>
-
-</div>
+        <div className="contact-page contact-page-structured">
+          <div className="contact-info-panel">
             <div className="contact-info-block contact-info-block-compact">
               <h3>Address</h3>
               <p>168 US-158 W Camden, NC</p>
@@ -41,33 +27,31 @@ export default function Contact() {
               <p className="opening-note">Opening May 1, 2026</p>
 
               <ul className="hours-list">
-                <li><span>Monday</span><span>    8:00 AM - 5:00 PM</span></li>
-                <li><span>Tuesday</span><span>   8:00 AM - 5:00 PM</span></li>
-                <li><span>Wednesday</span><span> 8:00 AM - 5:00 PM</span></li>
-                <li><span>Thursday</span><span>  8:00 AM - 5:00 PM</span></li>
-                <li><span>Friday</span><span>    8:00 AM - 5:00 PM</span></li>
-                <li><span>Saturday</span><span>  8:00 AM - 2:00 PM</span></li>
-                <li><span>Sunday</span><span>    Closed</span></li>
+                <li><span>Monday</span><span>8:00 AM - 5:00 PM</span></li>
+                <li><span>Tuesday</span><span>8:00 AM - 5:00 PM</span></li>
+                <li><span>Wednesday</span><span>8:00 AM - 5:00 PM</span></li>
+                <li><span>Thursday</span><span>8:00 AM - 5:00 PM</span></li>
+                <li><span>Friday</span><span>8:00 AM - 5:00 PM</span></li>
+                <li><span>Saturday</span><span>8:00 AM - 2:00 PM</span></li>
+                <li><span>Sunday</span><span>Closed</span></li>
               </ul>
-            </div>            
+            </div>
 
-        <div className="map-card">
-          <h3>Find Us</h3>
+            <div className="map-card">
+              <h3>Find Us</h3>
 
-          <iframe
-            src="https://www.google.com/maps?q=168+US-158+W+Camden+NC&output=embed"
-            width="100%"
-            height="250"
-            style={{ border: 0, borderRadius: "12px" }}
-            allowFullScreen=""
-            loading="lazy"
-          ></iframe>
-        </div>
-      </div>
-
-      <div className="contact-form-card">
+              <iframe
+                src="https://www.google.com/maps?q=168+US-158+W+Camden+NC&output=embed"
+                width="100%"
+                height="250"
+                style={{ border: 0, borderRadius: "12px" }}
+                allowFullScreen=""
+                loading="lazy"
+                title="Intercoastal Outdoor Equipment location map"
+              ></iframe>
+            </div>
           </div>
-     
+
           <div className="contact-form-card">
             <h2>Send Us a Message</h2>
 
