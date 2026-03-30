@@ -10,8 +10,22 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="contact-page contact-page-structured">
-          <div className="contact-info-panel">
+       <div className="contact-page contact-page-structured">
+
+  {/* LEFT COLUMN */}
+  <div className="contact-info-panel">
+    Address
+    Phone
+    Hours
+    Map
+  </div>
+
+  {/* RIGHT COLUMN */}
+  <div className="contact-form-card">
+    Form
+  </div>
+
+</div>
             <div className="contact-info-block contact-info-block-compact">
               <h3>Address</h3>
               <p>168 US-158 W Camden, NC</p>
