@@ -58,16 +58,22 @@ function HomePage() {
     <h3 className="section-title">Featured Inventory</h3>
 
     <div className="card-grid card-grid-three">
-      <div className="info-card">
-        <h4>New Bad Boy Mowers</h4>
-        <p>
-          Built for power, durability, and dependable performance for
-          homeowners and commercial users alike.
-        </p>
-        <Link to="/inventory" className="button button-primary">
-          Browse Inventory
-        </Link>
-      </div>
+     <div className="inventory-card">
+  <Link to="/inventory" className="inventory-card-link">
+    
+    <img 
+      src="/mower1.jpg" 
+      alt="New Bad Boy Mowers" 
+      className="inventory-card-image"
+    />
+
+    <div className="inventory-card-overlay">
+      <p className="inventory-card-kicker">New</p>
+      <h3 className="inventory-card-title">Inventory</h3>
+    </div>
+
+  </Link>
+</div>
 
       <div className="info-card">
         <h4>Used & Trade-Ins</h4>
