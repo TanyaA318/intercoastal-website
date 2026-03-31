@@ -67,37 +67,54 @@ function HomePage() {
       className="inventory-card-image"
     />
 
-    <div className="inventory-card-overlay">
-      <p className="inventory-card-kicker">New</p>
-      <h3 className="inventory-card-title">Inventory</h3>
-    </div>
+    <div className="card-grid card-grid-three">
 
-  </Link>
-</div>
-
-      <div className="info-card">
-        <h4>Used & Trade-Ins</h4>
-        <p>
-          Reliable pre-owned equipment and trade-ins ready to get back to work.
-        </p>
-        <Link to="/inventory" className="button button-primary">
-          View Used Equipment
-        </Link>
+  {/* NEW INVENTORY */}
+  <div className="inventory-card">
+    <Link to="/inventory" className="inventory-card-link">
+      <img 
+        src="/new-mowers.jpg" 
+        alt="New Bad Boy Mowers" 
+        className="inventory-card-image"
+      />
+      <div className="inventory-card-overlay">
+        <p className="inventory-card-kicker">New</p>
+        <h3 className="inventory-card-title">Inventory</h3>
       </div>
-
-      <div className="info-card">
-        <h4>Service & Repairs</h4>
-        <p>
-          Keep your equipment running strong with dependable local service and
-          support.
-        </p>
-        <Link to="/service" className="button button-primary">
-          Schedule Service
-        </Link>
-      </div>
-    </div>
+    </Link>
   </div>
-</section>     
+
+  {/* USED INVENTORY */}
+  <div className="inventory-card">
+    <Link to="/inventory" className="inventory-card-link">
+      <img 
+        src="/used-equipment.jpg" 
+        alt="Used Equipment" 
+        className="inventory-card-image"
+      />
+      <div className="inventory-card-overlay">
+        <p className="inventory-card-kicker">Used</p>
+        <h3 className="inventory-card-title">Inventory</h3>
+      </div>
+    </Link>
+  </div>
+
+  {/* SERVICE */}
+  <div className="inventory-card">
+    <Link to="/service" className="inventory-card-link">
+      <img 
+        src="/service-shop.jpg" 
+        alt="Service and Repairs" 
+        className="inventory-card-image"
+      />
+      <div className="inventory-card-overlay">
+        <p className="inventory-card-kicker">Service</p>
+        <h3 className="inventory-card-title">Repairs & Maintenance</h3>
+      </div>
+    </Link>
+  </div>
+
+</div>
      
       <section className="section section-tint">
         <div className="container split-grid">
