@@ -111,9 +111,9 @@ export default function Contact() {
           <p className="social-text">Prefer to reach out another way?</p>
 
           <a
-            href="https://facebook.com/"
+          href="https://www.facebook.com/profile.php?id=61574432903782"
             target="_blank"
-            rel="noreferrer"
+          rel="noopener noreferrer"
             className="social-btn"
           >
             Message Us on Facebook
