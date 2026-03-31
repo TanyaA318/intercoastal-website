@@ -91,47 +91,8 @@ function HomePage() {
       </div>
     </div>
   </div>
-</section>
-
-      <section className="section">
-  <div className="container">
-    <h3 className="section-title">Featured Inventory</h3>
-
-    <div className="card-grid card-grid-three">
-      <div className="info-card">
-        <h4>New Bad Boy Mowers</h4>
-        <p>
-          Built for power, durability, and dependable performance for
-          homeowners and commercial users alike.
-        </p>
-        <Link to="/inventory" className="button button-primary">
-          Browse Inventory
-        </Link>
-      </div>
-
-      <div className="info-card">
-        <h4>Used & Trade-Ins</h4>
-        <p>
-          Reliable pre-owned equipment and trade-ins ready to get back to work.
-        </p>
-        <Link to="/inventory" className="button button-primary">
-          View Used Equipment
-        </Link>
-      </div>
-
-      <div className="info-card">
-        <h4>Service & Repairs</h4>
-        <p>
-          Keep your equipment running strong with dependable local service.
-        </p>
-        <Link to="/service" className="button button-primary">
-          Schedule Service
-        </Link>
-      </div>
-    </div>
-  </div>
-</section>
-
+</section>     
+     
       <section className="section section-tint">
         <div className="container split-grid">
           <div>
