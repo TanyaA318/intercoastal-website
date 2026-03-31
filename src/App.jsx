@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Routes, Route } from "react-router-dom";
+import { Link, NavLink, Routes, Route } from "react-router-dom";
 import "./styles.css";
 import Inventory from "./Inventory";
 import Service from "./Service";
@@ -105,12 +105,12 @@ export default function App() {
           </Link>
 
           <nav className="desktop-nav">
-            <Link to="/" className="nav-link">Home</Link>
-            <Link to="/inventory" className="nav-link">Inventory</Link>
-            <Link to="/service" className="nav-link">Service</Link>
-            <Link to="/about" className="nav-link">About Us</Link>
-            <Link to="/contact" className="nav-link">Contact</Link>
-          </nav>
+  <NavLink to="/" className="nav-link">Home</NavLink>
+  <NavLink to="/inventory" className="nav-link">Inventory</NavLink>
+  <NavLink to="/service" className="nav-link">Service</NavLink>
+  <NavLink to="/about" className="nav-link">About Us</NavLink>
+  <NavLink to="/contact" className="nav-link">Contact</NavLink>
+</nav>
 
           <Link to="/contact" className="button button-primary">
             Contact Us
