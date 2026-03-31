@@ -125,8 +125,8 @@ img {
   transition: color 0.2s ease;
 }
 
-.nav-link:hover {
-  color: #0b5ea8;
+.nav-link.active {
+  color: #c56a2d;
 }
 
 .button {
