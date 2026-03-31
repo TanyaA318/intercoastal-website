@@ -111,10 +111,7 @@ export default function App() {
   <NavLink to="/about" className="nav-link">About Us</NavLink>
   <NavLink to="/contact" className="nav-link">Contact</NavLink>
 </nav>
-
-          <Link to="/contact" className="button button-primary">
-            Contact Us
-          </Link>
+          
         </div>
       </header>
 
