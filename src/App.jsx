@@ -105,6 +105,7 @@ export default function App() {
           </Link>
 
           <nav className="desktop-nav">
+            <Link to="/" className="nav-link">Home</Link>
             <Link to="/inventory" className="nav-link">Inventory</Link>
             <Link to="/service" className="nav-link">Service</Link>
             <Link to="/about" className="nav-link">About Us</Link>
