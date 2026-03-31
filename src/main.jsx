@@ -6,11 +6,14 @@ import Inventory from "./Inventory";
 import Service from "./Service";
 import About from "./About";
 import Contact from "./Contact";
+import Header from "./Header";
 import "./styles.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
+      <Header />
+
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/inventory" element={<Inventory />} />
