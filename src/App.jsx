@@ -69,52 +69,45 @@ function HomePage() {
 
     <div className="card-grid card-grid-three">
 
-  {/* NEW INVENTORY */}
-  <div className="inventory-card">
-    <Link to="/inventory" className="inventory-card-link">
-      <img 
-        src="/new-mowers.jpg" 
-        alt="New Bad Boy Mowers" 
-        className="inventory-card-image"
-      />
-      <div className="inventory-card-overlay">
-        <p className="inventory-card-kicker">New</p>
-        <h3 className="inventory-card-title">Inventory</h3>
-      </div>
-    </Link>
+<section className="featured-cards">
+  <div className="section-header">
+    <h2>How We Can Help</h2>
+    <p>
+      From brand-new Bad Boy Mowers to dependable used equipment and trusted
+      service, Intercoastal Outdoor Equipment is here to keep you working.
+    </p>
   </div>
 
-  {/* USED INVENTORY */}
-  <div className="inventory-card">
-    <Link to="/inventory" className="inventory-card-link">
-      <img 
-        src="/used-equipment.jpg" 
-        alt="Used Equipment" 
-        className="inventory-card-image"
-      />
-      <div className="inventory-card-overlay">
-        <p className="inventory-card-kicker">Used</p>
-        <h3 className="inventory-card-title">Inventory</h3>
-      </div>
-    </Link>
-  </div>
+  <div className="card-grid">
+    <div className="feature-card">
+      <h3>New Bad Boy Mowers</h3>
+      <p>
+        Explore powerful, durable Bad Boy Mowers built for homeowners,
+        landowners, and commercial crews who need equipment that works as hard
+        as they do.
+      </p>
+      <a href="/inventory" className="card-button">View Inventory</a>
+    </div>
 
-  {/* SERVICE */}
-  <div className="inventory-card">
-    <Link to="/service" className="inventory-card-link">
-      <img 
-        src="/service-shop.jpg" 
-        alt="Service and Repairs" 
-        className="inventory-card-image"
-      />
-      <div className="inventory-card-overlay">
-        <p className="inventory-card-kicker">Service</p>
-        <h3 className="inventory-card-title">Repairs & Maintenance</h3>
-      </div>
-    </Link>
-  </div>
+    <div className="feature-card">
+      <h3>Used & Trade-Ins</h3>
+      <p>
+        Shop quality pre-owned equipment and trade-in opportunities that give
+        you dependable performance at a great value.
+      </p>
+      <a href="/inventory" className="card-button">Browse Equipment</a>
+    </div>
 
-</div>
+    <div className="feature-card">
+      <h3>Service & Repairs</h3>
+      <p>
+        Keep your equipment running strong with dependable local service,
+        repairs, diagnostics, and routine maintenance you can count on.
+      </p>
+      <a href="/service" className="card-button">Schedule Service</a>
+    </div>
+  </div>
+</section>
      
       <section className="section section-tint">
         <div className="container split-grid">
