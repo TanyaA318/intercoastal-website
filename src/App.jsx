@@ -111,40 +111,44 @@ function HomePage() {
   </div>
 </section>
 
-      <section className="section section-tint">
-        <div className="container split-grid">
-          <div>
-            <h3 className="section-title">
-              Service support that keeps you moving
-            </h3>
-            <ul className="strength-list">
-              {strengths.map((item) => (
-                <li key={item} className="strength-item">
-                  <span className="strength-dot"></span>
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </section>
+     <section className="section section-tint why-buy-section">
+  <div className="container">
+    <div className="why-buy-intro">
+      <p className="section-kicker">Why Buy From Intercoastal</p>
+      <h2 className="section-title">Local equipment knowledge. Real dealership support.</h2>
+      <p className="section-text why-buy-text">
+        We’re here to help customers find the right equipment, keep it running strong,
+        and get dependable support before and after the sale.
+      </p>
+    </div>
 
-      <section className="section">
-        <div className="container">
-          <div className="card-grid card-grid-two">
-            {aboutCards.map((card) => (
-              <div key={card.title} className="info-card">
-                <h4>{card.title}</h4>
-                <p>{card.text}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-    </main>
-  );
-}
+    <div className="card-grid card-grid-three why-buy-grid">
+      <div className="info-card why-buy-card">
+        <p className="card-kicker">Leadership</p>
+        <h3 className="card-title">Veteran-Owned Leadership</h3>
+        <p className="card-text">
+          Built on integrity, discipline, and commitment to serving customers the right way.
+        </p>
+      </div>
 
+      <div className="info-card why-buy-card">
+        <p className="card-kicker">Experience</p>
+        <h3 className="card-title">30+ Years of Equipment Experience</h3>
+        <p className="card-text">
+          Practical knowledge to help homeowners, landowners, and crews make smart equipment decisions.
+        </p>
+      </div>
+
+      <div className="info-card why-buy-card">
+        <p className="card-kicker">Support</p>
+        <h3 className="card-title">Sales, Service & Ongoing Support</h3>
+        <p className="card-text">
+          From inventory to maintenance, our team is here to support you long after the sale.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 export default function App() {
   return (
     <div className="page-shell">
