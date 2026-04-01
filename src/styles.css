@@ -479,8 +479,7 @@ img {
 }
 
 .why-buy-section {
-  padding-top: 88px;
-  padding-bottom: 88px;
+  padding: 60px 20px;
 }
 
 .why-buy-intro {
@@ -505,9 +504,28 @@ img {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.why-card::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 4px;
+  background: #1d4ed8; /* your blue */
+  border-radius: 2px;
+  margin-bottom: 1rem;
+}
+
+.why-card {
+  background: #fff;
+  border-radius: 1.25rem;
+  padding: 1.75rem;
+  transition: all 0.25s ease;
+  border: 1px solid #e5e7eb;
+}
+
 .why-buy-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 18px 36px rgba(23, 57, 95, 0.12);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.8);
+  border-color: #d1d5db;
 }
 
 .why-buy-card .card-kicker {
