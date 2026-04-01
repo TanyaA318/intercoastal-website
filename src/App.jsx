@@ -140,9 +140,7 @@ function HomePage() {
         </div>
       </section>
     </main>
-  );
-}
-
+  
 export default function App() {
   return (
     <div className="page-shell">
