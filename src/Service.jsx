@@ -4,7 +4,7 @@ export default function Service() {
       <div className="container">
         <div className="service-intro">
           <p className="section-kicker">SERVICE</p>
-          <h1 className="section-title">Service & Repairs You Can Count On</h1>
+          <h1 className="section-title">Lawn Mower & Equipment Service in Camden & Moyock, NC</h1>
           <p className="service-text">
             From routine maintenance to major repairs, we provide quality work you
             can trust. Every job is done with attention to detail and backed by
