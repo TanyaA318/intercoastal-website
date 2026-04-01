@@ -8,24 +8,6 @@ import Contact from "./Contact";
 
 const logoSrc = "/logo.jpg";
 
-const strengths = [
-  "New and used equipment options",
-  "Service support you can count on",
-  "Veteran-owned leadership",
-  "30+ years of equipment experience",
-];
-
-const aboutCards = [
-  {
-    title: "Veteran-Owned Leadership",
-    text: "One of our owners is a Navy veteran, bringing discipline, integrity, and commitment to how we serve customers.",
-  },
-  {
-    title: "Decades of Experience",
-    text: "With 30+ years of equipment experience behind the business, we help customers make smart, practical decisions.",
-  },
-];
-
 function HomePage() {
   return (
     <main id="top">
