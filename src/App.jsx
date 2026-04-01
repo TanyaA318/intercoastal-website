@@ -53,17 +53,7 @@ function HomePage() {
         </div>
       </section>
 
-      <section className="featured-cards">
-        <div className="section-header">
-          <h2>How We Can Help</h2>
-          <p>
-            From brand-new Bad Boy Mowers to dependable used equipment and trusted
-            service, Intercoastal Outdoor Equipment is here to keep you working.
-          </p>
-        </div>
-
-        <div className="card-grid">
-         <section className="section">
+  <section className="section">
   <div className="container">
     <div className="section-header">
       <h2>How We Can Help</h2>
@@ -74,47 +64,49 @@ function HomePage() {
     </div>
 
     <div className="inventory-card-grid">
+
+      {/* Card 1 */}
       <div className="inventory-card">
         <Link to="/inventory" className="inventory-card-link">
-          <img
-            src="/mower1.jpg"
-            alt="New Bad Boy Mowers"
-            className="inventory-card-image"
-          />
+          <img src="/mower1.jpg" className="inventory-card-image" />
           <div className="inventory-card-overlay">
             <p className="inventory-card-kicker">Inventory</p>
             <h3 className="inventory-card-title">New Bad Boy Mowers</h3>
+            <p className="inventory-card-text">
+              Built for power, durability, and real work.
+            </p>
           </div>
         </Link>
       </div>
 
+      {/* Card 2 */}
       <div className="inventory-card">
         <Link to="/inventory" className="inventory-card-link">
-          <img
-            src="/used-equipment.jpg"
-            alt="Used and Trade-Ins"
-            className="inventory-card-image"
-          />
+          <img src="/used-equipment.jpg" className="inventory-card-image" />
           <div className="inventory-card-overlay">
             <p className="inventory-card-kicker">Used Equipment</p>
             <h3 className="inventory-card-title">Used & Trade-Ins</h3>
+            <p className="inventory-card-text">
+              Reliable equipment at a great value.
+            </p>
           </div>
         </Link>
       </div>
 
+      {/* Card 3 */}
       <div className="inventory-card">
         <Link to="/service" className="inventory-card-link">
-          <img
-            src="/service-repair.jpg"
-            alt="Service and Repairs"
-            className="inventory-card-image"
-          />
+          <img src="/service-repair.jpg" className="inventory-card-image" />
           <div className="inventory-card-overlay">
             <p className="inventory-card-kicker">Service</p>
             <h3 className="inventory-card-title">Service & Repairs</h3>
+            <p className="inventory-card-text">
+              Keep your equipment running strong.
+            </p>
           </div>
         </Link>
       </div>
+
     </div>
   </div>
 </section>
