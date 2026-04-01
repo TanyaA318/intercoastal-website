@@ -38,9 +38,9 @@ function HomePage() {
   <section className="section">
   <div className="container">
     <div className="inventory-header">
-  <h2>Equipment Inventory</h2>
+  <h2>Equipment & Service</h2>
   <p>
-    New Bad Boy mowers, quality trade-ins, and equipment ready to go.
+    New Bad Boy mowers, quality trade-ins, and dependable service to keep you running.
   </p>
 </div>
 
