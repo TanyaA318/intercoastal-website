@@ -400,6 +400,14 @@ img {
   display: block;
 }
 
+.inventory-card:hover .inventory-card-image {
+  transform: scale(1.05);
+}
+
+.inventory-card-image {
+  transition: transform 0.3s ease;
+}
+
 /* dark overlay */
 .inventory-card-link::after {
   content: "";
@@ -421,17 +429,13 @@ img {
   z-index: 2;
 }
 
-.inventory-card-kicker {
-  font-size: 0.8rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  margin: 0;
+.inventory-card-title {
+  font-size: 1.45rem;
+  line-height: 1.2;
 }
 
-.inventory-card-title {
-  margin: 4px 0 0;
-  font-size: 1.4rem;
-  font-weight: 800;
+.inventory-card-kicker {
+  opacity: 0.9;
 }
 
 /* hover effect (adds depth like a real dealership site) */
