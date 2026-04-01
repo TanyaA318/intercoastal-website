@@ -53,62 +53,52 @@ function HomePage() {
         </div>
       </section>
 
-      <section className="section">
-  <div className="container">
-    <h3 className="section-title">Featured Inventory</h3>
+      <section className="featured-cards">
+        <div className="section-header">
+          <h2>How We Can Help</h2>
+          <p>
+            From brand-new Bad Boy Mowers to dependable used equipment and trusted
+            service, Intercoastal Outdoor Equipment is here to keep you working.
+          </p>
+        </div>
 
-    <div className="card-grid card-grid-three">
-     <div className="inventory-card">
-  <Link to="/inventory" className="inventory-card-link">
-    
-    <img 
-      src="/mower1.jpg" 
-      alt="New Bad Boy Mowers" 
-      className="inventory-card-image"
-    />
+        <div className="card-grid">
+          <div className="feature-card">
+            <h3>New Bad Boy Mowers</h3>
+            <p>
+              Explore powerful, durable Bad Boy Mowers built for homeowners,
+              landowners, and commercial crews who need equipment that works as
+              hard as they do.
+            </p>
+            <Link to="/inventory" className="card-button">
+              View Inventory
+            </Link>
+          </div>
 
-    <div className="card-grid card-grid-three">
+          <div className="feature-card">
+            <h3>Used & Trade-Ins</h3>
+            <p>
+              Shop quality pre-owned equipment and trade-in opportunities that
+              give you dependable performance at a great value.
+            </p>
+            <Link to="/inventory" className="card-button">
+              Browse Equipment
+            </Link>
+          </div>
 
-<section className="featured-cards">
-  <div className="section-header">
-    <h2>How We Can Help</h2>
-    <p>
-      From brand-new Bad Boy Mowers to dependable used equipment and trusted
-      service, Intercoastal Outdoor Equipment is here to keep you working.
-    </p>
-  </div>
+          <div className="feature-card">
+            <h3>Service & Repairs</h3>
+            <p>
+              Keep your equipment running strong with dependable local service,
+              repairs, diagnostics, and routine maintenance you can count on.
+            </p>
+            <Link to="/service" className="card-button">
+              Schedule Service
+            </Link>
+          </div>
+        </div>
+      </section>
 
-  <div className="card-grid">
-    <div className="feature-card">
-      <h3>New Bad Boy Mowers</h3>
-      <p>
-        Explore powerful, durable Bad Boy Mowers built for homeowners,
-        landowners, and commercial crews who need equipment that works as hard
-        as they do.
-      </p>
-      <a href="/inventory" className="card-button">View Inventory</a>
-    </div>
-
-    <div className="feature-card">
-      <h3>Used & Trade-Ins</h3>
-      <p>
-        Shop quality pre-owned equipment and trade-in opportunities that give
-        you dependable performance at a great value.
-      </p>
-      <a href="/inventory" className="card-button">Browse Equipment</a>
-    </div>
-
-    <div className="feature-card">
-      <h3>Service & Repairs</h3>
-      <p>
-        Keep your equipment running strong with dependable local service,
-        repairs, diagnostics, and routine maintenance you can count on.
-      </p>
-      <a href="/service" className="card-button">Schedule Service</a>
-    </div>
-  </div>
-</section>
-     
       <section className="section section-tint">
         <div className="container split-grid">
           <div>
@@ -140,7 +130,9 @@ function HomePage() {
         </div>
       </section>
     </main>
-  
+  );
+}
+
 export default function App() {
   return (
     <div className="page-shell">
@@ -159,13 +151,12 @@ export default function App() {
           </Link>
 
           <nav className="desktop-nav">
-  <NavLink to="/" className="nav-link">Home</NavLink>
-  <NavLink to="/inventory" className="nav-link">Inventory</NavLink>
-  <NavLink to="/service" className="nav-link">Service</NavLink>
-  <NavLink to="/about" className="nav-link">About Us</NavLink>
-  <NavLink to="/contact" className="nav-link">Contact</NavLink>
-</nav>
-          
+            <NavLink to="/" className="nav-link">Home</NavLink>
+            <NavLink to="/inventory" className="nav-link">Inventory</NavLink>
+            <NavLink to="/service" className="nav-link">Service</NavLink>
+            <NavLink to="/about" className="nav-link">About Us</NavLink>
+            <NavLink to="/contact" className="nav-link">Contact</NavLink>
+          </nav>
         </div>
       </header>
 
