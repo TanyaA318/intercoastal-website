@@ -37,13 +37,12 @@ function HomePage() {
 
   <section className="section">
   <div className="container">
-    <div className="section-header">
-      <h2>How We Can Help</h2>
-      <p>
-        From brand-new Bad Boy Mowers to dependable used equipment and trusted
-        service, Intercoastal Outdoor Equipment is here to keep you working.
-      </p>
-    </div>
+    <div className="inventory-header">
+  <h2>Equipment Inventory</h2>
+  <p>
+    New Bad Boy mowers, quality trade-ins, and equipment ready to go.
+  </p>
+</div>
 
     <div className="inventory-card-grid">
 
