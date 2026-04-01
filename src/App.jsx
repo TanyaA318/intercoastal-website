@@ -63,41 +63,61 @@ function HomePage() {
         </div>
 
         <div className="card-grid">
-          <div className="feature-card">
-            <h3>New Bad Boy Mowers</h3>
-            <p>
-              Explore powerful, durable Bad Boy Mowers built for homeowners,
-              landowners, and commercial crews who need equipment that works as
-              hard as they do.
-            </p>
-            <Link to="/inventory" className="card-button">
-              View Inventory
-            </Link>
-          </div>
+         <section className="section">
+  <div className="container">
+    <div className="section-header">
+      <h2>How We Can Help</h2>
+      <p>
+        From brand-new Bad Boy Mowers to dependable used equipment and trusted
+        service, Intercoastal Outdoor Equipment is here to keep you working.
+      </p>
+    </div>
 
-          <div className="feature-card">
-            <h3>Used & Trade-Ins</h3>
-            <p>
-              Shop quality pre-owned equipment and trade-in opportunities that
-              give you dependable performance at a great value.
-            </p>
-            <Link to="/inventory" className="card-button">
-              Browse Equipment
-            </Link>
+    <div className="inventory-card-grid">
+      <div className="inventory-card">
+        <Link to="/inventory" className="inventory-card-link">
+          <img
+            src="/mower1.jpg"
+            alt="New Bad Boy Mowers"
+            className="inventory-card-image"
+          />
+          <div className="inventory-card-overlay">
+            <p className="inventory-card-kicker">Inventory</p>
+            <h3 className="inventory-card-title">New Bad Boy Mowers</h3>
           </div>
+        </Link>
+      </div>
 
-          <div className="feature-card">
-            <h3>Service & Repairs</h3>
-            <p>
-              Keep your equipment running strong with dependable local service,
-              repairs, diagnostics, and routine maintenance you can count on.
-            </p>
-            <Link to="/service" className="card-button">
-              Schedule Service
-            </Link>
+      <div className="inventory-card">
+        <Link to="/inventory" className="inventory-card-link">
+          <img
+            src="/used-equipment.jpg"
+            alt="Used and Trade-Ins"
+            className="inventory-card-image"
+          />
+          <div className="inventory-card-overlay">
+            <p className="inventory-card-kicker">Used Equipment</p>
+            <h3 className="inventory-card-title">Used & Trade-Ins</h3>
           </div>
-        </div>
-      </section>
+        </Link>
+      </div>
+
+      <div className="inventory-card">
+        <Link to="/service" className="inventory-card-link">
+          <img
+            src="/service-repair.jpg"
+            alt="Service and Repairs"
+            className="inventory-card-image"
+          />
+          <div className="inventory-card-overlay">
+            <p className="inventory-card-kicker">Service</p>
+            <h3 className="inventory-card-title">Service & Repairs</h3>
+          </div>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <section className="section section-tint">
         <div className="container split-grid">
