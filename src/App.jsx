@@ -131,6 +131,10 @@ function HomePage() {
     </div>
   </div>
 </section>
+    </main>
+  );
+}
+      
 export default function App() {
   return (
     <div className="page-shell">
