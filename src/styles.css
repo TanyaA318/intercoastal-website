@@ -390,6 +390,7 @@ img {
 .inventory-card-link {
   display: block;
   position: relative;
+  cursor: pointer;
 }
 
 .inventory-card-image {
