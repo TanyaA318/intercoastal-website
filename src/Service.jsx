@@ -1,102 +1,125 @@
+import React from "react";
+
 export default function Service() {
   return (
-    <main className="section">
-      <div className="container">
-        <div className="service-intro">
-          <p className="section-kicker">SERVICE</p>
-          <h1 className="section-title">Lawn Mower & Equipment Service in Camden & Moyock, NC</h1>
-          <p className="service-text">
-            From routine maintenance to major repairs, we provide quality work you
-            can trust. Every job is done with attention to detail and backed by
-            experience.
-          </p>
-        </div>
+    <div className="service-page">
 
-        <section className="service-section">
-          <h2>Services We Offer</h2>
-          <div className="service-grid">
-            <div className="service-card">Equipment Diagnostics</div>
-            <div className="service-card">Blade Sharpening</div>
-            <div className="service-card">Tire Repair</div>
-            <div className="service-card">Engine Overhauls & Accessory Installs</div>
-            <div className="service-card">Manufacturer-Recommended Maintenance</div>
-            <div className="service-card">Pickup & Delivery</div>
+      {/* HERO */}
+      <section className="service-hero">
+        <h1>Outdoor Equipment Service & Repair</h1>
+        <p>
+          Professional mower and outdoor equipment service in Camden, NC and surrounding areas.
+          From routine maintenance to full engine work, we keep your equipment running strong.
+        </p>
+      </section>
+
+      {/* SERVICES LIST */}
+      <section className="service-section">
+        <h2>Our Service Capabilities</h2>
+
+        <div className="service-grid">
+          <div className="service-item">
+            <h3>Pickup & Delivery</h3>
+            <p>Convenient transport options so you don’t have to haul equipment yourself.</p>
           </div>
-          <p className="service-note">
-            Don’t see your issue listed? Reach out. We’re happy to take a look.
-          </p>
-        </section>
 
-        <section className="service-section trust-section">
-          <h2>Quality Work. Done Right.</h2>
-          <p>
-            With over 30 years of experience, we take pride in doing the job right
-            the first time. Whether it’s a small fix or a major repair, you can
-            expect honest service, clear communication, and work we stand behind.
-          </p>
-        </section>
+          <div className="service-item">
+            <h3>Equipment Diagnostics</h3>
+            <p>Accurate troubleshooting to identify issues and recommend the right repair.</p>
+          </div>
 
-        <section className="service-section service-form-section">
-          <h2>Schedule Service</h2>
-          <p>
-            Have a question or need to schedule service? Fill out the form below
-            and we’ll get back to you as soon as possible.
-          </p>
+          <div className="service-item">
+            <h3>Tire Repair</h3>
+            <p>Flat repairs and replacements to keep your equipment working safely.</p>
+          </div>
 
-          <form className="service-form">
-            <div className="form-row">
-              <div className="form-group">
-                <label htmlFor="firstName">First Name *</label>
-                <input type="text" id="firstName" name="firstName" required />
-              </div>
+          <div className="service-item">
+            <h3>Blade Sharpening</h3>
+            <p>Clean, precise cuts that improve performance and extend blade life.</p>
+          </div>
 
-              <div className="form-group">
-                <label htmlFor="lastName">Last Name *</label>
-                <input type="text" id="lastName" name="lastName" required />
-              </div>
-            </div>
+          <div className="service-item">
+            <h3>Scheduled Maintenance</h3>
+            <p>Manufacturer-recommended service intervals to protect your investment.</p>
+          </div>
 
-            <div className="form-row">
-              <div className="form-group">
-                <label htmlFor="email">Email *</label>
-                <input type="email" id="email" name="email" required />
-              </div>
+          <div className="service-item">
+            <h3>Engine Overhauls & Installs</h3>
+            <p>Major repairs, rebuilds, and accessory installs done right.</p>
+          </div>
+        </div>
+      </section>
 
-              <div className="form-group">
-                <label htmlFor="phone">Phone *</label>
-                <input type="tel" id="phone" name="phone" required />
-              </div>
-            </div>
+      {/* WHY CHOOSE US */}
+      <section className="service-section alt">
+        <h2>Why Choose Intercoastal Outdoor Equipment</h2>
 
-            <div className="form-group">
-              <label htmlFor="streetAddress">Street Address</label>
-              <input type="text" id="streetAddress" name="streetAddress" />
-            </div>
+        <div className="service-trust">
+          <div>
+            <h4>Experienced Technicians</h4>
+            <p>Decades of combined experience working on outdoor equipment.</p>
+          </div>
 
-            <div className="form-group">
-              <label htmlFor="cityStateZip">City, State, Zip Code</label>
-              <input type="text" id="cityStateZip" name="cityStateZip" />
-            </div>
+          <div>
+            <h4>Done Right the First Time</h4>
+            <p>We focus on precision and quality work we stand behind.</p>
+          </div>
 
-            <div className="form-group">
-              <label htmlFor="unitInfo">Unit Type / Make / Model</label>
-              <input type="text" id="unitInfo" name="unitInfo" />
-            </div>
+          <div>
+            <h4>Local & Dependable</h4>
+            <p>Serving Camden, Moyock, and the surrounding Northeast North Carolina area.</p>
+          </div>
+        </div>
+      </section>
 
-<div className="form-group">
-  <label htmlFor="message">Message</label>
-  <textarea id="message" name="message" rows="6"></textarea>
-  <p className="form-note">
-    Please tell us what service you need or what issue you're experiencing.
-  </p>
-</div>
+      {/* SERVICE AREA (SEO BOOST) */}
+      <section className="service-section">
+        <h2>Service Area</h2>
+        <p>
+          We proudly provide outdoor equipment repair and mower service for customers in
+          Camden, NC, Moyock, NC, Elizabeth City, NC, and Hampton Roads.
+        </p>
+      </section>
 
-            <button type="submit" className="btn btn-primary">
-              Schedule Service
-            </button>
-          </form>
-        </section>
-      </div>
-    </main>
+      {/* FORM */}
+      <section className="service-section">
+        <h2>Schedule Service</h2>
+        <p>Please fill out the form below and our team will contact you.</p>
+
+        <form className="service-form">
+          <div className="form-row">
+            <input type="text" placeholder="First Name *" required />
+            <input type="text" placeholder="Last Name *" required />
+          </div>
+
+          <div className="form-row">
+            <input type="email" placeholder="Email *" required />
+            <input type="tel" placeholder="Phone *" required />
+          </div>
+
+          <div className="form-row">
+            <input type="text" placeholder="Street Address" />
+          </div>
+
+          <div className="form-row">
+            <input type="text" placeholder="City" />
+            <input type="text" placeholder="State" />
+            <input type="text" placeholder="Zip Code" />
+          </div>
+
+          <div className="form-row">
+            <input type="text" placeholder="Equipment Type / Make / Model" />
+          </div>
+
+          <textarea
+            placeholder="Please tell us what services you are looking for..."
+            rows="5"
+          ></textarea>
+
+          <button type="submit">Schedule Service</button>
+        </form>
+      </section>
+
+    </div>
   );
 }
