@@ -30,6 +30,14 @@ export default function Service() {
       <section className="service-section">
         <h2>Our Service Capabilities</h2>
 
+        <section className="service-image-break">
+  <img
+    src="/blade.jpg"
+    alt="Lawn mower blade sharpening and service"
+    className="service-break-image"
+  />
+</section>
+
         <div className="service-grid">
           <div className="service-item">
             <h3>Pickup & Delivery</h3>
