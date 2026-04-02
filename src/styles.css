@@ -1214,13 +1214,13 @@ img {
   max-width: 700px;
 }
 
-.form-row {
+.service-form-row {
   display: flex;
   gap: 0.75rem;
   margin-bottom: 0.75rem;
 }
 
-.form-row input {
+.service-form-row input {
   flex: 1;
 }
 
