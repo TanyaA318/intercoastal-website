@@ -720,7 +720,7 @@ img {
 }
 
 .section-intro {
-  margin-bottom: 1.25rem;
+  margin-bottom: 0;
 }
 
 .inventory-card-grid {
@@ -939,6 +939,17 @@ img {
   margin-bottom: 16px;
   font-size: 2rem;
   color: #143b63;
+  position: relative;
+}
+
+.service-section h2::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #0b5ea8;
+  margin-top: 8px;
+  border-radius: 2px;
 }
 
 .service-section p {
