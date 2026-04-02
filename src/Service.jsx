@@ -108,27 +108,27 @@ export default function Service() {
         <p>Please fill out the form below and our team will contact you.</p>
 
         <form className="service-form">
-          <div className="form-row">
+          <div className="service-form-row">
             <input type="text" placeholder="First Name *" required />
             <input type="text" placeholder="Last Name *" required />
           </div>
 
-          <div className="form-row">
+          <div className="service-form-row">
             <input type="email" placeholder="Email *" required />
             <input type="tel" placeholder="Phone *" required />
           </div>
 
-          <div className="form-row">
+          <div className="service-form-row">
             <input type="text" placeholder="Street Address" />
           </div>
 
-          <div className="form-row">
+          <div className="service-form-row">
             <input type="text" placeholder="City" />
             <input type="text" placeholder="State" />
             <input type="text" placeholder="Zip Code" />
           </div>
 
-          <div className="form-row">
+          <div className="service-form-row">
             <input type="text" placeholder="Equipment Type / Make / Model" />
           </div>
 
