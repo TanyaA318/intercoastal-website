@@ -826,10 +826,6 @@ img {
   object-fit: cover;
 }
 
-.service-break-image {
-  height: 220px;
-}
-
   .service-break-image {
   height: 220px;
 }
@@ -1244,7 +1240,7 @@ img {
 
 .service-break-image {
   width: 100%;
-  height: 340px;
+  height: 380px;
   object-fit: cover;
   display: block;
 }
