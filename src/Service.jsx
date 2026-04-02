@@ -5,13 +5,26 @@ export default function Service() {
     <div className="service-page">
 
       {/* HERO */}
-      <section className="service-hero">
-        <h1>Outdoor Equipment Service & Repair</h1>
-        <p>
-          Professional mower and outdoor equipment service in Camden, NC and surrounding areas.
-          From routine maintenance to full engine work, we keep your equipment running strong.
-        </p>
-      </section>
+      <section className="service-hero service-hero-split">
+
+  <div className="service-hero-copy">
+    <h1>Outdoor Equipment Service & Repair</h1>
+    <p>
+      Professional mower and outdoor equipment service in Camden, NC and surrounding
+      areas. From routine maintenance to full engine work, we keep your equipment
+      running strong.
+    </p>
+  </div>
+
+  <div className="service-hero-image-wrap">
+    <img
+      src="/techrepair.jpg"
+      alt="Technician repairing outdoor equipment engine"
+      className="service-hero-image"
+    />
+  </div>
+
+</section>
 
       {/* SERVICES LIST */}
       <section className="service-section">
