@@ -1230,6 +1230,21 @@ img {
   background: #16304d;
 }
 
+.service-image-break {
+  margin: 3rem 0;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 18px 40px rgba(23, 57, 95, 0.12);
+  border: 1px solid #dbe4ec;
+}
+
+.service-break-image {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  display: block;
+}
+
 /* HOURS ALIGNMENT */
 
 .hours-list {
