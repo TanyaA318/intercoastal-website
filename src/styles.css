@@ -1166,6 +1166,7 @@ img {
 }
 
 /* TRUST SECTION */
+/* TRUST SECTION */
 .service-section.alt {
   background: #f3f6f9;
   padding: 2rem;
@@ -1176,15 +1177,36 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.service-trust > div {
+  background: #ffffff;
+  border: 1px solid #d9e4ee;
+  border-radius: 16px;
+  padding: 1.35rem 1.25rem;
+  box-shadow: 0 8px 20px rgba(23, 57, 95, 0.05);
+}
+
+.service-trust > div::before {
+  content: "";
+  display: block;
+  width: 42px;
+  height: 4px;
+  border-radius: 999px;
+  background: #0b5ea8;
+  margin-bottom: 0.9rem;
 }
 
 .service-trust h4 {
-  margin-bottom: 0.4rem;
+  margin: 0 0 0.4rem;
 }
 
 .service-trust p {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: #555;
+  line-height: 1.65;
+  margin: 0;
 }
 
 /* FORM */
