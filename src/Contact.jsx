@@ -1,5 +1,10 @@
+import React from "react";
+import Header from "./Header";
+
 export default function Contact() {
   return (
+     <>
+    <Header /> 
     <main className="section">
       <div className="container">
         <div className="contact-intro">
@@ -129,6 +134,7 @@ export default function Contact() {
           </a>
         </div>
       </div>
-    </main>
+        </main>
+    </>
   );
 }
