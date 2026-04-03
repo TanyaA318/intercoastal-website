@@ -62,8 +62,9 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 1.5rem;
   padding: 0.85rem 0;
+  position: relative;
 }
 
 .brand {
@@ -71,6 +72,7 @@ img {
   align-items: center;
   gap: 0.85rem;
   min-width: 0;
+  flex: 1 1 auto;
 }
 
 .brand-logo {
@@ -81,6 +83,7 @@ img {
   background: #fff;
   object-fit: cover;
   box-shadow: 0 8px 24px rgba(17, 50, 86, 0.08);
+  flex: 0 0 auto;
 }
 
 .brand-kicker,
@@ -110,12 +113,27 @@ img {
   font-size: 1.05rem;
   font-weight: 800;
   line-height: 1.15;
+  color: #17395f;
 }
 
-.desktop-nav {
+.site-nav {
   display: flex;
   align-items: center;
-  gap: 1.75rem;
+  justify-content: flex-end;
+  gap: 1.5rem;
+  flex: 0 0 auto;
+}
+
+.nav-link {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #17395f;
+  transition: color 0.2s ease;
+  white-space: nowrap;
+}
+
+.nav-link.active {
+  color: #c56a2d;
 }
 
 .menu-toggle {
@@ -125,6 +143,8 @@ img {
   width: 42px;
   height: 42px;
   cursor: pointer;
+  padding: 0;
+  flex: 0 0 auto;
 }
 
 .menu-toggle span {
@@ -137,8 +157,25 @@ img {
   transition: 0.25s ease;
 }
 
-/* Mobile styles */
-  @media (max-width: 768px) {
+@media (max-width: 859px) {
+  .header-inner {
+    gap: 1rem;
+  }
+
+  .brand {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .brand-logo {
+    width: 3.25rem;
+    height: 3.25rem;
+  }
+
+  .brand-title {
+    font-size: 0.95rem;
+  }
+
   .menu-toggle {
     display: block;
   }
@@ -151,44 +188,43 @@ img {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 1rem;
+    gap: 0.9rem;
     position: absolute;
     top: calc(100% + 0.75rem);
     right: 0;
-    width: 220px;
+    width: min(240px, calc(100vw - 2rem));
     background: #ffffff;
     padding: 1rem;
     border: 1px solid #d9e2ec;
     border-radius: 1rem;
     box-shadow: 0 12px 30px rgba(15, 23, 42, 0.12);
   }
+
+  .site-nav.site-nav-open .nav-link {
+    width: 100%;
+    padding: 0.25rem 0;
+  }
 }
 
-  .desktop-nav {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background: #ffffff;
-    border-top: 1px solid #d9e2ec;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 1rem;
-
+@media (min-width: 860px) {
+  .menu-toggle {
     display: none;
   }
 
-  .desktop-nav.open {
-    display: flex;
+  .site-nav {
+    display: flex !important;
+    position: static;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+    width: auto;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent;
   }
-
-  .nav-link {
-    width: 100%;
-    padding: 0.5rem 0;
-  }
-
+}
 .nav-link {
   font-size: 0.95rem;
   font-weight: 600;
