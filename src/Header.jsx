@@ -19,13 +19,12 @@ export default function Header() {
           </div>
         </Link>
 
-        <button
+       <button
   className="menu-toggle"
   type="button"
-  onClick={() => {
-    alert("menu clicked");
-    setMenuOpen((open) => !open);
-  }}
+  aria-label="Toggle navigation"
+  aria-expanded={menuOpen}
+  onClick={() => setMenuOpen((open) => !open)}
 >
   <span></span>
   <span></span>
