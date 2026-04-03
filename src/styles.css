@@ -1581,3 +1581,32 @@ img {
     grid-template-columns: 1fr;
   }
 }
+
+/* ===== MOBILE NAV FINAL FIX ===== */
+@media (max-width: 859px) {
+  .site-nav {
+    display: none !important;
+  }
+
+  .site-nav.site-nav-open {
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+
+    position: absolute;
+    top: 100%;
+    right: 1rem;
+
+    width: 220px;
+    background: #ffffff;
+
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid #d9e2ec;
+
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+
+    z-index: 9999;
+  }
+}
