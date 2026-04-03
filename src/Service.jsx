@@ -1,7 +1,11 @@
 import React from "react";
+import Header from "./Header";
 
 export default function Service() {
   return (
+    <>
+      <Header />
+      
     <div className="service-page">
 
       {/* HERO */}
