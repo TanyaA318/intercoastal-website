@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "./Header";
 import "./styles.css";
 
 const categories = [
@@ -18,6 +19,8 @@ const categories = [
 
 export default function Inventory() {
   return (
+      <>
+    <Header />        
     <div className="page-shell">
       <main>
         <section className="section inventory-page-section">
@@ -46,7 +49,7 @@ export default function Inventory() {
             </div>
           </div>
         </section>
-      </main>
-    </div>
-  );
-}
+         </main>
+  </div>
+  </>
+);
