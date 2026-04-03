@@ -1,7 +1,10 @@
 import React from "react";
+import Header from "./Header";
 
 export default function About() {
   return (
+  <>
+      <Header />
     <main className="section">
       <div className="container">
 
@@ -102,7 +105,7 @@ export default function About() {
     <a href="/contact" className="btn-secondary">Contact Our Team</a>
   </div>
 </section>
-      </div>
-    </main>
+     </div>
+    </>
   );
 }
