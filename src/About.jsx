@@ -105,7 +105,8 @@ export default function About() {
     <a href="/contact" className="btn-secondary">Contact Our Team</a>
   </div>
 </section>
-     </div>
+          </section>
+    </main>
     </>
   );
 }
