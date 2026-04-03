@@ -20,16 +20,17 @@ export default function Header() {
         </Link>
 
         <button
-          className="menu-toggle"
-          type="button"
-          aria-label="Toggle navigation"
-          aria-expanded={menuOpen}
-          onClick={() => setMenuOpen((open) => !open)}
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+  className="menu-toggle"
+  type="button"
+  onClick={() => {
+    alert("menu clicked");
+    setMenuOpen((open) => !open);
+  }}
+>
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
 
         <nav className={`site-nav ${menuOpen ? "site-nav-open" : ""}`}>
           <NavLink to="/" className="nav-link" onClick={() => setMenuOpen(false)}>
