@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, NavLink, Routes, Route } from "react-router-dom";
+import Header from "./Header";
 import "./styles.css";
 import Inventory from "./Inventory";
 import Service from "./Service";
@@ -10,6 +11,10 @@ const logoSrc = "/logo.jpg";
 
 function HomePage() {
   return (
+ return (
+  <>
+    <Header />
+    <main>   
     <main id="top">
       <section className="hero-section">
         <div className="container hero-grid">
@@ -169,5 +174,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
+    </main>
+    </>
   );
 }
