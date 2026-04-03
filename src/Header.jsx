@@ -31,8 +31,7 @@ export default function Header() {
   <span></span>
   <span></span>
 </button>
-
-        <p>{menuOpen ? "OPEN" : "CLOSED"}</p>
+       
         <nav className={`site-nav ${menuOpen ? "site-nav-open" : ""}`}>
           <NavLink to="/" className="nav-link" onClick={() => setMenuOpen(false)}>
             Home
