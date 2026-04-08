@@ -1155,10 +1155,6 @@ img {
     height: 220px;
   }
 
-  .service-grid {
-    grid-template-columns: 1fr;
-  }
-
   .service-trust {
     grid-template-columns: 1fr;
   }
