@@ -1385,6 +1385,13 @@ img {
   }
 }
 
+@media (max-width: 860px) {
+  .contact-info-block:has(.hours-list) {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+}
+
 .contact-socials {
   margin-top: 40px;
   display: flex;
