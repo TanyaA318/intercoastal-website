@@ -1576,6 +1576,13 @@ img {
   background: #333;
 }
 
+@media (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
 @media (max-width: 900px) {
   .card-grid {
     grid-template-columns: 1fr;
