@@ -1340,6 +1340,29 @@ img {
   text-align: left;
 }
 
+@media (max-width: 768px) {
+  .hours-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+
+  .hours-list li span {
+    display: block;
+    width: 100%;
+    white-space: normal;
+  }
+
+  .hours-list li span:first-child {
+    font-weight: 700;
+  }
+
+  .hours-list li span:last-child {
+    line-height: 1.4;
+  }
+}
+
 .contact-socials {
   margin-top: 40px;
   display: flex;
