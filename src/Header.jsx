@@ -19,9 +19,9 @@ export default function Header() {
           </div>
         </Link>
 
-        <a href="tel:12522216069" className="header-phone">
-  (252) 221-6069
-</a>
+      <a href="tel:+12522216069" className="header-phone">
+       (252) 221-6069
+      </a>
 
        <button
   className="menu-toggle"
