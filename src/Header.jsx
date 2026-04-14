@@ -9,7 +9,11 @@ export default function Header() {
       <div className="container header-inner">
         <div className="header-left">
           <Link to="/" className="brand">
-            <img src="/logo.jpg" alt="Intercoastal Outdoor Equipment" />
+            <img
+  src="/logo.jpg"
+  alt="Intercoastal Outdoor Equipment"
+  className="brand-logo"
+/>
             <div>
               <div className="brand-kicker">AUTHORIZED BAD BOY DEALER</div>
               <div className="brand-title">Intercoastal Outdoor Equipment</div>
