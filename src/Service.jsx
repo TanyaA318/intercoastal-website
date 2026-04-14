@@ -109,17 +109,35 @@ export default function Service() {
         </p>
       </section>
 
-      {/* FORM */}
           {/* FORM */}
       <section className="service-section">
         <h2>Schedule Service</h2>
         <p>Please fill out the form below and our team will contact you.</p>
 
-        <form
-          className="service-form"
-          action="https://formspree.io/f/xyklzpnj"
-          method="POST"
-        >
+       <form
+  className="service-form"
+  onSubmit={async (e) => {
+    e.preventDefault();
+    setStatus("submitting");
+
+    const formData = new FormData(e.target);
+
+    const response = await fetch("https://formspree.io/f/xyklzpnj", {
+      method: "POST",
+      body: formData,
+      headers: {
+        Accept: "application/json",
+      },
+    });
+
+    if (response.ok) {
+      setStatus("success");
+      e.target.reset();
+    } else {
+      setStatus("error");
+    }
+  }}
+>
           <div className="service-form-row">
             <input
               type="text"
@@ -187,6 +205,17 @@ export default function Service() {
           <input type="text" name="_gotcha" style={{ display: "none" }} />
 
           <button type="submit">Schedule Service</button>
+         {status === "success" && (
+         <p className="form-success">
+         Thanks! Your service request has been received. We’ll be in touch shortly.
+         </p>
+         )}
+
+         {status === "error" && (
+         <p className="form-error">
+         Something went wrong. Please try again or call us directly.
+        </p>
+        )}
         </form>
       </section>
 
