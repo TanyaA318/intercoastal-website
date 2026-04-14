@@ -24,7 +24,7 @@ export default function Contact() {
 
             <div className="contact-info-block contact-info-block-compact">
               <h3>Phone</h3>
-              <p>Business phone coming soon</p>
+              <p>(252) 221-6069</p>
             </div>
 
             <div className="contact-info-block contact-info-block-compact">
