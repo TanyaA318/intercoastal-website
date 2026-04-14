@@ -110,6 +110,13 @@ export default function Contact() {
                />
               </label>
 
+  <input
+  type="hidden"
+  name="_subject"
+  value="New Intercoastal Outdoor Equipment Inquiry"
+/>
+<input type="text" name="_gotcha" style={{ display: "none" }} />
+
               <button type="submit" className="button button-primary">
                 Contact Our Team
               </button>
