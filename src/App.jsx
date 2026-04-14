@@ -19,6 +19,9 @@ function HomePage() {
               <h2 className="hero-title">
                 Built for hard work, backed by coastal grit.
               </h2>
+              <a href="tel:12522216069" className="hero-phone">
+  (252) 221-6069
+</a>
               <p className="hero-text">
                 Intercoastal Outdoor Equipment offers new and used inventory,
                 trusted service, and practical guidance across northeastern NC.
