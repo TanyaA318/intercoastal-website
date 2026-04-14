@@ -4,6 +4,7 @@ import Header from "./Header";
 
 
 export default function Service() {
+  const [status, setStatus] = useState("idle");  
   return (
     <>
       <Header />
