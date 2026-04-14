@@ -69,7 +69,11 @@ export default function Contact() {
           <div className="contact-form-card">
             <h2>Send Us a Message</h2>
 
-            <form className="contact-form">
+<form
+  className="contact-form"
+  action="https://formspree.io/f/mnjlnvvb"
+  method="POST"
+>
               <label>
                 Name
                 <input type="text" placeholder="Your name" />
