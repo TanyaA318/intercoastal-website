@@ -107,39 +107,81 @@ export default function Service() {
       </section>
 
       {/* FORM */}
+          {/* FORM */}
       <section className="service-section">
         <h2>Schedule Service</h2>
         <p>Please fill out the form below and our team will contact you.</p>
 
-        <form className="service-form">
+        <form
+          className="service-form"
+          action="https://formspree.io/f/xyklzpnj"
+          method="POST"
+        >
           <div className="service-form-row">
-            <input type="text" placeholder="First Name *" required />
-            <input type="text" placeholder="Last Name *" required />
+            <input
+              type="text"
+              name="firstName"
+              placeholder="First Name *"
+              required
+            />
+            <input
+              type="text"
+              name="lastName"
+              placeholder="Last Name *"
+              required
+            />
           </div>
 
           <div className="service-form-row">
-            <input type="email" placeholder="Email *" required />
-            <input type="tel" placeholder="Phone *" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email *"
+              required
+            />
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Phone *"
+              required
+            />
           </div>
 
           <div className="service-form-row">
-            <input type="text" placeholder="Street Address" />
+            <input
+              type="text"
+              name="street"
+              placeholder="Street Address"
+            />
           </div>
 
           <div className="service-form-row">
-            <input type="text" placeholder="City" />
-            <input type="text" placeholder="State" />
-            <input type="text" placeholder="Zip Code" />
+            <input type="text" name="city" placeholder="City" />
+            <input type="text" name="state" placeholder="State" />
+            <input type="text" name="zip" placeholder="Zip Code" />
           </div>
 
           <div className="service-form-row">
-            <input type="text" placeholder="Equipment Type / Make / Model" />
+            <input
+              type="text"
+              name="equipment"
+              placeholder="Equipment Type / Make / Model"
+            />
           </div>
 
           <textarea
+            name="serviceDetails"
             placeholder="Please tell us what services you are looking for..."
             rows="5"
           ></textarea>
+
+          <input
+            type="hidden"
+            name="_subject"
+            value="New Service Request Submission"
+          />
+          <input type="hidden" name="formType" value="Service Request" />
+          <input type="text" name="_gotcha" style={{ display: "none" }} />
 
           <button type="submit">Schedule Service</button>
         </form>
