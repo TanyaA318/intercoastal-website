@@ -5,23 +5,31 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="site-header">
-      <div className="container header-inner">
-        <Link to="/" className="brand" onClick={() => setMenuOpen(false)}>
-          <img
-            src="/logo.jpg"
-            alt="Intercoastal Outdoor Equipment"
-            className="brand-logo"
-          />
-          <div>
-            <p className="brand-kicker">Authorized Bad Boy Dealer</p>
-            <h1 className="brand-title">Intercoastal Outdoor Equipment</h1>
-          </div>
-        </Link>
+    <div className="header-inner">
 
-      <a href="tel:+12522216069" className="header-phone">
-       (252) 221-6069
-      </a>
+  <div className="header-left">
+    <Link to="/" className="brand">
+      <img src="/logo.jpg" alt="Intercoastal Outdoor Equipment" />
+      <div>
+        <div className="brand-kicker">AUTHORIZED BAD BOY DEALER</div>
+        <div className="brand-title">Intercoastal Outdoor Equipment</div>
+      </div>
+    </Link>
+
+    <a href="tel:+12522216069" className="header-phone">
+      (252) 221-6069
+    </a>
+  </div>
+
+  <nav className="site-nav">
+    <NavLink to="/">Home</NavLink>
+    <NavLink to="/inventory">Inventory</NavLink>
+    <NavLink to="/service">Service</NavLink>
+    <NavLink to="/about">About Us</NavLink>
+    <NavLink to="/contact">Contact</NavLink>
+  </nav>
+
+</div>
 
        <button
   className="menu-toggle"
