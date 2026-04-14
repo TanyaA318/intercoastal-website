@@ -204,12 +204,9 @@ export default function Service() {
           <input type="hidden" name="formType" value="Service Request" />
           <input type="text" name="_gotcha" style={{ display: "none" }} />
 
-          <button type="submit">Schedule Service</button>
-         {status === "success" && (
-         <p className="form-success">
-         Thanks! Your service request has been received. We’ll be in touch shortly.
-         </p>
-         )}
+       <button type="submit" disabled={status === "submitting"}>
+  {status === "submitting" ? "Sending..." : "Schedule Service"}
+</button>
 
          {status === "error" && (
          <p className="form-error">
