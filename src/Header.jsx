@@ -25,23 +25,47 @@ export default function Header() {
           </a>
         </div>
 
-        <nav className={`site-nav ${menuOpen ? "site-nav-open" : ""}`}>
-          <NavLink to="/" className="nav-link" onClick={() => setMenuOpen(false)}>
-            Home
-          </NavLink>
-          <NavLink to="/inventory" className="nav-link" onClick={() => setMenuOpen(false)}>
-            Inventory
-          </NavLink>
-          <NavLink to="/service" className="nav-link" onClick={() => setMenuOpen(false)}>
-            Service
-          </NavLink>
-          <NavLink to="/about" className="nav-link" onClick={() => setMenuOpen(false)}>
-            About Us
-          </NavLink>
-          <NavLink to="/contact" className="nav-link" onClick={() => setMenuOpen(false)}>
-            Contact
-          </NavLink>
-        </nav>
+       <nav className={`site-nav ${menuOpen ? "site-nav-open" : ""}`}>
+  <NavLink
+    to="/"
+    className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
+    onClick={() => setMenuOpen(false)}
+  >
+    Home
+  </NavLink>
+
+  <NavLink
+    to="/inventory"
+    className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
+    onClick={() => setMenuOpen(false)}
+  >
+    Inventory
+  </NavLink>
+
+  <NavLink
+    to="/service"
+    className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
+    onClick={() => setMenuOpen(false)}
+  >
+    Service
+  </NavLink>
+
+  <NavLink
+    to="/about"
+    className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
+    onClick={() => setMenuOpen(false)}
+  >
+    About Us
+  </NavLink>
+
+  <NavLink
+    to="/contact"
+    className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
+    onClick={() => setMenuOpen(false)}
+  >
+    Contact
+  </NavLink>
+</nav>
 
         <button
           className="menu-toggle"
