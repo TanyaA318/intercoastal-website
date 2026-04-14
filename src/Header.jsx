@@ -6,43 +6,42 @@ export default function Header() {
 
   return (
   <div className="header-inner">
+    <div className="header-left">
+      <Link to="/" className="brand">
+        <img src="/logo.jpg" alt="Intercoastal Outdoor Equipment" />
+        <div>
+          <div className="brand-kicker">AUTHORIZED BAD BOY DEALER</div>
+          <div className="brand-title">Intercoastal Outdoor Equipment</div>
+        </div>
+      </Link>
 
-  <div className="header-left">
-    <Link to="/" className="brand">
-      <img src="/logo.jpg" alt="Intercoastal Outdoor Equipment" />
-      <div>
-        <div className="brand-kicker">AUTHORIZED BAD BOY DEALER</div>
-        <div className="brand-title">Intercoastal Outdoor Equipment</div>
-      </div>
-    </Link>
+      <a href="tel:+12522216069" className="header-phone">
+        (252) 221-6069
+      </a>
+    </div>
 
-    <a href="tel:+12522216069" className="header-phone">
-      (252) 221-6069
-    </a>
+    <nav className="site-nav">
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="/inventory">Inventory</NavLink>
+      <NavLink to="/service">Service</NavLink>
+      <NavLink to="/about">About Us</NavLink>
+      <NavLink to="/contact">Contact</NavLink>
+    </nav>
+
+    <button
+      className="menu-toggle"
+      type="button"
+      aria-label="Toggle navigation"
+      aria-expanded={menuOpen}
+      onClick={() => setMenuOpen((open) => !open)}
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
   </div>
-
-  <nav className="site-nav">
-    <NavLink to="/">Home</NavLink>
-    <NavLink to="/inventory">Inventory</NavLink>
-    <NavLink to="/service">Service</NavLink>
-    <NavLink to="/about">About Us</NavLink>
-    <NavLink to="/contact">Contact</NavLink>
-  </nav>
-
-</div>
-
-       <button
-  className="menu-toggle"
-  type="button"
-  aria-label="Toggle navigation"
-  aria-expanded={menuOpen}
-  onClick={() => setMenuOpen((open) => !open)}
->
-  <span></span>
-  <span></span>
-  <span></span>
-</button>
-       
+);
+      
         <nav className={`site-nav ${menuOpen ? "site-nav-open" : ""}`}>
           <NavLink to="/" className="nav-link" onClick={() => setMenuOpen(false)}>
             Home
