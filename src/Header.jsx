@@ -6,7 +6,7 @@ export default function Header() {
 
   return (
     <header className="site-header">
-      <div className="header-inner">
+      <div className="container header-inner">
         <div className="header-left">
           <Link to="/" className="brand">
             <img src="/logo.jpg" alt="Intercoastal Outdoor Equipment" />
