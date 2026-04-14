@@ -5,7 +5,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="header-inner">
+  <div className="header-inner">
 
   <div className="header-left">
     <Link to="/" className="brand">
