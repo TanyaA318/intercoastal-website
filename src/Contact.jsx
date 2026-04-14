@@ -76,22 +76,22 @@ export default function Contact() {
 >
               <label>
                 Name
-                <input type="text" placeholder="Your name" />
+               <input type="text" name="name" placeholder="Your name" required />
               </label>
 
               <label>
                 Phone
-                <input type="tel" placeholder="Your phone number" />
+                <input type="tel" name="phone" placeholder="Your phone number" />
               </label>
 
               <label>
                 Email
-                <input type="email" placeholder="Your email address" />
+                <input type="email" name="email" placeholder="Your email address" required />
               </label>
 
               <label>
                 Inquiry Type
-                <select>
+              <select name="inquiryType">
                   <option>Inventory Question</option>
                   <option>Service Request</option>
                   <option>Financing Question</option>
@@ -102,7 +102,12 @@ export default function Contact() {
 
               <label>
                 Message
-                <textarea rows="6" placeholder="How can we help you?" />
+               <textarea
+                 name="message"
+                 rows="6"
+                 placeholder="How can we help you?"
+                 required
+               />
               </label>
 
               <button type="submit" className="button button-primary">
