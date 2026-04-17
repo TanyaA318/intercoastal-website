@@ -1,6 +1,10 @@
 import React from "react";
 import Header from "./Header";
 
+<p className="inventory-note">
+  Engine options vary by model. Ask us about current Kawasaki and Kohler availability.
+</p>
+
 const mowers = [
   { name: 'Rambler 42"', image: "/mower1.jpg", price: "Call for Price" },
   { name: 'Magnum 48"', image: "/mower1.jpg", price: "Call for Price" },
