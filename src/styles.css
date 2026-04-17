@@ -1868,9 +1868,13 @@ img {
 }
 
 .inventory-card-link {
+  display: block;
   text-decoration: none;
   color: inherit;
-  display: block;
+}
+
+.inventory-card-link:hover h3 {
+  color: #1e3a5f;
 }
 
 /* MOBILE */
