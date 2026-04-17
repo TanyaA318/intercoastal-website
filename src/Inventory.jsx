@@ -8,7 +8,7 @@ const inventoryItems = [
     image: "/mower-hero.jpg",
     description:
       "Browse all new Bad Boy mowers and outdoor equipment available at our Camden, NC location.",
-    link: "/inventory/new",
+   link: "/inventory/new"
   },
   {
     name: "Used Equipment",
