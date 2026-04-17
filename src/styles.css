@@ -1885,3 +1885,11 @@ img {
     grid-template-columns: 1fr;
   }
 }
+
+.inventory-note {
+  margin: 0 0 1.5rem;
+  color: #4c5a67;
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 700px;
+}
