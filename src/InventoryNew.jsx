@@ -49,7 +49,7 @@ export default function InventoryNew() {
               <p className="price">{mower.price}</p>
 
               <a href="/contact" className="inventory-button">
-                Check Availability
+                View Details
               </a>
             </div>
           ))}
