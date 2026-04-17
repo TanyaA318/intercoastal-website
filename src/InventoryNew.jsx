@@ -31,11 +31,6 @@ export default function InventoryNew() {
     <>
       <Header />
 
-export default function InventoryNew() {
-  return (
-    <>
-      <Header />
-
       <div className="inventory-list-page">
         <h1>New Equipment</h1>
 
