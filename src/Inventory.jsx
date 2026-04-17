@@ -50,7 +50,7 @@ export default function Inventory() {
                   <h2>{item.name}</h2>
                   <p>{item.description}</p>
                   <Link to={item.link} className="inventory-button">
-                    Request Information
+                    Shop New Equipment
                   </Link>
                 </div>
               </div>
