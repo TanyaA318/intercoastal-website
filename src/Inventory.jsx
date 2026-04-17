@@ -6,16 +6,16 @@ const inventoryItems = [
   {
     name: "New Equipment",
     image: "/mower-hero.jpg",
-    description:
-      "Browse all new Bad Boy mowers and outdoor equipment available at our Camden, NC location.",
-   link: "/inventory/new"
+    description: "Browse all new Bad Boy mowers and outdoor equipment.",
+    link: "/inventory/new",
+    buttonText: "Shop New Equipment",
   },
   {
     name: "Used Equipment",
     image: "/used-equipment.jpg",
-    description:
-      "Explore our current used inventory and trade-in options. Availability changes often.",
+    description: "Explore our current used inventory and trade-ins.",
     link: "/inventory/used",
+    buttonText: "Shop Used Equipment",
   },
 ];
 
@@ -50,7 +50,7 @@ export default function Inventory() {
                   <h2>{item.name}</h2>
                   <p>{item.description}</p>
                   <Link to={item.link} className="inventory-button">
-                    Shop New Equipment
+                   {item.buttonText} 
                   </Link>
                 </div>
               </div>
