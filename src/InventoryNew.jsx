@@ -34,7 +34,7 @@ export default function InventoryNew() {
               <h3>{mower.name}</h3>
               <p className="price">{mower.price}</p>
               <a href="/contact" className="inventory-button">
-                Get Info
+                View Details
               </a>
             </div>
           ))}
