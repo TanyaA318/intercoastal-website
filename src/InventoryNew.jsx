@@ -3,16 +3,70 @@ import Header from "./Header";
 
 const mowers = [
   {
-    name: "Bad Boy Maverick HD 54”",
+    name: 'Bad Boy Maverick HD 54"',
     image: "/mower1.jpg",
     price: "Call for Price",
   },
   {
-    name: "Bad Boy Maverick 60”",
+    name: 'Bad Boy Maverick HD 60"',
     image: "/mower1.jpg",
     price: "Call for Price",
   },
   {
+    name: 'Bad Boy Maverick 54"',
+    image: "/mower1.jpg",
+    price: "Call for Price",
+  },
+  {
+    name: 'Bad Boy Maverick 60"',
+    image: "/mower1.jpg",
+    price: "Call for Price",
+  },
+  {
+    name: 'Bad Boy ZT Elite 54"',
+    image: "/mower1.jpg",
+    price: "Call for Price",
+  },
+  {
+    name: 'Bad Boy ZT Elite 60"',
+    image: "/mower1.jpg",
+    price: "Call for Price",
+  },
+  {
+    name: 'Bad Boy ZT Avenger 54"',
+    image: "/mower1.jpg",
+    price: "Call for Price",
+  },
+  {
+    name: 'Bad Boy ZT Avenger 60"',
+    image: "/mower1.jpg",
+    price: "Call for Price",
+  },
+  {
+    name: 'Bad Boy Rebel 54"',
+    image: "/mower1.jpg",
+    price: "Call for Price",
+  },
+  {
+    name: 'Bad Boy Rebel 61"',
+    image: "/mower1.jpg",
+    price: "Call for Price",
+  },
+  {
+    name: 'Bad Boy Rebel 72"',
+    image: "/mower1.jpg",
+    price: "Call for Price",
+  },
+  {
+    name: 'Bad Boy Rogue 61"',
+    image: "/mower1.jpg",
+    price: "Call for Price",
+  },
+  {
+    name: 'Bad Boy Rogue 72"',
+    image: "/mower1.jpg",
+    price: "Call for Price",
+  },
 ];
 
 export default function InventoryNew() {
@@ -29,8 +83,9 @@ export default function InventoryNew() {
               <img src={mower.image} alt={mower.name} />
               <h3>{mower.name}</h3>
               <p className="price">{mower.price}</p>
+
               <a href="/contact" className="inventory-button">
-                View Details
+                Check Availability
               </a>
             </div>
           ))}
