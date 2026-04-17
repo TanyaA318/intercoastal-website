@@ -1901,3 +1901,78 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
+
+.mower-detail-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+}
+
+.mower-detail-layout {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.mower-detail-gallery {
+  background: white;
+  border-radius: 1.25rem;
+}
+
+.mower-detail-main-image {
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+  display: block;
+  border-radius: 1.25rem;
+}
+
+.mower-detail-thumbs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.mower-detail-thumb {
+  width: 100%;
+  height: 95px;
+  object-fit: cover;
+  display: block;
+  border-radius: 0.75rem;
+}
+
+.mower-detail-info {
+  background: white;
+  border-radius: 1.25rem;
+  padding: 1.5rem;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+.mower-detail-info h1 {
+  font-size: clamp(2rem, 3vw, 3rem);
+  line-height: 1.1;
+  color: #10263f;
+  margin-bottom: 1rem;
+}
+
+.mower-detail-copy {
+  color: #4c5a67;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 900px) {
+  .mower-detail-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .mower-detail-main-image {
+    height: 320px;
+  }
+
+  .mower-detail-thumbs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
