@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./Header";
 
 const galleryImages = [
@@ -9,6 +9,8 @@ const galleryImages = [
 ];
 
 export default function MaverickHD60() {
+  const [mainImage, setMainImage] = useState(galleryImages[0]);
+
   return (
     <>
       <Header />
@@ -17,7 +19,7 @@ export default function MaverickHD60() {
         <div className="mower-detail-layout">
           <div className="mower-detail-gallery">
             <img
-              src={galleryImages[0]}
+              src={mainImage}
               alt='Bad Boy Maverick HD 60" mower'
               className="mower-detail-main-image"
             />
@@ -29,6 +31,7 @@ export default function MaverickHD60() {
                   src={image}
                   alt={`Maverick HD 60 view ${index + 1}`}
                   className="mower-detail-thumb"
+                  onClick={() => setMainImage(image)}
                 />
               ))}
             </div>
