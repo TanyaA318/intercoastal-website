@@ -4,6 +4,7 @@ import Header from "./Header";
 import "./styles.css";
 import Inventory from "./Inventory";
 import InventoryNew from "./InventoryNew";
+import MaverickHD60 from "./MaverickHD60";
 import Service from "./Service";
 import About from "./About";
 import Contact from "./Contact";
