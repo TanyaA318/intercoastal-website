@@ -31,28 +31,35 @@ export default function InventoryNew() {
     <>
       <Header />
 
-<div className="inventory-list-page">
-  <h1>New Equipment</h1>
+export default function InventoryNew() {
+  return (
+    <>
+      <Header />
 
-  <p className="inventory-note">
-    Engine options vary by model. Ask us about current Kawasaki and Kohler availability.
-  </p>
+      <div className="inventory-list-page">
+        <h1>New Equipment</h1>
 
-  <div className="inventory-list-grid">
-    {mowers.map((mower) => (
-      <div className="inventory-list-card" key={mower.name}>
-        <img src={mower.image} alt={mower.name} />
+        <p className="inventory-note">
+          Engine options vary by model. Ask us about current Kawasaki and Kohler availability.
+        </p>
 
-        <p className="inventory-tag">BAD BOY MOWERS</p>
+        <div className="inventory-list-grid">
+          {mowers.map((mower) => (
+            <div className="inventory-list-card" key={mower.name}>
+              <img src={mower.image} alt={mower.name} />
 
-        <h3>{mower.name}</h3>
-        <p className="price">{mower.price}</p>
+              <p className="inventory-tag">BAD BOY MOWERS</p>
 
-        <a href="/contact" className="inventory-button">
-          Check Availability
-        </a>
+              <h3>{mower.name}</h3>
+              <p className="price">{mower.price}</p>
+
+              <a href="/contact" className="inventory-button">
+                Check Availability
+              </a>
+            </div>
+          ))}
+        </div>
       </div>
-    ))}
-  </div>
-</div>
-
+    </>
+  );
+}
