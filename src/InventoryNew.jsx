@@ -38,16 +38,18 @@ export default function InventoryNew() {
           Engine options vary by model. Ask us about current Kawasaki and Kohler availability.
         </p>
 
-        <div className="inventory-list-grid">
-          {mowers.map((mower) => (
-            <div className="inventory-list-card" key={mower.name}>
-              <img src={mower.image} alt={mower.name} />
-              <h3>{mower.name}</h3>
-              <p className="price">{mower.price}</p>
-              <a href="/contact" className="inventory-button">
-                Check Availability
-              </a>
-            </div>
+       <div className="inventory-list-card" key={mower.name}>
+  <img src={mower.image} alt={mower.name} />
+
+  <p className="inventory-tag">BAD BOY MOWERS</p>
+
+  <h3>{mower.name}</h3>
+  <p className="price">{mower.price}</p>
+
+  <a href="/contact" className="inventory-button">
+    Check Availability
+  </a>
+</div>
           ))}
         </div>
       </div>
