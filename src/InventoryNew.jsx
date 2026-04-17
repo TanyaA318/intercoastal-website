@@ -13,10 +13,6 @@ const mowers = [
     price: "Call for Price",
   },
   {
-    name: "Bad Boy Residential Series",
-    image: "/mower-hero.jpg",
-    price: "Call for Price",
-  },
 ];
 
 export default function InventoryNew() {
