@@ -1826,3 +1826,62 @@ img {
     height: 220px;
   }
 }
+
+/* ===== INVENTORY NEW PAGE ===== */
+
+.inventory-list-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+}
+
+.inventory-list-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.inventory-list-card {
+  background: white;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* THIS is the important part fixing your images */
+.inventory-list-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.inventory-list-card h3 {
+  padding: 1rem 1rem 0.25rem;
+  font-size: 1.1rem;
+  color: #10263f;
+}
+
+.inventory-list-card .price {
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+  color: #4c5a67;
+}
+
+.inventory-list-card .inventory-button {
+  display: inline-block;
+  margin: 0 1rem 1.25rem;
+  background: #1e3a5f;
+  color: white;
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+  .inventory-list-grid {
+    grid-template-columns: 1fr;
+  }
+}
