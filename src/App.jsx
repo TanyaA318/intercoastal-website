@@ -3,6 +3,7 @@ import { Link, NavLink, Routes, Route } from "react-router-dom";
 import Header from "./Header";
 import "./styles.css";
 import Inventory from "./Inventory";
+import InventoryNew from "./InventoryNew";
 import Service from "./Service";
 import About from "./About";
 import Contact from "./Contact";
@@ -140,6 +141,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/inventory" element={<Inventory />} />
+        <Route path="/inventory/new" element={<InventoryNew />} />
         <Route path="/service" element={<Service />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
