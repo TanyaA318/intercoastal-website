@@ -1893,3 +1893,12 @@ img {
   line-height: 1.6;
   max-width: 700px;
 }
+
+.inventory-tag {
+  padding: 1rem 1rem 0;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #6b7c8c;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
