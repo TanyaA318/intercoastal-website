@@ -4,25 +4,18 @@ import { Link } from "react-router-dom";
 
 const inventoryItems = [
   {
-    name: "Bad Boy Maverick HD 54”",
-    image: "/mower1.jpg",
-    description:
-      "Heavy-duty performance, smooth suspension, and commercial-style strength for large property owners.",
-    link: "/contact",
-  },
-  {
-    name: "Bad Boy Residential Line",
+    name: "New Equipment",
     image: "/mower-hero.jpg",
     description:
-      "Built for homeowners who want power, durability, and a professional cut.",
-    link: "/contact",
+      "Browse all new Bad Boy mowers and outdoor equipment available at our Camden, NC location.",
+    link: "/inventory/new",
   },
   {
     name: "Used Equipment",
     image: "/used-equipment.jpg",
     description:
-      "Ask about our available used inventory and trade-in options.",
-    link: "/contact",
+      "Explore our current used inventory and trade-in options. Availability changes often.",
+    link: "/inventory/used",
   },
 ];
 
