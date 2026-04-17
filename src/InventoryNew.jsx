@@ -43,6 +43,7 @@ export default function InventoryNew() {
           Engine options vary by model. Ask us about current Kawasaki and Kohler availability.
         </p>
 
+<div className="inventory-list-grid">        
        {mowers.map((mower) => (
   <div className="inventory-list-card" key={mower.name}>
     <a href={mower.link || "/contact"} className="inventory-card-link">
@@ -59,8 +60,9 @@ export default function InventoryNew() {
     </a>
   </div>
 ))}
-        </div>
-      </div>
+  </div>
+  </div>
+  </div>
     </>
   );
 }
