@@ -15,11 +15,7 @@ const mowers = [
   { name: 'Maverick 60"', image: "/mower1.jpg", price: "Call for Price" },
   { name: 'Maverick HD 54"', image: "/mower1.jpg", price: "Call for Price" },
   { 
-  name: 'Maverick HD 60"', 
-  image: "/mowers/maverickhd/2.png",
-  price: "Call for Price",
-  link: "/inventory/new/maverick-hd-60"
-},
+ 
   { name: 'Revolt SD 34"', image: "/mower1.jpg", price: "Call for Price" },
   { name: 'Revolt 48"', image: "/mower1.jpg", price: "Call for Price" },
   { name: 'Revolt 54"', image: "/mower1.jpg", price: "Call for Price" },
