@@ -53,8 +53,19 @@ export default function InventoryNew() {
               <h3>{mower.name}</h3>
               <p className="price">View model details and availability</p>
 
-           <a href={mower.link || "/contact"} className="inventory-button">
-  View Details
+        <a href={mower.link || "/contact"} className="inventory-card-link">
+  <div className="inventory-list-card" key={mower.name}>
+    <img src={mower.image} alt={mower.name} />
+
+    <p className="inventory-tag">BAD BOY MOWERS</p>
+
+    <h3>{mower.name}</h3>
+    <p className="price">{mower.price}</p>
+
+    <span className="inventory-button">
+      View Details
+    </span>
+  </div>
 </a>
             </div>
           ))}
