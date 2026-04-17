@@ -143,6 +143,7 @@ export default function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/inventory" element={<Inventory />} />
         <Route path="/inventory/new" element={<InventoryNew />} />
+        <Route path="/inventory/new/maverick-hd-60" element={<MaverickHD60 />} />
         <Route path="/service" element={<Service />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
