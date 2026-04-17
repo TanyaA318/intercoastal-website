@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import Header from "./Header";
 
 const galleryImages = [
-  "/mowers/maverickhd60/1.png",
-  "/mowers/maverickhd60/2.png",
-  "/mowers/maverickhd60/3.png",
-  "/mowers/maverickhd60/4.png",
+  "/mowers/maverickhd/1.png",
+  "/mowers/maverickhd/2.png",
+  "/mowers/maverickhd/3.png",
+  "/mowers/maverickhd/4.png",
 ];
 
 export default function MaverickHD60() {
