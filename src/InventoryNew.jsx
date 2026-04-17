@@ -46,7 +46,7 @@ export default function InventoryNew() {
               <p className="inventory-tag">BAD BOY MOWERS</p>
 
               <h3>{mower.name}</h3>
-              <p className="price">{mower.price}</p>
+              <p className="price">View model details and availability</p>
 
               <a href="/contact" className="inventory-button">
                 View Details
