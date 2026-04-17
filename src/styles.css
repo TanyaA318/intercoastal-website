@@ -1721,3 +1721,108 @@ img {
   color: #c62828;
   font-weight: 600;
 }
+
+.inventory-page {
+  background: #f7f7f5;
+  min-height: 100vh;
+}
+
+.inventory-hero {
+  background: linear-gradient(rgba(12, 27, 44, 0.72), rgba(12, 27, 44, 0.72)),
+    url("/mower-hero.jpg") center/cover no-repeat;
+  color: white;
+  padding: 5rem 1.5rem;
+}
+
+.inventory-hero-content {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.inventory-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: #d6e4f0;
+}
+
+.inventory-hero h1 {
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  margin-bottom: 1rem;
+}
+
+.inventory-hero p {
+  max-width: 700px;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.inventory-grid-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+}
+
+.inventory-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.inventory-card {
+  background: white;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+.inventory-card-image {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  display: block;
+}
+
+.inventory-card-body {
+  padding: 1.25rem;
+}
+
+.inventory-card-body h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  color: #10263f;
+}
+
+.inventory-card-body p {
+  color: #4c5a67;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.inventory-button {
+  display: inline-block;
+  background: #1e3a5f;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 0.85rem 1.1rem;
+  border-radius: 999px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.inventory-button:hover {
+  transform: translateY(-2px);
+  opacity: 0.95;
+}
+
+@media (max-width: 900px) {
+  .inventory-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .inventory-card-image {
+    height: 220px;
+  }
+}
