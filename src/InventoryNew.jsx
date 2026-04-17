@@ -62,7 +62,6 @@ export default function InventoryNew() {
 ))}
   </div>
   </div>
-  </div>
     </>
   );
 }
