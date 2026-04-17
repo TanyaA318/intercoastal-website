@@ -1,10 +1,6 @@
 import React from "react";
 import Header from "./Header";
 
-<p className="inventory-note">
-  Engine options vary by model. Ask us about current Kawasaki and Kohler availability.
-</p>
-
 const mowers = [
   { name: 'Rambler 42"', image: "/mower1.jpg", price: "Call for Price" },
   { name: 'Magnum 48"', image: "/mower1.jpg", price: "Call for Price" },
@@ -38,13 +34,16 @@ export default function InventoryNew() {
       <div className="inventory-list-page">
         <h1>New Equipment</h1>
 
+        <p className="inventory-note">
+          Engine options vary by model. Ask us about current Kawasaki and Kohler availability.
+        </p>
+
         <div className="inventory-list-grid">
           {mowers.map((mower) => (
             <div className="inventory-list-card" key={mower.name}>
               <img src={mower.image} alt={mower.name} />
               <h3>{mower.name}</h3>
               <p className="price">{mower.price}</p>
-
               <a href="/contact" className="inventory-button">
                 Check Availability
               </a>
@@ -55,3 +54,4 @@ export default function InventoryNew() {
     </>
   );
 }
+
