@@ -1106,8 +1106,6 @@ img {
   border-color: #9fb8cf;
 }
 
-  /* ===== SERVICE PAGE ===== */
-
 .service-page {
   padding: 3rem 1.5rem;
   max-width: 1100px;
@@ -1224,7 +1222,6 @@ img {
 }
 
 /* TRUST SECTION */
-/* TRUST SECTION */
 .service-section.alt {
   background: #f3f6f9;
   padding: 2rem;
@@ -1336,8 +1333,6 @@ img {
   object-fit: cover;
   display: block;
 }
-
-/* HOURS ALIGNMENT */
 
 .hours-list {
   list-style: none;
@@ -1482,15 +1477,10 @@ img {
   width: 100%;
 }
 
-/* Inventory page only styling */
 .section.inventory-page-section h2.section-title,
 .section.inventory-page-section .info-card h3.card-title {
   color: #f47c20 !important;
 }
-
-/* =========================
-   ABOUT PAGE STYLES
-   ========================= */
 
 .about-hero {
   max-width: 760px;
@@ -1678,7 +1668,6 @@ img {
   }
 }
 
-/* ===== MOBILE NAV FINAL FIX ===== */
 @media (max-width: 859px) {
   .site-nav {
     display: none !important;
@@ -1876,6 +1865,12 @@ img {
   border-radius: 999px;
   text-decoration: none;
   font-weight: 700;
+}
+
+.inventory-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
 /* MOBILE */
