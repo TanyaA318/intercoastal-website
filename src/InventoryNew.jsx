@@ -16,7 +16,7 @@ const mowers = [
   { name: 'Maverick HD 54"', image: "/mower1.jpg", price: "Call for Price" },
   { 
   name: 'Maverick HD 60"', 
-  image: "/mowers/maverickhd/3.png",
+  image: "/mowers/maverickhd/4.png",
   price: "Call for Price",
   link: "/inventory/new/maverick-hd-60"
 },
