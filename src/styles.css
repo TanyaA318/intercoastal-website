@@ -1848,7 +1848,6 @@ img {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
 }
 
-/* THIS is the important part fixing your images */
 .inventory-list-card img {
   width: 100%;
   height: 200px;
@@ -1857,7 +1856,7 @@ img {
 }
 
 .inventory-list-card h3 {
-  padding: 1rem 1rem 0.25rem;
+ padding: 0.5rem 1rem 0.25rem;
   font-size: 1.1rem;
   color: #10263f;
 }
