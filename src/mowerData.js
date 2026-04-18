@@ -1,4 +1,4 @@
-export const mowerData = {
+{
   "rambler-42": {
     name: 'Bad Boy Rambler 42"',
     images: [
