@@ -101,21 +101,105 @@ export const mowerData = {
     }
   },
 
-  "maverick-hd-60": {
-    name: 'Bad Boy Maverick HD 60"',
-    images: [
-      "/mowers/maverickhd/2.png",
-      "/mowers/maverickhd/1.png",
-      "/mowers/maverickhd/3.png",
-      "/mowers/maverickhd/4.png"
-    ],
-    description:
-      "The Bad Boy Maverick HD 60 is built for serious cutting power, durability, and comfort. A strong fit for large properties and commercial-grade performance.",
-    specs: {
-      deck: '60" deck',
-      engine: 'Kawasaki / Kohler options',
-      fuel: '13 gallons',
-      use: 'Residential / Commercial'
-    }
+"zt-elite-48": {
+  name: 'Bad Boy ZT Elite 48"',
+  images: [
+    "/mowers/elite/2.png",
+    "/mowers/elite/1.png",
+    "/mowers/elite/3.png"
+  ],
+  description:
+    "The Bad Boy ZT Elite 48 is built for homeowners who want upgraded comfort, durability, and a strong cut in a compact zero-turn.",
+  specs: {
+    deck: '48" deck',
+    engine: 'Kohler / Kawasaki options',
+    fuel: '6.5 gallons',
+    use: 'Residential'
   }
-};
+},
+
+"zt-elite-54": {
+  name: 'Bad Boy ZT Elite 54"',
+  images: [
+    "/mowers/elite/3.png",
+    "/mowers/elite/2.png",
+    "/mowers/elite/1.png"
+  ],
+  description:
+    "The ZT Elite 54 offers added deck width, smooth handling, and dependable Bad Boy performance for larger residential properties.",
+  specs: {
+    deck: '54" deck',
+    engine: 'Kohler / Kawasaki options',
+    fuel: '6.5 gallons',
+    use: 'Residential'
+  }
+},
+
+"zt-elite-60": {
+  name: 'Bad Boy ZT Elite 60"',
+  images: [
+    "/mowers/elite/4.png",
+    "/mowers/elite/2.png",
+    "/mowers/elite/3.png"
+  ],
+  description:
+    "The ZT Elite 60 gives homeowners more cutting width with the comfort, strength, and quality expected from Bad Boy.",
+  specs: {
+    deck: '60" deck',
+    engine: 'Kohler / Kawasaki options',
+    fuel: '6.5 gallons',
+    use: 'Residential'
+  }
+},
+
+"maverick-54": {
+  name: 'Bad Boy Maverick 54"',
+  images: [
+    "/mowers/maverick/2.png",
+    "/mowers/maverick/1.png",
+    "/mowers/maverick/3.png"
+  ],
+  description:
+    "The Bad Boy Maverick 54 is built for strong performance, comfort, and durability, making it a great fit for demanding residential mowing.",
+  specs: {
+    deck: '54" deck',
+    engine: 'Kawasaki / Kohler options',
+    fuel: '13 gallons',
+    use: 'Residential / Commercial'
+  }
+},
+
+"maverick-60": {
+  name: 'Bad Boy Maverick 60"',
+  images: [
+    "/mowers/maverick/3.png",
+    "/mowers/maverick/2.png",
+    "/mowers/maverick/1.png"
+  ],
+  description:
+    "The Bad Boy Maverick 60 delivers wider cutting performance with a smooth ride and the durability needed for larger properties.",
+  specs: {
+    deck: '60" deck',
+    engine: 'Kawasaki / Kohler options',
+    fuel: '13 gallons',
+    use: 'Residential / Commercial'
+  }
+},
+
+"maverick-hd-54": {
+  name: 'Bad Boy Maverick HD 54"',
+  images: [
+    "/mowers/maverickhd/1.png",
+    "/mowers/maverickhd/2.png",
+    "/mowers/maverickhd/3.png",
+    "/mowers/maverickhd/4.png"
+  ],
+  description:
+    "The Bad Boy Maverick HD 54 offers heavy-duty performance, upgraded comfort, and strong cutting power for demanding properties.",
+  specs: {
+    deck: '54" deck',
+    engine: 'Kawasaki / Kohler options',
+    fuel: '13 gallons',
+    use: 'Residential / Commercial'
+  }
+},
