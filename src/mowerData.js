@@ -5,6 +5,7 @@ export const mowerData = {
       "/mowers/rambler/2.png",
       "/mowers/rambler/1.png",
       "/mowers/rambler/3.png"
+      "/mowers/rambler/4.png" 
     ],
     description:
       "Compact and easy to handle, the Rambler 42 is a great fit for homeowners who want dependable zero-turn performance.",
@@ -22,6 +23,7 @@ export const mowerData = {
       "/mowers/magnum/2.png",
       "/mowers/magnum/1.png",
       "/mowers/magnum/3.png"
+      "/mowers/magnum/4.png"
     ],
     description:
       "The Magnum 48 offers strong residential performance, comfort, and a clean cut for medium to large properties.",
@@ -39,6 +41,7 @@ export const mowerData = {
       "/mowers/magnum/2.png",
       "/mowers/magnum/1.png",
       "/mowers/magnum/3.png"
+      "/mowers/magnum/4.png"
     ],
     description:
       "The Magnum 54 gives homeowners more deck width and strong zero-turn performance for bigger mowing jobs.",
@@ -56,6 +59,7 @@ export const mowerData = {
       "/mowers/magnum/2.png",
       "/mowers/magnum/1.png",
       "/mowers/magnum/3.png"
+      "/mowers/magnum/4.png"
     ],
     description:
       "The Magnum 60 is built for larger properties that need more cutting width and dependable performance.",
@@ -73,6 +77,7 @@ export const mowerData = {
       "/mowers/avenger/4.png",
       "/mowers/avenger/1.png",
       "/mowers/avenger/2.png"
+      "/mowers/avenger/3.png"
     ],
     description:
       "The ZT Avenger 54 combines power, comfort, and rugged Bad Boy construction for demanding residential mowing.",
@@ -90,6 +95,7 @@ export const mowerData = {
       "/mowers/avenger/4.png",
       "/mowers/avenger/1.png",
       "/mowers/avenger/3.png"
+      "/mowers/avenger/2.png"
     ],
     description:
       "The ZT Avenger 60 delivers wider cutting performance with the durability and ride comfort Bad Boy is known for.",
@@ -107,6 +113,7 @@ export const mowerData = {
     "/mowers/elite/2.png",
     "/mowers/elite/1.png",
     "/mowers/elite/3.png"
+    "/mowers/elite/4.png"
   ],
   description:
     "The Bad Boy ZT Elite 48 is built for homeowners who want upgraded comfort, durability, and a strong cut in a compact zero-turn.",
@@ -124,6 +131,7 @@ export const mowerData = {
     "/mowers/elite/3.png",
     "/mowers/elite/2.png",
     "/mowers/elite/1.png"
+    "/mowers/elite/4.png"
   ],
   description:
     "The ZT Elite 54 offers added deck width, smooth handling, and dependable Bad Boy performance for larger residential properties.",
@@ -141,6 +149,7 @@ export const mowerData = {
     "/mowers/elite/4.png",
     "/mowers/elite/2.png",
     "/mowers/elite/3.png"
+    "/mowers/elite/1.png"
   ],
   description:
     "The ZT Elite 60 gives homeowners more cutting width with the comfort, strength, and quality expected from Bad Boy.",
@@ -158,6 +167,7 @@ export const mowerData = {
     "/mowers/maverick/2.png",
     "/mowers/maverick/1.png",
     "/mowers/maverick/3.png"
+    "/mowers/maverick/4.png"
   ],
   description:
     "The Bad Boy Maverick 54 is built for strong performance, comfort, and durability, making it a great fit for demanding residential mowing.",
@@ -175,6 +185,7 @@ export const mowerData = {
     "/mowers/maverick/3.png",
     "/mowers/maverick/2.png",
     "/mowers/maverick/1.png"
+    "/mowers/maverick/4.png"
   ],
   description:
     "The Bad Boy Maverick 60 delivers wider cutting performance with a smooth ride and the durability needed for larger properties.",
@@ -228,6 +239,7 @@ export const mowerData = {
     "/mowers/revoltsd/2.png",
     "/mowers/revoltsd/1.png",
     "/mowers/revoltsd/3.png"
+    "/mowers/revoltsd/4.png"
   ],
   description:
     "The Revolt SD 34 is a compact stand-on mower designed for tight spaces while still delivering strong commercial performance.",
@@ -245,6 +257,7 @@ export const mowerData = {
     "/mowers/revolt/2.png",
     "/mowers/revolt/1.png",
     "/mowers/revolt/3.png"
+    "/mowers/revolt/4.png"
   ],
   description:
     "The Bad Boy Revolt 48 delivers professional-grade stand-on performance with excellent maneuverability and cutting power.",
@@ -259,9 +272,10 @@ export const mowerData = {
 "revolt-54": {
   name: 'Bad Boy Revolt 54"',
   images: [
-    "/mowers/revolt/3.png",
     "/mowers/revolt/2.png",
-    "/mowers/revolt/1.png"
+    "/mowers/revolt/1.png",
+    "/mowers/revolt/3.png"
+    "/mowers/revolt/4.png"
   ],
   description:
     "The Revolt 54 offers increased deck size with the same stand-on agility and durability needed for commercial jobs.",
@@ -279,6 +293,7 @@ export const mowerData = {
     "/mowers/rebel/2.png",
     "/mowers/rebel/1.png",
     "/mowers/rebel/3.png"
+    "/mowers/rebel/4.png"
   ],
   description:
     "The Bad Boy Rebel 54 is built for serious commercial work with a smooth ride, strong frame, and high-performance cutting.",
@@ -293,9 +308,10 @@ export const mowerData = {
 "rebel-61": {
   name: 'Bad Boy Rebel 61"',
   images: [
-    "/mowers/rebel/3.png",
     "/mowers/rebel/2.png",
-    "/mowers/rebel/1.png"
+    "/mowers/rebel/1.png",
+    "/mowers/rebel/3.png"
+    "/mowers/rebel/4.png"
   ],
   description:
     "The Rebel 61 provides wider cutting capacity and rugged durability for full-time commercial operators.",
@@ -310,9 +326,10 @@ export const mowerData = {
 "rebel-72": {
   name: 'Bad Boy Rebel 72"',
   images: [
-    "/mowers/rebel/4.png",
     "/mowers/rebel/2.png",
+    "/mowers/rebel/1.png",
     "/mowers/rebel/3.png"
+    "/mowers/rebel/4.png" 
   ],
   description:
     "The Rebel 72 is designed for maximum productivity with a large deck and heavy-duty commercial performance.",
@@ -330,6 +347,7 @@ export const mowerData = {
     "/mowers/rogue/2.png",
     "/mowers/rogue/1.png",
     "/mowers/rogue/3.png"
+    "/mowers/rogue/4.png"
   ],
   description:
     "The Bad Boy Rogue 61 is a top-tier commercial mower with advanced suspension and unmatched comfort for long mowing days.",
@@ -344,9 +362,10 @@ export const mowerData = {
 "rogue-72": {
   name: 'Bad Boy Rogue 72"',
   images: [
-    "/mowers/rogue/3.png",
     "/mowers/rogue/2.png",
-    "/mowers/rogue/1.png"
+    "/mowers/rogue/1.png",
+    "/mowers/rogue/3.png"
+    "/mowers/rogue/4.png"
   ],
   description:
     "The Rogue 72 delivers maximum cutting width, premium suspension, and elite performance for large-scale commercial work.",
