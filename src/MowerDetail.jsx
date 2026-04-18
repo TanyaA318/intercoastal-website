@@ -56,20 +56,23 @@ export default function MowerDetail() {
 
             <p>{mower.description}</p>
 
-            <ul className="mower-specs">
-              <li><strong>Deck:</strong> {mower.specs.deck}</li>
-              <li><strong>Engine:</strong> {mower.specs.engine}</li>
-              <li><strong>Fuel:</strong> {mower.specs.fuel}</li>
-              <li><strong>Use:</strong> {mower.specs.use}</li>
-            </ul>
+   {mower.highlights && mower.highlights.length > 0 && (
+  <div className="mower-bullets">
+    <ul className="specs-list">
+      {mower.highlights.map((item, index) => (
+        <li key={`highlight-${index}`}>{item}</li>
+      ))}
+    </ul>
+  </div>
+)}
 
-            <a href="/contact" className="inventory-button">
-              Check Availability
-            </a>
-          </div>
-
-        </div>
-      </div>
-    </>
-  );
-}
+{mower.features && mower.features.length > 0 && (
+  <div className="mower-bullets">
+    <h3>Key Features</h3>
+    <ul className="specs-list">
+      {mower.features.map((item, index) => (
+        <li key={`feature-${index}`}>{item}</li>
+      ))}
+    </ul>
+  </div>
+)}
