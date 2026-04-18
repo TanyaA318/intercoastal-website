@@ -1,5 +1,5 @@
-{
-  "rambler-42": {
+export const mowerData = {
+    "rambler-42": {
     name: 'Bad Boy Rambler 42"',
     images: [
       "/mowers/rambler/2.png",
