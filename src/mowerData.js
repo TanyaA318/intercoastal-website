@@ -1,21 +1,41 @@
 export const mowerData = {
-    "rambler-42": {
-    name: 'Bad Boy Rambler 42"',
-    images: [
-      "/mowers/rambler/2.png",
-      "/mowers/rambler/1.png",
-      "/mowers/rambler/3.png",
-      "/mowers/rambler/4.png" 
-    ],
-    description:
-      "Compact and easy to handle, the Rambler 42 is a great fit for homeowners who want dependable zero-turn performance.",
-    specs: {
-      deck: '42" deck',
-      engine: 'Kohler options',
-      fuel: '5 gallons',
-      use: 'Residential'
-    }
-  },
+   "rambler-42": {
+  name: "Bad Boy Rambler 42”",
+
+  images: [
+    "/mowers/rambler/2.png",
+    "/mowers/rambler/1.png",
+    "/mowers/rambler/3.png",
+    "/mowers/rambler/4.png"
+  ],
+
+  description:
+    "Compact and easy to handle, the Rambler 42 is a great fit for homeowners who want dependable zero-turn performance.",
+
+  highlights: [
+    "Engine Options: Briggs, Kohler, Kawasaki",
+    "Deck Size: 42”",
+    "Drive System: Dual Hydro-Gear ZT-2200",
+    "Deck: 7-gauge steel, reinforced edges",
+    "Frame: All-steel, fully welded"
+  ],
+
+  features: [
+    "Heavy-Duty Forks: 5/16” steel",
+    "Spindles: Maintenance-free",
+    "Deck Lift: Foot pedal + dial adjust",
+    "Seat: Lifts for easy access",
+    "PTO: Electric engagement",
+    "Ride: Comfortable seat"
+  ],
+
+  specs: {
+    deck: '42" deck',
+    engine: 'Briggs, Kohler, Kawasaki options',
+    fuel: '5 gallons',
+    use: 'Residential'
+  }
+},
   
   "magnum-48": {
     name: 'Bad Boy Magnum 48"',
