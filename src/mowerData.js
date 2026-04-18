@@ -16,7 +16,7 @@ export const mowerData = {
       use: 'Residential'
     }
   },
-
+  
   "magnum-48": {
     name: 'Bad Boy Magnum 48"',
     images: [
@@ -34,7 +34,7 @@ export const mowerData = {
       use: 'Residential'
     }
   },
-
+  
   "magnum-54": {
     name: 'Bad Boy Magnum 54"',
     images: [
@@ -52,7 +52,7 @@ export const mowerData = {
       use: 'Residential'
     }
   },
-
+  
   "magnum-60": {
     name: 'Bad Boy Magnum 60"',
     images: [
@@ -70,7 +70,7 @@ export const mowerData = {
       use: 'Residential'
     }
   },
-
+  
   "zt-avenger-54": {
     name: 'Bad Boy ZT Avenger 54"',
     images: [
@@ -88,7 +88,7 @@ export const mowerData = {
       use: 'Residential'
     }
   },
-
+  
   "zt-avenger-60": {
     name: 'Bad Boy ZT Avenger 60"',
     images: [
@@ -106,7 +106,7 @@ export const mowerData = {
       use: 'Residential'
     }
   },
-
+  
 "zt-elite-48": {
   name: 'Bad Boy ZT Elite 48"',
   images: [
@@ -124,7 +124,7 @@ export const mowerData = {
     use: 'Residential'
   }
 },
-
+  
 "zt-elite-54": {
   name: 'Bad Boy ZT Elite 54"',
   images: [
@@ -142,7 +142,7 @@ export const mowerData = {
     use: 'Residential'
   }
 },
-
+  
 "zt-elite-60": {
   name: 'Bad Boy ZT Elite 60"',
   images: [
@@ -160,7 +160,7 @@ export const mowerData = {
     use: 'Residential'
   }
 },
-
+  
 "maverick-54": {
   name: 'Bad Boy Maverick 54"',
   images: [
@@ -178,7 +178,7 @@ export const mowerData = {
     use: 'Residential / Commercial'
   }
 },
-
+  
 "maverick-60": {
   name: 'Bad Boy Maverick 60"',
   images: [
@@ -196,7 +196,7 @@ export const mowerData = {
     use: 'Residential / Commercial'
   }
 },
-
+  
 "maverick-hd-54": {
   name: 'Bad Boy Maverick HD 54"',
   images: [
@@ -214,7 +214,7 @@ export const mowerData = {
     use: 'Residential / Commercial'
   }
 },
-
+  
  "maverick-hd-60": {
   name: 'Bad Boy Maverick HD 60"',
   images: [
@@ -232,7 +232,7 @@ export const mowerData = {
     use: 'Residential / Commercial'
   }
 }, 
-
+  
 "revolt-sd-34": {
   name: 'Bad Boy Revolt SD 34"',
   images: [
@@ -250,7 +250,7 @@ export const mowerData = {
     use: 'Commercial'
   }
 },
-
+  
 "revolt-48": {
   name: 'Bad Boy Revolt 48"',
   images: [
@@ -268,7 +268,7 @@ export const mowerData = {
     use: 'Commercial'
   }
 },
-
+  
 "revolt-54": {
   name: 'Bad Boy Revolt 54"',
   images: [
@@ -286,7 +286,7 @@ export const mowerData = {
     use: 'Commercial'
   }
 },
-
+  
 "rebel-54": {
   name: 'Bad Boy Rebel 54"',
   images: [
@@ -304,7 +304,7 @@ export const mowerData = {
     use: 'Commercial'
   }
 },
-
+  
 "rebel-61": {
   name: 'Bad Boy Rebel 61"',
   images: [
@@ -322,7 +322,7 @@ export const mowerData = {
     use: 'Commercial'
   }
 },
-
+  
 "rebel-72": {
   name: 'Bad Boy Rebel 72"',
   images: [
@@ -340,7 +340,7 @@ export const mowerData = {
     use: 'Commercial'
   }
 },
-
+  
 "rogue-61": {
   name: 'Bad Boy Rogue 61"',
   images: [
@@ -358,7 +358,7 @@ export const mowerData = {
     use: 'Commercial'
   }
 },
-
+  
 "rogue-72": {
   name: 'Bad Boy Rogue 72"',
   images: [
@@ -375,4 +375,4 @@ export const mowerData = {
     fuel: '15 gallons',
     use: 'Commercial'
   }
-},  
+};  
