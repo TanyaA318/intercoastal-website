@@ -89,17 +89,62 @@ const mowers = [
     link: "/inventory/new/maverick-hd-60"
   },
 
-  { name: 'Revolt SD 34"', image: "/mowers/revoltsd/2.png", price: "Call for Price" },
-  { name: 'Revolt 48"', image: "/mowers/revolt/2.png", price: "Call for Price" },
-  { name: 'Revolt 54"', image: "/mowers/revolt/2.png", price: "Call for Price" },
-  { name: 'Revolt X 61"', image: "/mowers/revoltx/2.png", price: "Call for Price" },
+{
+  name: 'Revolt SD 34"',
+  image: "/mowers/revoltsd/2.png",
+  price: "Call for Price",
+  link: "/inventory/new/revolt-sd-34"
+},
+{
+  name: 'Revolt 48"',
+  image: "/mowers/revolt/2.png",
+  price: "Call for Price",
+  link: "/inventory/new/revolt-48"
+},
+{
+  name: 'Revolt 54"',
+  image: "/mowers/revolt/2.png",
+  price: "Call for Price",
+  link: "/inventory/new/revolt-54"
+},
+{
+  name: 'Revolt X 61"',
+  image: "/mowers/revoltx/2.png",
+  price: "Call for Price",
+  link: "/inventory/new/revoltx-61"
+},
 
-  { name: 'Rebel 54"', image: "/mowers/rebel/2.png", price: "Call for Price" },
-  { name: 'Rebel 61"', image: "/mowers/rebel/2.png", price: "Call for Price" },
-  { name: 'Rebel 72"', image: "/mowers/rebel/2.png", price: "Call for Price" },
+{
+  name: 'Rebel 54"',
+  image: "/mowers/rebel/2.png",
+  price: "Call for Price",
+  link: "/inventory/new/rebel-54"
+},
+{
+  name: 'Rebel 61"',
+  image: "/mowers/rebel/2.png",
+  price: "Call for Price",
+  link: "/inventory/new/rebel-61"
+},
+{
+  name: 'Rebel 72"',
+  image: "/mowers/rebel/2.png",
+  price: "Call for Price",
+  link: "/inventory/new/rebel-72"
+},
 
- { name: 'Rogue 61"', image: "/mowers/rogue/2.png", price: "Call for Price" },
-{ name: 'Rogue 72"', image: "/mowers/rogue/2.png", price: "Call for Price" },
+{
+  name: 'Rogue 61"',
+  image: "/mowers/rogue/2.png",
+  price: "Call for Price",
+  link: "/inventory/new/rogue-61"
+},
+{
+  name: 'Rogue 72"',
+  image: "/mowers/rogue/2.png",
+  price: "Call for Price",
+  link: "/inventory/new/rogue-72"
+},
 ];
 
 export default function InventoryNew() {
