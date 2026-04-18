@@ -2,31 +2,39 @@ import React from "react";
 import Header from "./Header";
 
 const mowers = [
-  { name: 'Rambler 42"', image: "/mower1.jpg", price: "Call for Price" },
-  { name: 'Magnum 48"', image: "/mower1.jpg", price: "Call for Price" },
-  { name: 'Magnum 54"', image: "/mower1.jpg", price: "Call for Price" },
-  { name: 'Magnum 60"', image: "/mower1.jpg", price: "Call for Price" },
-  { name: 'ZT Avenger 54"', image: "/mower1.jpg", price: "Call for Price" },
-  { name: 'ZT Avenger 60"', image: "/mower1.jpg", price: "Call for Price" },
-  { name: 'ZT Elite 48"', image: "/mower1.jpg", price: "Call for Price" },
-  { name: 'ZT Elite 54"', image: "/mower1.jpg", price: "Call for Price" },
-  { name: 'ZT Elite 60"', image: "/mower1.jpg", price: "Call for Price" },
-  { name: 'Maverick 54"', image: "/mower1.jpg", price: "Call for Price" },
-  { name: 'Maverick 60"', image: "/mower1.jpg", price: "Call for Price" },
-  { name: 'Maverick HD 54"', image: "/mower1.jpg", price: "Call for Price" },
-  { 
-   name: 'Maverick HD 60"', 
-  image: "/mowers/maverickhd/2.png",
-  price: "Call for Price",
-  link: "/inventory/new/maverick-hd-60"
-}, 
-  { name: 'Revolt SD 34"', image: "/mower1.jpg", price: "Call for Price" },
-  { name: 'Revolt 48"', image: "/mower1.jpg", price: "Call for Price" },
-  { name: 'Revolt 54"', image: "/mower1.jpg", price: "Call for Price" },
-  { name: 'Revolt X 61"', image: "/mower1.jpg", price: "Call for Price" },
-  { name: 'Rebel 54"', image: "/mower1.jpg", price: "Call for Price" },
-  { name: 'Rebel 61"', image: "/mower1.jpg", price: "Call for Price" },
-  { name: 'Rebel 72"', image: "/mower1.jpg", price: "Call for Price" },
+  { name: 'Rambler 42"', image: "/mowers/rambler/1.png", price: "Call for Price" },
+
+  { name: 'Magnum 48"', image: "/mowers/magnum/1.png", price: "Call for Price" },
+  { name: 'Magnum 54"', image: "/mowers/magnum/2.png", price: "Call for Price" },
+  { name: 'Magnum 60"', image: "/mowers/magnum/3.png", price: "Call for Price" },
+
+  { name: 'ZT Avenger 54"', image: "/mowers/avenger/1.png", price: "Call for Price" },
+  { name: 'ZT Avenger 60"', image: "/mowers/avenger/2.png", price: "Call for Price" },
+
+  { name: 'ZT Elite 48"', image: "/mowers/elite/1.png", price: "Call for Price" },
+  { name: 'ZT Elite 54"', image: "/mowers/elite/2.png", price: "Call for Price" },
+  { name: 'ZT Elite 60"', image: "/mowers/elite/3.png", price: "Call for Price" },
+
+  { name: 'Maverick 54"', image: "/mowers/maverick/1.png", price: "Call for Price" },
+  { name: 'Maverick 60"', image: "/mowers/maverick/2.png", price: "Call for Price" },
+
+  { name: 'Maverick HD 54"', image: "/mowers/maverickhd/1.png", price: "Call for Price" },
+  {
+    name: 'Maverick HD 60"',
+    image: "/mowers/maverickhd/2.png",
+    price: "Call for Price",
+    link: "/inventory/new/maverick-hd-60"
+  },
+
+  { name: 'Revolt SD 34"', image: "/mowers/revoltsd/1.png", price: "Call for Price" },
+  { name: 'Revolt 48"', image: "/mowers/revolt/1.png", price: "Call for Price" },
+  { name: 'Revolt 54"', image: "/mowers/revolt/2.png", price: "Call for Price" },
+  { name: 'Revolt X 61"', image: "/mowers/revoltx/1.png", price: "Call for Price" },
+
+  { name: 'Rebel 54"', image: "/mowers/rebel/1.png", price: "Call for Price" },
+  { name: 'Rebel 61"', image: "/mowers/rebel/2.png", price: "Call for Price" },
+  { name: 'Rebel 72"', image: "/mowers/rebel/3.png", price: "Call for Price" },
+
   { name: 'Rogue 61"', image: "/mower1.jpg", price: "Call for Price" },
   { name: 'Rogue 72"', image: "/mower1.jpg", price: "Call for Price" },
 ];
