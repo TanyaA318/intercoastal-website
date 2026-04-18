@@ -9,12 +9,37 @@ const mowers = [
     link: "/inventory/new/rambler-42"
   },
 
-  { name: 'Magnum 48"', image: "/mowers/magnum/2.png", price: "Call for Price" },
-  { name: 'Magnum 54"', image: "/mowers/magnum/2.png", price: "Call for Price" },
-  { name: 'Magnum 60"', image: "/mowers/magnum/2.png", price: "Call for Price" },
+ {
+  name: 'Magnum 48"',
+  image: "/mowers/magnum/2.png",
+  price: "Call for Price",
+  link: "/inventory/new/magnum-48"
+},
+{
+  name: 'Magnum 54"',
+  image: "/mowers/magnum/3.png",
+  price: "Call for Price",
+  link: "/inventory/new/magnum-54"
+},
+{
+  name: 'Magnum 60"',
+  image: "/mowers/magnum/4.png",
+  price: "Call for Price",
+  link: "/inventory/new/magnum-60"
+},
 
-  { name: 'ZT Avenger 54"', image: "/mowers/avenger/4.png", price: "Call for Price" },
-  { name: 'ZT Avenger 60"', image: "/mowers/avenger/4.png", price: "Call for Price" },
+ {
+  name: 'ZT Avenger 54"',
+  image: "/mowers/avenger/4.png",
+  price: "Call for Price",
+  link: "/inventory/new/zt-avenger-54"
+},
+{
+  name: 'ZT Avenger 60"',
+  image: "/mowers/avenger/2.png",
+  price: "Call for Price",
+  link: "/inventory/new/zt-avenger-60"
+},
 
   { name: 'ZT Elite 48"', image: "/mowers/elite/2.png", price: "Call for Price" },
   { name: 'ZT Elite 54"', image: "/mowers/elite/2.png", price: "Call for Price" },
