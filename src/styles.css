@@ -1795,6 +1795,14 @@ img {
   box-shadow: 0 12px 28px rgba(0,0,0,0.15);
 }
 
+.inventory-card img {
+  transition: transform 0.3s ease;
+}
+
+.inventory-card:hover img {
+  transform: scale(1.05);
+}
+
 .inventory-button {
   display: inline-block;
   background: #1e3a5f;
