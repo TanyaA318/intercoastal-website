@@ -375,4 +375,5 @@ export const mowerData = {
     fuel: '15 gallons',
     use: 'Commercial'
   }
-};  
+}
+};
