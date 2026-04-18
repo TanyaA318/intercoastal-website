@@ -20,9 +20,9 @@ export const mowerData = {
   "rambler-42": {
     name: 'Bad Boy Rambler 42"',
     images: [
-      "/mowers/rambler/1.png",
-      "/mowers/rambler/2.png",
-      "/mowers/rambler/3.png"
+     "/mowers/rambler/2.png",
+     "/mowers/rambler/1.png",
+     "/mowers/rambler/3.png"
     ],
     description:
       "Compact and easy to handle, the Rambler 42 is perfect for homeowners who want a strong cut with simple operation.",
