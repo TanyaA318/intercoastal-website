@@ -1944,8 +1944,8 @@ img {
 }
 
 .mower-detail-main-image img {
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
   display: block;
 }
@@ -1964,6 +1964,11 @@ img {
   border-radius: 0.75rem;
   padding: 0.35rem;
   cursor: pointer;
+}
+
+.mower-detail-thumbnails img:hover {
+  transform: scale(1.05);
+  transition: 0.2s ease;
 }
 
 .mower-detail-content h1 {
