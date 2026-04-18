@@ -41,14 +41,47 @@ const mowers = [
   link: "/inventory/new/zt-avenger-60"
 },
 
-  { name: 'ZT Elite 48"', image: "/mowers/elite/2.png", price: "Call for Price" },
-  { name: 'ZT Elite 54"', image: "/mowers/elite/2.png", price: "Call for Price" },
-  { name: 'ZT Elite 60"', image: "/mowers/elite/2.png", price: "Call for Price" },
+  {
+  name: 'ZT Elite 48"',
+  image: "/mowers/elite/2.png",
+  price: "Call for Price",
+  link: "/inventory/new/zt-elite-48"
+},
 
-  { name: 'Maverick 54"', image: "/mowers/maverick/2.png", price: "Call for Price" },
-  { name: 'Maverick 60"', image: "/mowers/maverick/2.png", price: "Call for Price" },
+{
+  name: 'ZT Elite 54"',
+  image: "/mowers/elite/3.png",
+  price: "Call for Price",
+  link: "/inventory/new/zt-elite-54"
+},
 
-  { name: 'Maverick HD 54"', image: "/mowers/maverickhd/1.png", price: "Call for Price" },
+{
+  name: 'ZT Elite 60"',
+  image: "/mowers/elite/4.png",
+  price: "Call for Price",
+  link: "/inventory/new/zt-elite-60"
+},
+
+ {
+  name: 'Maverick 54"',
+  image: "/mowers/maverick/2.png",
+  price: "Call for Price",
+  link: "/inventory/new/maverick-54"
+},
+
+{
+  name: 'Maverick 60"',
+  image: "/mowers/maverick/3.png",
+  price: "Call for Price",
+  link: "/inventory/new/maverick-60"
+},
+
+{
+  name: 'Maverick HD 54"',
+  image: "/mowers/maverickhd/1.png",
+  price: "Call for Price",
+  link: "/inventory/new/maverick-hd-54"
+},
   {
     name: 'Maverick HD 60"',
     image: "/mowers/maverickhd/1.png",
