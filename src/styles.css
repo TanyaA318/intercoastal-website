@@ -1993,3 +1993,77 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+.mower-detail-layout {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.mower-detail-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.mower-detail-main-image {
+  background: #f5f5f5;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+}
+
+.mower-detail-main-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.mower-detail-thumbnails {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.mower-detail-thumbnails img {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  cursor: pointer;
+  border-radius: 0.75rem;
+  background: #f5f5f5;
+  padding: 0.35rem;
+}
+
+.mower-detail-content h1 {
+  margin-bottom: 1rem;
+}
+
+.mower-bullets {
+  margin-top: 1rem;
+}
+
+.mower-bullets h3 {
+  margin: 1rem 0 0.5rem;
+}
+
+.specs-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.specs-list li {
+  margin-bottom: 0.45rem;
+  line-height: 1.4;
+}
+
+@media (max-width: 900px) {
+  .mower-detail-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .mower-detail-thumbnails {
+    justify-content: flex-start;
+  }
+}
