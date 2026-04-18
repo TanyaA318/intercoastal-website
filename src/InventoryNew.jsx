@@ -2,7 +2,12 @@ import React from "react";
 import Header from "./Header";
 
 const mowers = [
-  { name: 'Rambler 42"', image: "/mowers/rambler/2.png", price: "Call for Price" },
+  {
+    name: 'Rambler 42"',
+    image: "/mowers/rambler/2.png",
+    price: "Call for Price",
+    link: "/inventory/new/rambler-42"
+  },
 
   { name: 'Magnum 48"', image: "/mowers/magnum/2.png", price: "Call for Price" },
   { name: 'Magnum 54"', image: "/mowers/magnum/2.png", price: "Call for Price" },
