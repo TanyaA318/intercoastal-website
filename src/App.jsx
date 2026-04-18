@@ -5,6 +5,7 @@ import "./styles.css";
 import Inventory from "./Inventory";
 import InventoryNew from "./InventoryNew";
 import MaverickHD60 from "./MaverickHD60";
+import MowerDetail from "./MowerDetail";
 import Service from "./Service";
 import About from "./About";
 import Contact from "./Contact";
@@ -144,6 +145,7 @@ export default function App() {
         <Route path="/inventory" element={<Inventory />} />
         <Route path="/inventory/new" element={<InventoryNew />} />
         <Route path="/inventory/new/maverick-hd-60" element={<MaverickHD60 />} />
+        <Route path="/inventory/new/:slug" element={<MowerDetail />} />
         <Route path="/service" element={<Service />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
