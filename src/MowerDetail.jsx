@@ -78,5 +78,6 @@ export default function MowerDetail() {
 )}
 
 </div>
+</div>
 );
 }
