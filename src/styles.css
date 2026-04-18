@@ -540,7 +540,6 @@ img {
   transition: transform 0.3s ease;
 }
 
-/* dark overlay */
 .inventory-card-link::after {
   content: "";
   position: absolute;
@@ -552,7 +551,6 @@ img {
   );
 }
 
-/* text overlay */
 .inventory-card-overlay {
   position: absolute;
   bottom: 16px;
@@ -581,28 +579,29 @@ img {
   box-shadow: 0 18px 36px rgba(23, 57, 95, 0.16);
 }
 
-/* make images a little taller for better visual impact */
 .inventory-card-image {
   height: 280px;
 }
 
-/* stronger gradient so text is easier to read */
 .inventory-card-link::after {
   background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.7),
-    rgba(0, 0, 0, 0.15)
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.2)
   );
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
-/* tighten and improve overlay spacing */
+.inventory-card-link:hover::after {
+  opacity: 1;
+}
+
 .inventory-card-overlay {
   bottom: 18px;
   left: 18px;
   right: 18px;
 }
 
-/* optional description text under title */
 .inventory-card-text {
   margin: 6px 0 0;
   font-size: 0.95rem;
@@ -1798,12 +1797,12 @@ img {
   font-weight: 700;
   padding: 0.85rem 1.1rem;
   border-radius: 999px;
-  transition: transform 0.2s ease, opacity 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .inventory-button:hover {
   transform: translateY(-2px);
-  opacity: 0.95;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 
 @media (max-width: 900px) {
@@ -1873,8 +1872,13 @@ img {
   color: inherit;
 }
 
-.inventory-card-link:hover h3 {
-  color: #1e3a5f;
+.inventory-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.inventory-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
 }
 
 /* MOBILE */
