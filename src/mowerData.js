@@ -4,7 +4,7 @@ export const mowerData = {
     images: [
       "/mowers/rambler/2.png",
       "/mowers/rambler/1.png",
-      "/mowers/rambler/3.png"
+      "/mowers/rambler/3.png",
       "/mowers/rambler/4.png" 
     ],
     description:
@@ -22,7 +22,7 @@ export const mowerData = {
     images: [
       "/mowers/magnum/2.png",
       "/mowers/magnum/1.png",
-      "/mowers/magnum/3.png"
+      "/mowers/magnum/3.png",
       "/mowers/magnum/4.png"
     ],
     description:
@@ -40,7 +40,7 @@ export const mowerData = {
     images: [
       "/mowers/magnum/2.png",
       "/mowers/magnum/1.png",
-      "/mowers/magnum/3.png"
+      "/mowers/magnum/3.png",
       "/mowers/magnum/4.png"
     ],
     description:
@@ -58,7 +58,7 @@ export const mowerData = {
     images: [
       "/mowers/magnum/2.png",
       "/mowers/magnum/1.png",
-      "/mowers/magnum/3.png"
+      "/mowers/magnum/3.png",
       "/mowers/magnum/4.png"
     ],
     description:
@@ -76,7 +76,7 @@ export const mowerData = {
     images: [
       "/mowers/avenger/4.png",
       "/mowers/avenger/1.png",
-      "/mowers/avenger/2.png"
+      "/mowers/avenger/2.png",
       "/mowers/avenger/3.png"
     ],
     description:
@@ -94,7 +94,7 @@ export const mowerData = {
     images: [
       "/mowers/avenger/4.png",
       "/mowers/avenger/1.png",
-      "/mowers/avenger/3.png"
+      "/mowers/avenger/3.png",
       "/mowers/avenger/2.png"
     ],
     description:
@@ -112,7 +112,7 @@ export const mowerData = {
   images: [
     "/mowers/elite/2.png",
     "/mowers/elite/1.png",
-    "/mowers/elite/3.png"
+    "/mowers/elite/3.png",
     "/mowers/elite/4.png"
   ],
   description:
@@ -130,7 +130,7 @@ export const mowerData = {
   images: [
     "/mowers/elite/3.png",
     "/mowers/elite/2.png",
-    "/mowers/elite/1.png"
+    "/mowers/elite/1.png",
     "/mowers/elite/4.png"
   ],
   description:
@@ -148,7 +148,7 @@ export const mowerData = {
   images: [
     "/mowers/elite/4.png",
     "/mowers/elite/2.png",
-    "/mowers/elite/3.png"
+    "/mowers/elite/3.png",
     "/mowers/elite/1.png"
   ],
   description:
@@ -166,7 +166,7 @@ export const mowerData = {
   images: [
     "/mowers/maverick/2.png",
     "/mowers/maverick/1.png",
-    "/mowers/maverick/3.png"
+    "/mowers/maverick/3.png",
     "/mowers/maverick/4.png"
   ],
   description:
@@ -184,7 +184,7 @@ export const mowerData = {
   images: [
     "/mowers/maverick/3.png",
     "/mowers/maverick/2.png",
-    "/mowers/maverick/1.png"
+    "/mowers/maverick/1.png",
     "/mowers/maverick/4.png"
   ],
   description:
@@ -238,7 +238,7 @@ export const mowerData = {
   images: [
     "/mowers/revoltsd/2.png",
     "/mowers/revoltsd/1.png",
-    "/mowers/revoltsd/3.png"
+    "/mowers/revoltsd/3.png",
     "/mowers/revoltsd/4.png"
   ],
   description:
@@ -256,7 +256,7 @@ export const mowerData = {
   images: [
     "/mowers/revolt/2.png",
     "/mowers/revolt/1.png",
-    "/mowers/revolt/3.png"
+    "/mowers/revolt/3.png",
     "/mowers/revolt/4.png"
   ],
   description:
@@ -274,7 +274,7 @@ export const mowerData = {
   images: [
     "/mowers/revolt/2.png",
     "/mowers/revolt/1.png",
-    "/mowers/revolt/3.png"
+    "/mowers/revolt/3.png",
     "/mowers/revolt/4.png"
   ],
   description:
@@ -292,7 +292,7 @@ export const mowerData = {
   images: [
     "/mowers/rebel/2.png",
     "/mowers/rebel/1.png",
-    "/mowers/rebel/3.png"
+    "/mowers/rebel/3.png",
     "/mowers/rebel/4.png"
   ],
   description:
@@ -310,7 +310,7 @@ export const mowerData = {
   images: [
     "/mowers/rebel/2.png",
     "/mowers/rebel/1.png",
-    "/mowers/rebel/3.png"
+    "/mowers/rebel/3.png",
     "/mowers/rebel/4.png"
   ],
   description:
@@ -328,7 +328,7 @@ export const mowerData = {
   images: [
     "/mowers/rebel/2.png",
     "/mowers/rebel/1.png",
-    "/mowers/rebel/3.png"
+    "/mowers/rebel/3.png",
     "/mowers/rebel/4.png" 
   ],
   description:
@@ -346,7 +346,7 @@ export const mowerData = {
   images: [
     "/mowers/rogue/2.png",
     "/mowers/rogue/1.png",
-    "/mowers/rogue/3.png"
+    "/mowers/rogue/3.png",
     "/mowers/rogue/4.png"
   ],
   description:
@@ -364,7 +364,7 @@ export const mowerData = {
   images: [
     "/mowers/rogue/2.png",
     "/mowers/rogue/1.png",
-    "/mowers/rogue/3.png"
+    "/mowers/rogue/3.png",
     "/mowers/rogue/4.png"
   ],
   description:
