@@ -124,41 +124,65 @@ export const mowerData = {
   ]
 },
   
-  "zt-avenger-54": {
-    name: 'Bad Boy ZT Avenger 54"',
-    images: [
-      "/mowers/avenger/4.png",
-      "/mowers/avenger/1.png",
-      "/mowers/avenger/2.png",
-      "/mowers/avenger/3.png"
-    ],
-    description:
-      "The ZT Avenger 54 combines power, comfort, and rugged Bad Boy construction for demanding residential mowing.",
-    specs: {
-      deck: '54" deck',
-      engine: 'Kohler / Kawasaki options',
-      fuel: '6.5 gallons',
-      use: 'Residential'
-    }
-  },
+"zt-avenger-54": {
+  name: 'Bad Boy ZT Avenger 54"',
+  images: [
+    "/mowers/avenger/4.png",
+    "/mowers/avenger/1.png",
+    "/mowers/avenger/2.png",
+    "/mowers/avenger/3.png"
+  ],
+  description:
+    "The ZT Avenger 54 combines power, comfort, and rugged Bad Boy construction for demanding residential mowing.",
+
+  highlights: [
+    "Engine Options: Kawasaki & Kohler",
+    'Deck Size: 54"',
+    "All-New Standard LED Tank Lights",
+    "All-New Fab Slope 3/16˝ or 7-Gauge All Steel Deck with Reinforced Edges",
+    "Dual Hydro-Gear 2800 Series Integrated Drive Systems"
+  ],
+
+  features: [
+    "Industry-Leading 3/8˝ Steel Front Forks",
+    "Cast Maintenance-Free Spindles",
+    "Heavy-Gauge, All-Steel, All-Welded Frame",
+    "Comfort Seat",
+    "Deck Lift Pedal with Deck Dial Adjustment",
+    "Seat Lifts for Easy Maintenance and Cleaning",
+    "Electric PTO"
+  ]
+},
   
-  "zt-avenger-60": {
-    name: 'Bad Boy ZT Avenger 60"',
-    images: [
-      "/mowers/avenger/4.png",
-      "/mowers/avenger/1.png",
-      "/mowers/avenger/3.png",
-      "/mowers/avenger/2.png"
-    ],
-    description:
-      "The ZT Avenger 60 delivers wider cutting performance with the durability and ride comfort Bad Boy is known for.",
-    specs: {
-      deck: '60" deck',
-      engine: 'Kohler / Kawasaki options',
-      fuel: '6.5 gallons',
-      use: 'Residential'
-    }
-  },
+ "zt-avenger-60": {
+  name: 'Bad Boy ZT Avenger 60"',
+  images: [
+    "/mowers/avenger/2.png",
+    "/mowers/avenger/1.png",
+    "/mowers/avenger/3.png",
+    "/mowers/avenger/4.png"
+  ],
+  description:
+    "The ZT Avenger 60 combines power, comfort, and rugged Bad Boy construction for demanding residential mowing.",
+
+  highlights: [
+    "Engine Options: Kawasaki & Kohler",
+    'Deck Size: 60"',
+    "All-New Standard LED Tank Lights",
+    "All-New Fab Slope 3/16˝ or 7-Gauge All Steel Deck with Reinforced Edges",
+    "Dual Hydro-Gear 2800 Series Integrated Drive Systems"
+  ],
+
+  features: [
+    "Industry-Leading 3/8˝ Steel Front Forks",
+    "Cast Maintenance-Free Spindles",
+    "Heavy-Gauge, All-Steel, All-Welded Frame",
+    "Comfort Seat",
+    "Deck Lift Pedal with Deck Dial Adjustment",
+    "Seat Lifts for Easy Maintenance and Cleaning",
+    "Electric PTO"
+  ]
+},
   
 "zt-elite-48": {
   name: 'Bad Boy ZT Elite 48"',
@@ -169,49 +193,88 @@ export const mowerData = {
     "/mowers/elite/4.png"
   ],
   description:
-    "The Bad Boy ZT Elite 48 is built for homeowners who want upgraded comfort, durability, and a strong cut in a compact zero-turn.",
-  specs: {
-    deck: '48" deck',
-    engine: 'Kohler / Kawasaki options',
-    fuel: '6.5 gallons',
-    use: 'Residential'
-  }
+    "The ZT Elite 48 delivers premium ride comfort and durability with Bad Boy’s patented suspension system and heavy-duty construction.",
+
+  highlights: [
+    "Engine Options: Kawasaki & Kohler",
+    'Deck Size: 48"',
+    "Patented Independent Front Suspension",
+    "3/16˝ or 7-Gauge All Steel Deck with Reinforced Edges",
+    "Dual Hydro-Gear 3100 Series Integrated Drive Systems"
+  ],
+
+  features: [
+    "Heavy-Gauge, All-Steel, All-Welded Frame",
+    "Industry-Leading 3/8˝ Steel Front Forks",
+    "PEER, Maintenance-Free Spindles",
+    "Deck Lift Pedal with Deck Dial Adjustment",
+    "Seat Lifts for Easy Maintenance and Cleaning",
+    "Adjustable Steering Arms",
+    "Electric PTO",
+    "Comfort Seat"
+  ]
 },
   
 "zt-elite-54": {
   name: 'Bad Boy ZT Elite 54"',
   images: [
     "/mowers/elite/3.png",
-    "/mowers/elite/2.png",
     "/mowers/elite/1.png",
+    "/mowers/elite/2.png",
     "/mowers/elite/4.png"
   ],
   description:
-    "The ZT Elite 54 offers added deck width, smooth handling, and dependable Bad Boy performance for larger residential properties.",
-  specs: {
-    deck: '54" deck',
-    engine: 'Kohler / Kawasaki options',
-    fuel: '6.5 gallons',
-    use: 'Residential'
-  }
+    "The ZT Elite 54 delivers premium ride comfort and durability with Bad Boy’s patented suspension system and heavy-duty construction.",
+
+  highlights: [
+    "Engine Options: Kawasaki & Kohler",
+    'Deck Size: 54"',
+    "Patented Independent Front Suspension",
+    "3/16˝ or 7-Gauge All Steel Deck with Reinforced Edges",
+    "Dual Hydro-Gear 3100 Series Integrated Drive Systems"
+  ],
+
+  features: [
+    "Heavy-Gauge, All-Steel, All-Welded Frame",
+    "Industry-Leading 3/8˝ Steel Front Forks",
+    "PEER, Maintenance-Free Spindles",
+    "Deck Lift Pedal with Deck Dial Adjustment",
+    "Seat Lifts for Easy Maintenance and Cleaning",
+    "Adjustable Steering Arms",
+    "Electric PTO",
+    "Comfort Seat"
+  ]
 },
   
 "zt-elite-60": {
   name: 'Bad Boy ZT Elite 60"',
   images: [
     "/mowers/elite/4.png",
+    "/mowers/elite/1.png",
     "/mowers/elite/2.png",
-    "/mowers/elite/3.png",
-    "/mowers/elite/1.png"
+    "/mowers/elite/3.png"
   ],
   description:
-    "The ZT Elite 60 gives homeowners more cutting width with the comfort, strength, and quality expected from Bad Boy.",
-  specs: {
-    deck: '60" deck',
-    engine: 'Kohler / Kawasaki options',
-    fuel: '6.5 gallons',
-    use: 'Residential'
-  }
+    "The ZT Elite 60 delivers premium ride comfort and durability with Bad Boy’s patented suspension system and heavy-duty construction.",
+
+  highlights: [
+    "Engine Options: Kawasaki & Kohler",
+    'Deck Size: 60"',
+    "Patented Independent Front Suspension",
+    "3/16˝ or 7-Gauge All Steel Deck with Reinforced Edges",
+    "Dual Hydro-Gear 3100 Series Integrated Drive Systems"
+  ],
+
+  features: [
+    "Heavy-Gauge, All-Steel, All-Welded Frame",
+    "Industry-Leading 3/8˝ Steel Front Forks",
+    "PEER, Maintenance-Free Spindles",
+    "Deck Lift Pedal with Deck Dial Adjustment",
+    "Seat Lifts for Easy Maintenance and Cleaning",
+    "Adjustable Steering Arms",
+    "Electric PTO",
+    "Comfort Seat"
+  ]
 },
   
 "maverick-54": {
