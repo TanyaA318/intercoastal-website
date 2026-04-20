@@ -609,6 +609,76 @@ img {
   color: rgba(255, 255, 255, 0.9);
 }
 
+.inventory-overview-section {
+  padding: 3rem 0 4rem;
+}
+
+.inventory-intro {
+  max-width: 760px;
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+
+.inventory-intro h2 {
+  margin-bottom: 0.75rem;
+}
+
+.inventory-intro p {
+  color: #567089;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.echo-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #ffffff;
+  border: 1px solid #d8e3ef;
+  border-radius: 1.5rem;
+  text-align: center;
+  box-shadow: 0 16px 32px rgba(23, 57, 95, 0.06);
+}
+
+.echo-section h2 {
+  margin-bottom: 0.75rem;
+}
+
+.echo-section p {
+  max-width: 650px;
+  margin: 0 auto 1.5rem;
+  color: #567089;
+  line-height: 1.7;
+}
+
+.echo-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.echo-phone {
+  color: #17395f;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.echo-phone:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 860px) {
+  .inventory-overview-section {
+    padding: 2rem 0 3rem;
+  }
+
+  .echo-section {
+    padding: 1.5rem;
+  }
+}
+
 .why-buy-section {
   padding: 60px 20px;
 }
