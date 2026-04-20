@@ -286,31 +286,59 @@ export const mowerData = {
     "/mowers/maverick/4.png"
   ],
   description:
-    "The Bad Boy Maverick 54 is built for strong performance, comfort, and durability, making it a great fit for demanding residential mowing.",
-  specs: {
-    deck: '54" deck',
-    engine: 'Kawasaki / Kohler options',
-    fuel: '13 gallons',
-    use: 'Residential / Commercial'
-  }
+    "The Maverick 54 delivers strong performance, a smooth ride, and durable construction with Bad Boy’s EZ-Ride® system.",
+
+  highlights: [
+    "Engine Options: Kawasaki & Kohler",
+    'Deck Size: 54"',
+    "Patented EZ-Ride® System",
+    "Industry-Leading 3/8˝ Steel Front Forks",
+    "3/16˝ or 7-Gauge All Steel Deck with Reinforced Edges"
+  ],
+
+  features: [
+    "Dual Hydro-Gear 3200 Series Integrated Drive Systems",
+    "Patented Independent Front Suspension",
+    "I-Beam Front Rails",
+    "Heavy-Gauge, All-Steel, All-Welded Frame",
+    "PEER, Maintenance-Free Spindles",
+    "Seat Lifts for Easy Maintenance and Cleaning",
+    "Adjustable Steering Arms",
+    "Electric PTO",
+    "Comfort Seat"
+  ]
 },
   
 "maverick-60": {
   name: 'Bad Boy Maverick 60"',
   images: [
     "/mowers/maverick/3.png",
-    "/mowers/maverick/2.png",
     "/mowers/maverick/1.png",
+    "/mowers/maverick/2.png",
     "/mowers/maverick/4.png"
   ],
   description:
-    "The Bad Boy Maverick 60 delivers wider cutting performance with a smooth ride and the durability needed for larger properties.",
-  specs: {
-    deck: '60" deck',
-    engine: 'Kawasaki / Kohler options',
-    fuel: '13 gallons',
-    use: 'Residential / Commercial'
-  }
+    "The Maverick 60 delivers strong performance, a smooth ride, and durable construction with Bad Boy’s EZ-Ride® system.",
+
+  highlights: [
+    "Engine Options: Kawasaki & Kohler",
+    'Deck Size: 60"',
+    "Patented EZ-Ride® System",
+    "Industry-Leading 3/8˝ Steel Front Forks",
+    "3/16˝ or 7-Gauge All Steel Deck with Reinforced Edges"
+  ],
+
+  features: [
+    "Dual Hydro-Gear 3200 Series Integrated Drive Systems",
+    "Patented Independent Front Suspension",
+    "I-Beam Front Rails",
+    "Heavy-Gauge, All-Steel, All-Welded Frame",
+    "PEER, Maintenance-Free Spindles",
+    "Seat Lifts for Easy Maintenance and Cleaning",
+    "Adjustable Steering Arms",
+    "Electric PTO",
+    "Comfort Seat"
+  ]
 },
   
 "maverick-hd-54": {
@@ -322,16 +350,30 @@ export const mowerData = {
     "/mowers/maverickhd/4.png"
   ],
   description:
-    "The Bad Boy Maverick HD 54 offers heavy-duty performance, upgraded comfort, and strong cutting power for demanding properties.",
-  specs: {
-    deck: '54" deck',
-    engine: 'Kawasaki / Kohler options',
-    fuel: '13 gallons',
-    use: 'Residential / Commercial'
-  }
+    "The Maverick HD 54 is built for heavy-duty performance with a smooth ride, upgraded durability, and commercial-ready strength.",
+
+  highlights: [
+    "Engine Options: Kawasaki & Kohler",
+    'Deck Size: 54"',
+    "Patented EZ-Ride® System",
+    "Industry-Leading 3/8˝ Steel Front Forks",
+    "3/16˝ or 7-Gauge All Steel Deck with Reinforced Edges"
+  ],
+
+  features: [
+    "Dual Hydro-Gear 3200 Series Integrated Drive Systems",
+    "Patented Independent Front Suspension",
+    "I-Beam Front Rails",
+    "Heavy-Gauge, All-Steel, All-Welded Frame",
+    "PEER, Maintenance-Free Spindles",
+    "Seat Lifts for Easy Maintenance and Cleaning",
+    "Adjustable Steering Arms",
+    "Electric PTO",
+    "Comfort Seat"
+  ]
 },
   
- "maverick-hd-60": {
+"maverick-hd-60": {
   name: 'Bad Boy Maverick HD 60"',
   images: [
     "/mowers/maverickhd/2.png",
@@ -340,14 +382,28 @@ export const mowerData = {
     "/mowers/maverickhd/4.png"
   ],
   description:
-    "The Bad Boy Maverick HD 60 is built for serious cutting power, durability, and comfort. A strong fit for large properties and commercial-grade performance.",
-  specs: {
-    deck: '60" deck',
-    engine: 'Kawasaki / Kohler options',
-    fuel: '13 gallons',
-    use: 'Residential / Commercial'
-  }
-}, 
+    "The Maverick HD 60 is built for heavy-duty performance with a smooth ride, upgraded durability, and commercial-ready strength.",
+
+  highlights: [
+    "Engine Options: Kawasaki & Kohler",
+    'Deck Size: 60"',
+    "Patented EZ-Ride® System",
+    "Industry-Leading 3/8˝ Steel Front Forks",
+    "3/16˝ or 7-Gauge All Steel Deck with Reinforced Edges"
+  ],
+
+  features: [
+    "Dual Hydro-Gear 3200 Series Integrated Drive Systems",
+    "Patented Independent Front Suspension",
+    "I-Beam Front Rails",
+    "Heavy-Gauge, All-Steel, All-Welded Frame",
+    "PEER, Maintenance-Free Spindles",
+    "Seat Lifts for Easy Maintenance and Cleaning",
+    "Adjustable Steering Arms",
+    "Electric PTO",
+    "Comfort Seat"
+  ]
+},
   
 "revolt-sd-34": {
   name: 'Bad Boy Revolt SD 34"',
@@ -358,13 +414,24 @@ export const mowerData = {
     "/mowers/revoltsd/4.png"
   ],
   description:
-    "The Revolt SD 34 is a compact stand-on mower designed for tight spaces while still delivering strong commercial performance.",
-  specs: {
-    deck: '34" deck',
-    engine: 'Kawasaki',
-    fuel: '5 gallons',
-    use: 'Commercial'
-  }
+    "The Revolt SD 34 is a compact stand-on mower designed for tight spaces, delivering strong commercial performance with excellent maneuverability.",
+
+  highlights: [
+    "Engine: Kawasaki",
+    'Deck Size: 34"',
+    "Compact Stand-On Design for Tight Access",
+    "Commercial-Grade Steel Deck Construction",
+    "Heavy-Duty, All-Steel Welded Frame"
+  ],
+
+  features: [
+    "Hydro-Gear Integrated Drive System",
+    "Industry-Leading Steel Front Forks",
+    "Maintenance-Free Spindles",
+    "Easy-Access Service Points",
+    "Electric PTO",
+    "Operator Platform with Comfort Padding"
+  ]
 },
   
 "revolt-48": {
@@ -376,13 +443,24 @@ export const mowerData = {
     "/mowers/revolt/4.png"
   ],
   description:
-    "The Bad Boy Revolt 48 delivers professional-grade stand-on performance with excellent maneuverability and cutting power.",
-  specs: {
-    deck: '48" deck',
-    engine: 'Kawasaki',
-    fuel: '6 gallons',
-    use: 'Commercial'
-  }
+    "The Revolt 48 delivers professional stand-on performance with strong cutting power, excellent maneuverability, and durability for commercial use.",
+
+  highlights: [
+    "Engine: Kawasaki",
+    'Deck Size: 48"',
+    "Stand-On Design for Increased Visibility and Control",
+    "Heavy-Duty Fabricated Steel Deck",
+    "Commercial-Grade, All-Steel Welded Frame"
+  ],
+
+  features: [
+    "Hydro-Gear Integrated Drive System",
+    "Industry-Leading Steel Front Forks",
+    "Maintenance-Free Spindles",
+    "Operator Platform with Comfort Padding",
+    "Electric PTO",
+    "Easy-Access Service Points"
+  ]
 },
   
 "revolt-54": {
@@ -394,13 +472,24 @@ export const mowerData = {
     "/mowers/revolt/4.png"
   ],
   description:
-    "The Revolt 54 offers increased deck size with the same stand-on agility and durability needed for commercial jobs.",
-  specs: {
-    deck: '54" deck',
-    engine: 'Kawasaki',
-    fuel: '6 gallons',
-    use: 'Commercial'
-  }
+    "The Revolt 54 delivers professional stand-on performance with added deck width, strong cutting power, and durability for demanding commercial work.",
+
+  highlights: [
+    "Engine: Kawasaki",
+    'Deck Size: 54"',
+    "Stand-On Design for Increased Visibility and Control",
+    "Heavy-Duty Fabricated Steel Deck",
+    "Commercial-Grade, All-Steel Welded Frame"
+  ],
+
+  features: [
+    "Hydro-Gear Integrated Drive System",
+    "Industry-Leading Steel Front Forks",
+    "Maintenance-Free Spindles",
+    "Operator Platform with Comfort Padding",
+    "Electric PTO",
+    "Easy-Access Service Points"
+  ]
 },
   
 "rebel-54": {
