@@ -501,13 +501,23 @@ export const mowerData = {
     "/mowers/rebel/4.png"
   ],
   description:
-    "The Bad Boy Rebel 54 is built for serious commercial work with a smooth ride, strong frame, and high-performance cutting.",
-  specs: {
-    deck: '54" deck',
-    engine: 'Kawasaki / Vanguard',
-    fuel: '13 gallons',
-    use: 'Commercial'
-  }
+    "The Rebel 54 is built for serious commercial performance with a rugged frame, smooth operation, and dependable cutting power.",
+
+  highlights: [
+    "Engine: Kawasaki",
+    'Deck Size: 54"',
+    "Dual Hydro-Gear® 4400 Series High-Performance Drive Systems",
+    "Heavy-Duty Cast Maintenance-Free Spindles",
+    "No-Flat Front Tires"
+  ],
+
+  features: [
+    "Patented Dual Deck Support Isolators",
+    "Sloped 1/4˝ or 3-Gauge Steel Deck with Reinforced 3/8˝ Sides",
+    "Electric PTO",
+    "Heavy-Duty, All-Steel Welded Frame",
+    "Commercial-Grade Durability"
+  ]
 },
   
 "rebel-61": {
@@ -519,13 +529,23 @@ export const mowerData = {
     "/mowers/rebel/4.png"
   ],
   description:
-    "The Rebel 61 provides wider cutting capacity and rugged durability for full-time commercial operators.",
-  specs: {
-    deck: '61" deck',
-    engine: 'Kawasaki / Vanguard',
-    fuel: '13 gallons',
-    use: 'Commercial'
-  }
+    "The Rebel 61 delivers increased cutting capacity with the same rugged durability and high-performance design built for commercial use.",
+
+  highlights: [
+    "Engine: Kawasaki",
+    'Deck Size: 61"',
+    "Dual Hydro-Gear® 4400 Series High-Performance Drive Systems",
+    "Heavy-Duty Cast Maintenance-Free Spindles",
+    "No-Flat Front Tires"
+  ],
+
+  features: [
+    "Patented Dual Deck Support Isolators",
+    "Sloped 1/4˝ or 3-Gauge Steel Deck with Reinforced 3/8˝ Sides",
+    "Electric PTO",
+    "Heavy-Duty, All-Steel Welded Frame",
+    "Commercial-Grade Durability"
+  ]
 },
   
 "rebel-72": {
@@ -534,16 +554,26 @@ export const mowerData = {
     "/mowers/rebel/2.png",
     "/mowers/rebel/1.png",
     "/mowers/rebel/3.png",
-    "/mowers/rebel/4.png" 
+    "/mowers/rebel/4.png"
   ],
   description:
-    "The Rebel 72 is designed for maximum productivity with a large deck and heavy-duty commercial performance.",
-  specs: {
-    deck: '72" deck',
-    engine: 'Kawasaki / Vanguard',
-    fuel: '13 gallons',
-    use: 'Commercial'
-  }
+    "The Rebel 72 is designed for maximum productivity with a wide cutting deck, heavy-duty construction, and reliable commercial performance.",
+
+  highlights: [
+    "Engine: Kawasaki",
+    'Deck Size: 72"',
+    "Dual Hydro-Gear® 4400 Series High-Performance Drive Systems",
+    "Heavy-Duty Cast Maintenance-Free Spindles",
+    "No-Flat Front Tires"
+  ],
+
+  features: [
+    "Patented Dual Deck Support Isolators",
+    "Sloped 1/4˝ or 3-Gauge Steel Deck with Reinforced 3/8˝ Sides",
+    "Electric PTO",
+    "Heavy-Duty, All-Steel Welded Frame",
+    "Commercial-Grade Durability"
+  ]
 },
   
 "rogue-61": {
@@ -555,13 +585,24 @@ export const mowerData = {
     "/mowers/rogue/4.png"
   ],
   description:
-    "The Bad Boy Rogue 61 is a top-tier commercial mower with advanced suspension and unmatched comfort for long mowing days.",
-  specs: {
-    deck: '61" deck',
-    engine: 'Kawasaki / Vanguard',
-    fuel: '15 gallons',
-    use: 'Commercial'
-  }
+    "The Rogue 61 delivers premium commercial performance with advanced suspension, powerful drive systems, and a smooth ride built for long days on large properties.",
+
+  highlights: [
+    "Engine Options: Kawasaki, Kohler & Vanguard",
+    'Deck Size: 61"',
+    "Patented 3-Link Rear Trailing Arm Suspension",
+    "Dual 16cc Hydro-Gear Pumps",
+    "Heavy-Duty Cast I-Beam Rails"
+  ],
+
+  features: [
+    "Patented Independent Front Suspension",
+    "Sloped 1/4˝ or 3-Gauge Steel Deck with Reinforced 3/8˝ Sides",
+    "Heavy-Gauge, All-Steel, All-Welded Frame",
+    "Patented Dual Deck Support Isolators",
+    "PEER, Maintenance-Free Spindles",
+    "Commercial-Grade Durability"
+  ]
 },
   
 "rogue-72": {
@@ -573,12 +614,22 @@ export const mowerData = {
     "/mowers/rogue/4.png"
   ],
   description:
-    "The Rogue 72 delivers maximum cutting width, premium suspension, and elite performance for large-scale commercial work.",
-  specs: {
-    deck: '72" deck',
-    engine: 'Kawasaki / Vanguard',
-    fuel: '15 gallons',
-    use: 'Commercial'
-  }
-}
-};
+    "The Rogue 72 delivers maximum productivity with a wide cutting deck, advanced suspension system, and premium commercial performance for large-scale mowing.",
+
+  highlights: [
+    "Engine Options: Kawasaki, Kohler & Vanguard",
+    'Deck Size: 72"',
+    "Patented 3-Link Rear Trailing Arm Suspension",
+    "Dual 16cc Hydro-Gear Pumps",
+    "Heavy-Duty Cast I-Beam Rails"
+  ],
+
+  features: [
+    "Patented Independent Front Suspension",
+    "Sloped 1/4˝ or 3-Gauge Steel Deck with Reinforced 3/8˝ Sides",
+    "Heavy-Gauge, All-Steel, All-Welded Frame",
+    "Patented Dual Deck Support Isolators",
+    "PEER, Maintenance-Free Spindles",
+    "Commercial-Grade Durability"
+  ]
+},
