@@ -80,6 +80,12 @@ export default function MowerDetail() {
 >
   Check Availability
 </Link>
+ <p className="call-note">
+  Or call{" "}
+  <a href="tel:+12522216069" className="phone-link">
+    (252) 221-6069
+  </a>
+</p>         
         </div>
       </div>
     </section>
