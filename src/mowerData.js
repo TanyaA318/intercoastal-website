@@ -37,59 +37,92 @@ export const mowerData = {
   }
 },
   
-  "magnum-48": {
-    name: 'Bad Boy Magnum 48"',
-    images: [
-      "/mowers/magnum/2.png",
-      "/mowers/magnum/1.png",
-      "/mowers/magnum/3.png",
-      "/mowers/magnum/4.png"
-    ],
-    description:
-      "The Magnum 48 offers strong residential performance, comfort, and a clean cut for medium to large properties.",
-    specs: {
-      deck: '48" deck',
-      engine: 'Kohler / Kawasaki options',
-      fuel: '6.5 gallons',
-      use: 'Residential'
-    }
-  },
+ "magnum-48": {
+  name: 'Bad Boy Magnum 48"',
+  images: [
+    "/mowers/magnum/2.png",
+    "/mowers/magnum/1.png",
+    "/mowers/magnum/3.png",
+    "/mowers/magnum/4.png"
+  ],
+  description:
+    "The Magnum 48 offers strong residential performance, comfort, and a clean cut for medium to large properties.",
+
+  highlights: [
+    "Engine Options: Kawasaki & Kohler",
+    'Deck Size: 48"',
+    "All-New Sloped 3/16˝ or 7-Gauge All Steel Deck with Reinforced Edges",
+    "Seat Lifts for Easy Maintenance and Cleaning",
+    "Heavy-Gauge, All-Steel, All-Welded Frame"
+  ],
+
+  features: [
+    "Dual Hydro-Gear ZT 2200 Series Integrated Drive Systems",
+    "Industry-Leading 3/8˝ Steel Front Forks",
+    "PEER, Maintenance-Free Spindles",
+    "Deck Lift Pedal with Deck Dial Adjustment",
+    "Electric PTO",
+    "Comfort Seat"
+  ]
+},
   
   "magnum-54": {
-    name: 'Bad Boy Magnum 54"',
-    images: [
-      "/mowers/magnum/2.png",
-      "/mowers/magnum/1.png",
-      "/mowers/magnum/3.png",
-      "/mowers/magnum/4.png"
-    ],
-    description:
-      "The Magnum 54 gives homeowners more deck width and strong zero-turn performance for bigger mowing jobs.",
-    specs: {
-      deck: '54" deck',
-      engine: 'Kohler / Kawasaki options',
-      fuel: '6.5 gallons',
-      use: 'Residential'
-    }
-  },
+  name: 'Bad Boy Magnum 54"',
+  images: [
+    "/mowers/magnum/3.png",
+    "/mowers/magnum/1.png",
+    "/mowers/magnum/2.png",
+    "/mowers/magnum/4.png"
+  ],
+  description:
+    "The Magnum 54 offers strong residential performance, comfort, and a clean cut for medium to large properties.",
+
+  highlights: [
+    "Engine Options: Kawasaki & Kohler",
+    'Deck Size: 54"',
+    "All-New Sloped 3/16˝ or 7-Gauge All Steel Deck with Reinforced Edges",
+    "Seat Lifts for Easy Maintenance and Cleaning",
+    "Heavy-Gauge, All-Steel, All-Welded Frame"
+  ],
+
+  features: [
+    "Dual Hydro-Gear ZT 2200 Series Integrated Drive Systems",
+    "Industry-Leading 3/8˝ Steel Front Forks",
+    "PEER, Maintenance-Free Spindles",
+    "Deck Lift Pedal with Deck Dial Adjustment",
+    "Electric PTO",
+    "Comfort Seat"
+  ]
+},
   
-  "magnum-60": {
-    name: 'Bad Boy Magnum 60"',
-    images: [
-      "/mowers/magnum/2.png",
-      "/mowers/magnum/1.png",
-      "/mowers/magnum/3.png",
-      "/mowers/magnum/4.png"
-    ],
-    description:
-      "The Magnum 60 is built for larger properties that need more cutting width and dependable performance.",
-    specs: {
-      deck: '60" deck',
-      engine: 'Kohler / Kawasaki options',
-      fuel: '6.5 gallons',
-      use: 'Residential'
-    }
-  },
+ "magnum-60": {
+  name: 'Bad Boy Magnum 60"',
+  images: [
+    "/mowers/magnum/4.png",
+    "/mowers/magnum/1.png",
+    "/mowers/magnum/2.png",
+    "/mowers/magnum/3.png"
+  ],
+  description:
+    "The Magnum 60 offers strong residential performance, comfort, and a clean cut for medium to large properties.",
+
+  highlights: [
+    "Engine Options: Kawasaki & Kohler",
+    'Deck Size: 60"',
+    "All-New Sloped 3/16˝ or 7-Gauge All Steel Deck with Reinforced Edges",
+    "Seat Lifts for Easy Maintenance and Cleaning",
+    "Heavy-Gauge, All-Steel, All-Welded Frame"
+  ],
+
+  features: [
+    "Dual Hydro-Gear ZT 2200 Series Integrated Drive Systems",
+    "Industry-Leading 3/8˝ Steel Front Forks",
+    "PEER, Maintenance-Free Spindles",
+    "Deck Lift Pedal with Deck Dial Adjustment",
+    "Electric PTO",
+    "Comfort Seat"
+  ]
+},
   
   "zt-avenger-54": {
     name: 'Bad Boy ZT Avenger 54"',
