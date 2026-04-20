@@ -1046,6 +1046,22 @@ img {
   padding: 4px 0;
 }
 
+.call-note {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+  color: #567089;
+}
+
+.call-note a {
+  color: #17395f;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.call-note a:hover {
+  text-decoration: underline;
+}
+
 .service-intro {
   max-width: 760px;
   margin-bottom: 36px;
