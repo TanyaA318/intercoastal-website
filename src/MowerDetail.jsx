@@ -1,11 +1,16 @@
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { useState } from "react";
 import { mowerData } from "./mowerData";
 
 export default function MowerDetail() {
   const { slug } = useParams();
   const mower = mowerData[slug];
-  const [mainImage, setMainImage] = useState(mower?.images?.[0] || "");
+  const images = mower?.images || [];
+  const [mainImage, setMainImage] = useState(images[0] || "");
+
+  useEffect(() => {
+    setMainImage(images[0] || "");
+  }, [slug, images]);
 
   if (!mower) {
     return <div className="container">Mower not found.</div>;
@@ -19,25 +24,36 @@ export default function MowerDetail() {
             <img src={mainImage} alt={mower.name} />
           </div>
 
-          <div className="mower-detail-thumbnails">
-            {mower.images.map((image, index) => (
-              <img
-                key={index}
-                src={image}
-                alt={`${mower.name} view ${index + 1}`}
-                onClick={() => setMainImage(image)}
-              />
-            ))}
-          </div>
+          {images.length > 0 && (
+            <div className="mower-detail-thumbnails">
+              {images.map((image, index) => (
+                <button
+                  key={index}
+                  type="button"
+                  className={`mower-detail-thumbnail-button ${
+                    mainImage === image ? "is-active" : ""
+                  }`}
+                  onClick={() => setMainImage(image)}
+                  aria-label={`${mower.name} view ${index + 1}`}
+                >
+                  <img
+                    src={image}
+                    alt={`${mower.name} view ${index + 1}`}
+                    className="mower-detail-thumbnail-image"
+                  />
+                </button>
+              ))}
+            </div>
+          )}
         </div>
 
         <div className="mower-detail-content">
           <p className="mower-detail-kicker">BAD BOY MOWERS</p>
-          <h1>{mower.name}</h1>
+          <h1 className="mower-detail-title">{mower.name}</h1>
 
-          <p>{mower.description}</p>
+          <p className="mower-detail-description">{mower.description}</p>
 
-          {mower.highlights && mower.highlights.length > 0 && (
+          {mower.highlights?.length > 0 && (
             <div className="mower-bullets">
               <ul className="specs-list">
                 {mower.highlights.map((item, index) => (
@@ -47,9 +63,9 @@ export default function MowerDetail() {
             </div>
           )}
 
-          {mower.features && mower.features.length > 0 && (
+          {mower.features?.length > 0 && (
             <div className="mower-bullets">
-              <h3>Key Features</h3>
+              <h3 className="mower-detail-subheading">Key Features</h3>
               <ul className="specs-list">
                 {mower.features.map((item, index) => (
                   <li key={`feature-${index}`}>{item}</li>
@@ -58,7 +74,9 @@ export default function MowerDetail() {
             </div>
           )}
 
-          <button className="availability-button">Check Availability</button>
+          <button type="button" className="availability-button">
+            Check Availability
+          </button>
         </div>
       </div>
     </section>
