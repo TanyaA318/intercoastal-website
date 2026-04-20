@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { mowerData } from "./mowerData";
 
 export default function MowerDetail() {
@@ -74,9 +74,12 @@ export default function MowerDetail() {
             </div>
           )}
 
-          <button type="button" className="availability-button">
-            Check Availability
-          </button>
+          <Link
+  to={`/contact?model=${encodeURIComponent(mower.name)}&type=Inventory%20Question`}
+  className="availability-button"
+>
+  Check Availability
+</Link>
         </div>
       </div>
     </section>
