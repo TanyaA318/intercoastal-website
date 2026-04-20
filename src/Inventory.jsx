@@ -2,23 +2,6 @@ import React from "react";
 import Header from "./Header";
 import { Link } from "react-router-dom";
 
-const inventoryItems = [
-  {
-    name: "New Equipment",
-    image: "/mower-hero.jpg",
-    description: "Browse all new Bad Boy mowers and outdoor equipment.",
-    link: "/inventory/new",
-    buttonText: "Shop New Equipment",
-  },
-  {
-    name: "Used Equipment",
-    image: "/used-equipment.jpg",
-    description: "Explore our current used inventory and trade-ins.",
-    link: "/inventory/used",
-    buttonText: "Shop Used Equipment",
-  },
-];
-
 export default function Inventory() {
   return (
     <>
@@ -37,24 +20,39 @@ export default function Inventory() {
           </div>
         </section>
 
-        <section className="inventory-grid-section">
-          <div className="inventory-grid">
-            {inventoryItems.map((item) => (
-              <div className="inventory-card" key={item.name}>
-                <img
-                  src={item.image}
-                  alt={item.name}
-                  className="inventory-card-image"
-                />
-                <div className="inventory-card-body">
-                  <h2>{item.name}</h2>
-                  <p>{item.description}</p>
-                  <Link to={item.link} className="inventory-button">
-                   {item.buttonText} 
-                  </Link>
-                </div>
+        <section className="inventory-overview-section">
+          <div className="container">
+            <div className="inventory-intro">
+              <h2>New Equipment</h2>
+              <p>
+                Browse our current lineup of Bad Boy mowers. Whether you are
+                maintaining a small property or tackling larger acreage, we’re
+                here to help you choose the right equipment for the job.
+              </p>
+
+              <Link to="/inventory/new" className="inventory-button">
+                Browse New Equipment
+              </Link>
+            </div>
+
+            <div className="echo-section">
+              <h2>Echo Handheld Equipment</h2>
+              <p>
+                We also carry Echo handheld equipment, including trimmers,
+                blowers, and other outdoor power equipment. Contact us for
+                current availability and help choosing the right fit.
+              </p>
+
+              <div className="echo-actions">
+                <Link to="/contact" className="button button-primary">
+                  Contact Us About Echo
+                </Link>
+
+                <a href="tel:+12522216069" className="echo-phone">
+                  Or call (252) 221-6069
+                </a>
               </div>
-            ))}
+            </div>
           </div>
         </section>
       </div>
