@@ -632,4 +632,5 @@ export const mowerData = {
     "PEER, Maintenance-Free Spindles",
     "Commercial-Grade Durability"
   ]
-},
+ }
+};
