@@ -1031,6 +1031,21 @@ img {
   line-height: 1.6;
 }
 
+.phone-link {
+  color: #17395f;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.phone-link:hover {
+  text-decoration: underline;
+}
+
+.phone-link {
+  display: inline-block;
+  padding: 4px 0;
+}
+
 .service-intro {
   max-width: 760px;
   margin-bottom: 36px;
