@@ -26,7 +26,7 @@ export default function Inventory() {
         <section className="inventory-overview-section">
           <div className="container">
             <div className="inventory-intro">
-              <h2>New Equipment</h2>
+              <h2>New Bad Boy Mowers</h2>
               <p>
                 Browse our current lineup of Bad Boy mowers. Whether you are
                 maintaining a small property or tackling larger acreage, we’re
