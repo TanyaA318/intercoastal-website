@@ -15,7 +15,7 @@ export default function About() {
             Built on Experience. Driven by Service.
           </h1>
           <p className="about-lead">
-            Authorized Bad Boy mower dealer in Camden, NC, offering new and used
+            Authorized Bad Boy and Echo dealer in Camden, NC, offering new and used
             equipment, service, and repairs for customers across Northeastern
             North Carolina and the Hampton Roads area.
           </p>
@@ -54,12 +54,12 @@ export default function About() {
           <div className="about-card">
             <h2>What We Offer</h2>
             <ul className="about-list">
-              <li>New Bad Boy zero turn mowers</li>
-              <li>Used lawn equipment and trade-ins</li>
-              <li>Outdoor equipment service and repairs</li>
-              <li>Pickup and delivery options</li>
-              <li>Support for residential and commercial customers</li>
-            </ul>
+  <li>New Bad Boy zero-turn mowers</li>
+  <li>Echo handheld outdoor power equipment</li>
+  <li>Outdoor equipment service and repairs</li>
+  <li>Pickup and delivery options</li>
+  <li>Support for residential and commercial customers</li>
+</ul>
           </div>
         </section>
 
