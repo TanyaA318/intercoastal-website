@@ -1,8 +1,11 @@
 import React from "react";
 import Header from "./Header";
 import { Link } from "react-router-dom";
+import { mowerData } from "./mowerData";
 
 export default function Inventory() {
+  const mowers = Object.entries(mowerData);
+
   return (
     <>
       <Header />
@@ -29,10 +32,31 @@ export default function Inventory() {
                 maintaining a small property or tackling larger acreage, we’re
                 here to help you choose the right equipment for the job.
               </p>
+            </div>
 
-              <Link to="/inventory/new" className="inventory-button">
-                Browse New Equipment
-              </Link>
+            <div className="inventory-list-grid">
+              {mowers.map(([slug, mower]) => (
+                <div className="inventory-list-card" key={slug}>
+                  <Link
+                    to={`/inventory/new/${slug}`}
+                    className="inventory-card-link"
+                  >
+                    <img src={mower.images?.[0]} alt={mower.name} />
+
+                    <p className="inventory-tag">BAD BOY MOWERS</p>
+
+                    <h3>{mower.name}</h3>
+                    <p className="price">View model details and availability</p>
+                  </Link>
+
+                  <Link
+                    to={`/inventory/new/${slug}`}
+                    className="inventory-button"
+                  >
+                    View Details
+                  </Link>
+                </div>
+              ))}
             </div>
 
             <div className="echo-section">
