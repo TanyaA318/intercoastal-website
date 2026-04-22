@@ -38,16 +38,18 @@ export default function Inventory() {
               {mowers.map(([slug, mower]) => (
                 <div className="inventory-list-card" key={slug}>
                   <Link
-                    to={`/inventory/new/${slug}`}
-                    className="inventory-card-link"
-                  >
-                    <img src={mower.images?.[0]} alt={mower.name} />
+  to={`/inventory/new/${slug}`}
+  className="inventory-card-link"
+>
+  <div className="inventory-list-card-image-wrap">
+    <img src={mower.images?.[0]} alt={mower.name} />
+  </div>
 
-                    <p className="inventory-tag">BAD BOY MOWERS</p>
+  <p className="inventory-tag">BAD BOY MOWERS</p>
 
-                    <h3>{mower.name}</h3>
-                    <p className="price">View model details and availability</p>
-                  </Link>
+  <h3>{mower.name}</h3>
+  <p className="price">View model details and availability</p>
+</Link>
 
                   <Link
                     to={`/inventory/new/${slug}`}
