@@ -1844,10 +1844,19 @@ img {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
 }
 
+.inventory-card-image-wrap {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .inventory-card img {
   width: 100%;
-  height: 220px;
-  object-fit: cover;
+  height: 100%;
+  object-fit: contain;
 }
 
 .inventory-card-body {
@@ -1901,10 +1910,6 @@ img {
   .inventory-grid {
     grid-template-columns: 1fr;
   }
-
-  .inventory-card-image {
-    height: 220px;
-  }
 }
 
 /* ===== INVENTORY NEW PAGE ===== */
@@ -1928,11 +1933,26 @@ img {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
 }
 
+.inventory-list-card-image-wrap {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
 .inventory-list-card img {
   width: 100%;
-  height: 200px;
-  object-fit: cover;
+  height: 100%;
+  object-fit: contain;
   display: block;
+  transition: transform 0.3s ease;
+}
+
+.inventory-list-card:hover img {
+  transform: scale(1.03);
 }
 
 .inventory-list-card h3 {
