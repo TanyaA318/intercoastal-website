@@ -334,27 +334,20 @@ img {
 
 .hero-mower-panel {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   overflow: hidden;
-  padding: 3.5rem 1rem 1.25rem;
-}
-
-.hero-mower-panel-badboy {
-  background: linear-gradient(145deg, #e9eef2, #cad3dc);
-}
-
-.hero-mower-panel-ferris {
-  background: linear-gradient(145deg, #fff, #e9edf0);
 }
 
 .hero-mower-brand {
   position: absolute;
-  top: 1.5rem;
+  bottom: 1.5rem;
   left: 50%;
   transform: translateX(-50%);
-  color: #17395f;
+  z-index: 2;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.36);
+  border-radius: 999px;
+  background: rgba(11, 35, 63, 0.72);
+  color: #fff;
   font-size: clamp(0.72rem, 1.1vw, 0.9rem);
   font-weight: 900;
   letter-spacing: 0.18em;
@@ -363,19 +356,17 @@ img {
 
 .hero-mower-image {
   display: block;
-  width: min(100%, 31rem);
-  height: auto;
-  object-fit: contain;
-  filter: drop-shadow(0 22px 18px rgba(11, 35, 63, 0.2));
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .hero-mower-image-badboy {
-  transform: scale(1.08);
+  object-position: 58% center;
 }
 
 .hero-mower-image-ferris {
-  mix-blend-mode: multiply;
-  transform: scale(1.04);
+  object-position: 50% center;
 }
 
 .hero-glow {
@@ -966,11 +957,12 @@ img {
   }
 
   .hero-mower-panel {
-    padding: 2.75rem 0.4rem 0.75rem;
+    padding: 0;
   }
 
   .hero-mower-brand {
-    top: 1rem;
+    top: auto;
+    bottom: 0.8rem;
   }
 }
 
