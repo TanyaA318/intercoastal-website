@@ -16,6 +16,24 @@ function HomePage() {
       <Header />
       <main id="top">
         <section className="hero-section">
+          <div className="hero-mower-pair" aria-hidden="true">
+            <div className="hero-mower-panel hero-mower-panel-badboy">
+              <span className="hero-mower-brand">BAD BOY</span>
+              <img
+                src="/mower-hero.jpg"
+                className="hero-mower-image hero-mower-image-badboy"
+                alt=""
+              />
+            </div>
+            <div className="hero-mower-panel hero-mower-panel-ferris">
+              <span className="hero-mower-brand">FERRIS</span>
+              <img
+                src="/mowers/ferris/isx3300-scenic.jpg"
+                className="hero-mower-image hero-mower-image-ferris"
+                alt=""
+              />
+            </div>
+          </div>
           <div className="container hero-grid">
             <div className="hero-copy">
               <p className="hero-kicker">AUTHORIZED BAD BOY, FERRIS &amp; ECHO DEALER</p>

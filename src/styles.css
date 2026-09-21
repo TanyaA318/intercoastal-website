@@ -306,13 +306,68 @@ img {
 .hero-section {
   position: relative;
   overflow: hidden;
-  background:
-    linear-gradient(90deg, rgba(11, 35, 63, 0.92) 0%, rgba(11, 35, 63, 0.82) 38%, rgba(11, 35, 63, 0.48) 62%, rgba(11, 35, 63, 0.15) 100%),
-  url("/mower-hero.jpg");
-  background-size: cover;
-  background-position: 80% center;
-  background-repeat: no-repeat;
-  }
+  background: #0b233f;
+}
+
+.hero-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(
+    90deg,
+    #0b233f 0%,
+    rgba(11, 35, 63, 0.98) 30%,
+    rgba(11, 35, 63, 0.82) 43%,
+    rgba(11, 35, 63, 0.24) 64%,
+    rgba(11, 35, 63, 0.06) 100%
+  );
+}
+
+.hero-mower-pair {
+  position: absolute;
+  inset: 0 0 0 38%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.hero-mower-panel {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-mower-brand {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.36);
+  border-radius: 999px;
+  background: rgba(11, 35, 63, 0.72);
+  color: #fff;
+  font-size: clamp(0.72rem, 1.1vw, 0.9rem);
+  font-weight: 900;
+  letter-spacing: 0.18em;
+  white-space: nowrap;
+}
+
+.hero-mower-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-mower-image-badboy {
+  object-position: 58% center;
+}
+
+.hero-mower-image-ferris {
+  object-position: 50% center;
+}
 
 .hero-glow {
   position: absolute;
@@ -323,6 +378,7 @@ img {
 
 .hero-grid {
   position: relative;
+  z-index: 2;
   padding: 3.25rem 0;
   min-height: 31rem;
 }
@@ -876,6 +932,38 @@ img {
   .header-cta {
     display: none;
   }
+
+  .hero-section::after {
+    background: linear-gradient(
+      180deg,
+      #0b233f 0%,
+      #0b233f 48%,
+      rgba(11, 35, 63, 0.88) 58%,
+      rgba(11, 35, 63, 0.08) 76%,
+      transparent 100%
+    );
+  }
+
+  .hero-mower-pair {
+    inset: 52% 0 0;
+  }
+
+  .hero-grid {
+    min-height: 46rem;
+  }
+
+  .hero-copy {
+    max-width: 39rem;
+  }
+
+  .hero-mower-panel {
+    padding: 0;
+  }
+
+  .hero-mower-brand {
+    top: auto;
+    bottom: 0.8rem;
+  }
 }
 
 @media (max-width: 560px) {
@@ -896,6 +984,27 @@ img {
   .section {
     padding-top: 2.25rem;
     padding-bottom: 2.25rem;
+  }
+
+  .hero-grid {
+    min-height: 43rem;
+  }
+
+  .hero-title {
+    font-size: clamp(2rem, 11vw, 3rem);
+  }
+
+  .hero-text {
+    line-height: 1.55;
+  }
+
+  .hero-actions {
+    gap: 0.65rem;
+    margin-top: 1.35rem;
+  }
+
+  .hero-actions .button {
+    width: 100%;
   }
 
   .hero-card-inner,
