@@ -617,6 +617,19 @@ img {
   box-shadow: 0 16px 32px rgba(23, 57, 95, 0.06);
 }
 
+.brand-section {
+  margin-bottom: 1.5rem;
+}
+
+.ferris-section {
+  border-color: #d4202f;
+  background: linear-gradient(135deg, #ffffff 0%, #fff5f5 100%);
+}
+
+.ferris-section .section-kicker {
+  color: #b41624;
+}
+
 .echo-section h2 {
   margin-bottom: 0.75rem;
 }
