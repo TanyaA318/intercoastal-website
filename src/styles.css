@@ -916,6 +916,20 @@ img {
   margin-top: 1.5rem;
 }
 
+.inventory-card-grid .inventory-card {
+  height: 280px;
+}
+
+.inventory-card-grid .inventory-card-link {
+  height: 100%;
+}
+
+.inventory-card-grid .inventory-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 @media (min-width: 700px) {
   .inventory-card-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
