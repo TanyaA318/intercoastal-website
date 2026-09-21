@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import { mowerData } from "./mowerData";
+import { equipmentData } from "./mowerData";
 
 export default function MowerDetail() {
   const { slug } = useParams();
-  const mower = mowerData[slug];
+  const mower = equipmentData[slug];
   const images = mower?.images || [];
   const [mainImage, setMainImage] = useState(images[0] || "");
 
@@ -48,7 +48,7 @@ export default function MowerDetail() {
         </div>
 
         <div className="mower-detail-content">
-          <p className="mower-detail-kicker">BAD BOY MOWERS</p>
+          <p className="mower-detail-kicker">{mower.brand || "BAD BOY MOWERS"}</p>
           <h1 className="mower-detail-title">{mower.name}</h1>
 
           <p className="mower-detail-description">{mower.description}</p>

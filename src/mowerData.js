@@ -634,3 +634,310 @@ export const mowerData = {
   ]
  }
 };
+
+export const ferrisData = {
+  "ferris-is-600-52-b25": {
+    brand: "FERRIS MOWERS",
+    name: 'Ferris IS 600 52"',
+    images: ["/mowers/ferris/is600.jpg"],
+    description:
+      "A compact commercial zero-turn that combines dependable power, full suspension comfort, and easy maneuverability for tight properties and everyday mowing work.",
+    highlights: [
+      'Deck Size: 52"',
+      "Engine: 25 HP Briggs & Stratton CXi",
+      "Drive System: Dual Hydro-Gear ZT-3200 transaxles",
+      "Ground Speed: Up to 10 mph"
+    ],
+    features: [
+      "Adjustable front and rear coil-over suspension",
+      "Fabricated commercial mowing deck",
+      "Quick-access removable floor pan",
+      "Heavy-duty rear bumper"
+    ]
+  },
+
+  "ferris-isx-800-52-k24": {
+    brand: "FERRIS MOWERS",
+    name: 'Ferris ISX 800 52"',
+    images: ["/mowers/ferris/isx800.jpg"],
+    description:
+      "The ISX 800 delivers commercial cutting performance with a smooth ride, responsive handling, and a compact 52-inch deck.",
+    highlights: [
+      'Deck Size: 52"',
+      "Engine: 24 HP Kawasaki FT730V",
+      "Drive System: Dual Hydro-Gear ZT-3400 transaxles",
+      "Ground Speed: Up to 10 mph"
+    ],
+    features: [
+      "ForeFront independent suspension system",
+      "Ferris iCD cutting system",
+      "Fully serviceable commercial transaxles",
+      "USB-A and USB-C charging ports"
+    ]
+  },
+
+  "ferris-isx-800-60-b27": {
+    brand: "FERRIS MOWERS",
+    name: 'Ferris ISX 800 60" - Briggs 27 HP',
+    images: ["/mowers/ferris/isx800.jpg"],
+    description:
+      "A productive 60-inch commercial zero-turn with Ferris suspension comfort and strong Briggs & Stratton power for larger properties.",
+    highlights: [
+      'Deck Size: 60"',
+      "Engine: 27 HP Briggs & Stratton CXi",
+      "Drive System: Dual Hydro-Gear ZT-3400 transaxles",
+      "Ground Speed: Up to 10 mph"
+    ],
+    features: [
+      "ForeFront independent suspension system",
+      "Ferris iCD cutting system",
+      "Fully serviceable commercial transaxles",
+      "Six-gallon fuel capacity"
+    ]
+  },
+
+  "ferris-isx-800-60-k24": {
+    brand: "FERRIS MOWERS",
+    name: 'Ferris ISX 800 60" - Kawasaki 24 HP',
+    images: ["/mowers/ferris/isx800.jpg"],
+    description:
+      "This 60-inch ISX 800 pairs a Kawasaki engine with commercial drive components and Ferris suspension for efficient mowing over rough terrain.",
+    highlights: [
+      'Deck Size: 60"',
+      "Engine: 24 HP Kawasaki FT730V",
+      "Drive System: Dual Hydro-Gear ZT-3400 transaxles",
+      "Ground Speed: Up to 10 mph"
+    ],
+    features: [
+      "ForeFront independent suspension system",
+      "Ferris iCD cutting system",
+      "Fully serviceable commercial transaxles",
+      "Mid-back suspension seat with armrests"
+    ]
+  },
+
+  "ferris-isx-800-60-k26": {
+    brand: "FERRIS MOWERS",
+    name: 'Ferris ISX 800 60" - Kawasaki EFI 26 HP',
+    images: ["/mowers/ferris/isx800.jpg"],
+    description:
+      "The Kawasaki EFI version of the ISX 800 offers smooth starting, responsive power, and a wide 60-inch deck for demanding properties.",
+    highlights: [
+      'Deck Size: 60"',
+      "Engine: 26 HP Kawasaki FT730V EFI",
+      "Drive System: Dual Hydro-Gear ZT-3400 transaxles",
+      "Ground Speed: Up to 10 mph"
+    ],
+    features: [
+      "Electronic fuel injection",
+      "ForeFront independent suspension system",
+      "Ferris iCD cutting system",
+      "USB-A and USB-C charging ports"
+    ]
+  },
+
+  "ferris-isx-2200-60-k30": {
+    brand: "FERRIS MOWERS",
+    name: 'Ferris ISX 2200 60" - Kawasaki 30.5 HP',
+    images: ["/mowers/ferris/isx2200.jpg"],
+    description:
+      "Built for serious commercial work, this ISX 2200 combines a high-output Kawasaki engine, heavy-duty drive system, and advanced suspension.",
+    highlights: [
+      'Deck Size: 60"',
+      "Engine: 30.5 HP Kawasaki FX781V EVO",
+      "Drive System: Dual Hydro-Gear ZT-4400 transaxles",
+      "Ground Speed: Up to 10 mph"
+    ],
+    features: [
+      "ForeFront suspension system",
+      "Two-belt iCD+ cutting system",
+      "Premium high-back suspension seat",
+      "Foldable rollover protection system"
+    ]
+  },
+
+  "ferris-isx-2200-60-v28": {
+    brand: "FERRIS MOWERS",
+    name: 'Ferris ISX 2200 60" - Vanguard 28 HP',
+    images: ["/mowers/ferris/isx2200.jpg"],
+    description:
+      "The Vanguard-powered ISX 2200 is designed for long commercial mowing days with strong cutting performance, operator comfort, and reduced downtime.",
+    highlights: [
+      'Deck Size: 60"',
+      "Engine: 28 HP Vanguard 810cc EFI",
+      "Drive System: Dual Hydro-Gear ZT-4400 transaxles",
+      "Fuel Capacity: 11 gallons"
+    ],
+    features: [
+      "Vanguard Oil Guard system",
+      "ForeFront suspension system",
+      "Two-belt iCD+ cutting system",
+      "Premium high-back suspension seat"
+    ]
+  },
+
+  "ferris-isx-3300-60-k38": {
+    brand: "FERRIS MOWERS",
+    name: 'Ferris ISX 3300 60" - Kawasaki 38.5 HP',
+    images: ["/mowers/ferris/isx3300.jpg"],
+    description:
+      "A high-capacity commercial zero-turn built for speed, durability, and a controlled ride across demanding terrain.",
+    highlights: [
+      'Deck Size: 60"',
+      "Engine: 38.5 HP Kawasaki FX1000V EFI",
+      "Drive System: Dual Hydro-Gear ZT-5400 transaxles",
+      "Ground Speed: Up to 12 mph"
+    ],
+    features: [
+      "ForeFront suspension system",
+      "Two-belt iCD+ cutting system",
+      "Heavy-duty cast-iron spindle assemblies",
+      "Premium high-back suspension seat"
+    ]
+  },
+
+  "ferris-isx-3300-72-v40": {
+    brand: "FERRIS MOWERS",
+    name: 'Ferris ISX 3300 72" - Vanguard 40 HP',
+    images: ["/mowers/ferris/isx3300.jpg"],
+    description:
+      "The 72-inch ISX 3300 is built for maximum acreage and commercial productivity, with powerful Vanguard EFI performance and Ferris suspension.",
+    highlights: [
+      'Deck Size: 72"',
+      "Engine: 40 HP Vanguard BIG BLOCK EFI ETC",
+      "Drive System: Dual Hydro-Gear ZT-5400 transaxles",
+      "Ground Speed: Up to 12 mph"
+    ],
+    features: [
+      "Vanguard Oil Guard system",
+      "ForeFront suspension system",
+      "Two-belt iCD+ cutting system",
+      "11-gallon fuel capacity"
+    ]
+  },
+
+  "ferris-fw15-32-h10": {
+    brand: "FERRIS MOWERS",
+    name: 'Ferris FW15 32" Walk-Behind',
+    images: ["/mowers/ferris/fw15.jpg"],
+    description:
+      "A compact commercial walk-behind made for gates, landscaping, and tight areas that larger mowers cannot easily reach.",
+    highlights: [
+      'Deck Size: 32"',
+      "Engine: 10.2 HP Honda GXV390",
+      "Drive: Variable hydrostatic",
+      "Ground Speed: Up to 4 mph"
+    ],
+    features: [
+      "Comfortable one-hand operation",
+      "Reinforced fabricated steel deck",
+      "Dual timed cutting blades",
+      "Single-point cutting-height adjustment"
+    ]
+  },
+
+  "ferris-srs-z3x-60-v40": {
+    brand: "FERRIS MOWERS",
+    name: 'Ferris SRS Z3X 60" - Vanguard 40 HP',
+    images: ["/mowers/ferris/srsz3x.jpg"],
+    description:
+      "A powerful stand-on mower designed for speed, traction, and confident operation on demanding commercial properties and sloped terrain.",
+    highlights: [
+      'Deck Size: 60"',
+      "Engine: 40 HP Vanguard EFI ETC",
+      "Drive System: Dual commercial transaxles",
+      "Ground Speed: Up to 12 mph"
+    ],
+    features: [
+      "Adjustable suspension operator platform",
+      "Pivoting front axle",
+      "Ferris iCD+ cutting system",
+      "11-gallon fuel capacity"
+    ]
+  },
+
+  "ferris-300s-48-k21": {
+    brand: "FERRIS MOWERS",
+    name: 'Ferris 300S 48"',
+    images: ["/mowers/ferris/300s.jpg"],
+    description:
+      "An approachable zero-turn with commercial-inspired construction, a compact footprint, and Ferris suspension comfort for residential and light-duty use.",
+    highlights: [
+      'Deck Size: 48"',
+      "Engine: 21.5 HP Kawasaki FR651V",
+      "Drive System: Dual Hydro-Gear ZT-2800 transaxles",
+      "Ground Speed: Up to 8 mph"
+    ],
+    features: [
+      "Front and rear suspension",
+      "Fabricated 10-gauge steel deck",
+      "Premium bolstered seat",
+      "Pre-drilled rear hitch mount"
+    ]
+  },
+
+  "ferris-300s-52-k21": {
+    brand: "FERRIS MOWERS",
+    name: 'Ferris 300S 52"',
+    images: ["/mowers/ferris/300s.jpg"],
+    description:
+      "The 52-inch 300S offers comfortable zero-turn mowing, a durable fabricated deck, and practical performance for larger residential properties.",
+    highlights: [
+      'Deck Size: 52"',
+      "Engine: 21.5 HP Kawasaki FR651V",
+      "Drive System: Dual Hydro-Gear ZT-2800 transaxles",
+      "Ground Speed: Up to 8 mph"
+    ],
+    features: [
+      "Front and rear suspension",
+      "Fabricated 10-gauge steel deck",
+      "Premium bolstered seat",
+      "Pre-drilled rear hitch mount"
+    ]
+  },
+
+  "ferris-500s-52-b25": {
+    brand: "FERRIS MOWERS",
+    name: 'Ferris 500S 52"',
+    images: ["/mowers/ferris/500s.jpg"],
+    description:
+      "A capable zero-turn with commercial-style performance, four-point suspension, and dependable features for productive mowing season after season.",
+    highlights: [
+      'Deck Size: 52"',
+      "Engine: 25 HP Briggs & Stratton CXi",
+      "Drive System: Dual Hydro-Gear ZT-3100 transaxles",
+      "Ground Speed: Up to 8.5 mph"
+    ],
+    features: [
+      "Adjustable four-point suspension",
+      "Fabricated 10-gauge steel deck",
+      "Integrated LED headlight",
+      "Premium seat with armrests"
+    ]
+  },
+
+  "ferris-srs-z2-52-k30": {
+    brand: "FERRIS MOWERS",
+    name: 'Ferris SRS Z2 52" - Kawasaki 30.5 HP',
+    images: ["/mowers/ferris/srsz2.jpg"],
+    description:
+      "The SRS Z2 combines stand-on agility with a suspended operator platform, strong Kawasaki power, and commercial-grade cutting performance.",
+    highlights: [
+      'Deck Size: 52"',
+      "Engine: 30.5 HP Kawasaki FX781V EVO",
+      "Drive System: Dual Hydro-Gear ZT-3800 transaxles",
+      "Ground Speed: Up to 10 mph"
+    ],
+    features: [
+      "Adjustable suspension operator platform",
+      "Ferris iCD+ cutting system",
+      "Ergonomic thigh pad",
+      "Hand-operated deck lift"
+    ]
+  }
+};
+
+export const equipmentData = {
+  ...mowerData,
+  ...ferrisData
+};

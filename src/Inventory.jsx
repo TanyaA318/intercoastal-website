@@ -1,10 +1,11 @@
 import React from "react";
 import Header from "./Header";
 import { Link } from "react-router-dom";
-import { mowerData } from "./mowerData";
+import { ferrisData, mowerData } from "./mowerData";
 
 export default function Inventory() {
   const mowers = Object.entries(mowerData);
+  const ferrisMowers = Object.entries(ferrisData);
 
   return (
     <>
@@ -61,26 +62,39 @@ export default function Inventory() {
               ))}
             </div>
 
-            <div className="echo-section brand-section ferris-section">
+            <div className="inventory-intro ferris-inventory-intro">
               <p className="section-kicker">Authorized Ferris Dealer</p>
-              <h2>Ferris Mowers</h2>
+              <h2>New Ferris Mowers</h2>
               <p>
-                Ferris mowers are now available at Intercoastal Outdoor Equipment.
-                Contact our team for current models, pricing, financing, and availability.
+                Explore the Ferris zero-turn, stand-on, and walk-behind models
+                available through Intercoastal Outdoor Equipment.
               </p>
+            </div>
 
-              <div className="echo-actions">
-                <Link
-                  to="/contact?model=Ferris%20Mower&type=Inventory%20Question"
-                  className="button button-primary"
-                >
-                  Ask About Ferris Mowers
-                </Link>
+            <div className="inventory-list-grid ferris-inventory-grid">
+              {ferrisMowers.map(([slug, mower]) => (
+                <div className="inventory-list-card" key={slug}>
+                  <Link
+                    to={`/inventory/new/${slug}`}
+                    className="inventory-card-link"
+                  >
+                    <div className="inventory-list-card-image-wrap">
+                      <img src={mower.images?.[0]} alt={mower.name} />
+                    </div>
 
-                <a href="tel:+12522216069" className="echo-phone">
-                  Or call (252) 221-6069
-                </a>
-              </div>
+                    <p className="inventory-tag ferris-tag">FERRIS MOWERS</p>
+                    <h3>{mower.name}</h3>
+                    <p className="price">View model details and availability</p>
+                  </Link>
+
+                  <Link
+                    to={`/inventory/new/${slug}`}
+                    className="inventory-button ferris-inventory-button"
+                  >
+                    View Details
+                  </Link>
+                </div>
+              ))}
             </div>
 
             <div className="echo-section">

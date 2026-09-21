@@ -1,10 +1,10 @@
 import React from "react";
 import Header from "./Header";
-import { mowerData } from "./mowerData";
+import { equipmentData } from "./mowerData";
 import { Link } from "react-router-dom";
 
 export default function InventoryNew() {
-  const mowers = Object.entries(mowerData);
+  const mowers = Object.entries(equipmentData);
 
   return (
     <>
@@ -24,7 +24,7 @@ export default function InventoryNew() {
               <Link to={`/inventory/new/${slug}`} className="inventory-card-link">
                 <img src={mower.images?.[0]} alt={mower.name} />
 
-                <p className="inventory-tag">BAD BOY MOWERS</p>
+                <p className="inventory-tag">{mower.brand || "BAD BOY MOWERS"}</p>
 
                 <h3>{mower.name}</h3>
                 <p className="price">View model details and availability</p>
