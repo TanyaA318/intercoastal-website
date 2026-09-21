@@ -18,7 +18,7 @@ function HomePage() {
         <section className="hero-section">
           <div className="container hero-grid">
             <div className="hero-copy">
-              <p className="hero-kicker">AUTHORIZED BAD BOY DEALER</p>
+              <p className="hero-kicker">AUTHORIZED BAD BOY, FERRIS &amp; ECHO DEALER</p>
               <h2 className="hero-title">
                 Built for hard work, backed by coastal grit.
               </h2>
@@ -45,17 +45,17 @@ function HomePage() {
             <div className="inventory-header">
               <h2>Equipment & Service</h2>
               <p>
-                New Bad Boy mowers, quality trade-ins, and dependable service to keep you running.
+                New Bad Boy and Ferris mowers, quality trade-ins, and dependable service to keep you running.
               </p>
             </div>
 
             <div className="inventory-card-grid">
               <div className="inventory-card">
                 <Link to="/inventory" className="inventory-card-link">
-                  <img src="/mower1.jpg" className="inventory-card-image" alt="Bad Boy mower" />
+                  <img src="/mower1.jpg" className="inventory-card-image" alt="New zero-turn mower" />
                   <div className="inventory-card-overlay">
                     <p className="inventory-card-kicker">Inventory</p>
-                    <h3 className="inventory-card-title">New Bad Boy Mowers</h3>
+                    <h3 className="inventory-card-title">New Bad Boy &amp; Ferris Mowers</h3>
                     <p className="inventory-card-text">
                       Built for power, durability, and real work.
                     </p>

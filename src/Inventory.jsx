@@ -16,7 +16,7 @@ export default function Inventory() {
             <p className="inventory-kicker">Intercoastal Outdoor Equipment</p>
             <h1>Outdoor Equipment Inventory</h1>
             <p>
-              Shop Bad Boy mowers and outdoor equipment in Camden, NC. We’re
+              Shop Bad Boy and Ferris mowers and outdoor equipment in Camden, NC. We’re
               here to help you find the right fit for your property, budget, and
               workload.
             </p>
@@ -61,17 +61,39 @@ export default function Inventory() {
               ))}
             </div>
 
-            <div className="echo-section">
-              <h2>Echo Handheld Equipment</h2>
+            <div className="echo-section brand-section ferris-section">
+              <p className="section-kicker">Authorized Ferris Dealer</p>
+              <h2>Ferris Mowers</h2>
               <p>
-                We also carry Echo handheld equipment, including trimmers,
+                Ferris mowers are now available at Intercoastal Outdoor Equipment.
+                Contact our team for current models, pricing, financing, and availability.
+              </p>
+
+              <div className="echo-actions">
+                <Link
+                  to="/contact?model=Ferris%20Mower&type=Inventory%20Question"
+                  className="button button-primary"
+                >
+                  Ask About Ferris Mowers
+                </Link>
+
+                <a href="tel:+12522216069" className="echo-phone">
+                  Or call (252) 221-6069
+                </a>
+              </div>
+            </div>
+
+            <div className="echo-section">
+              <h2>ECHO Handheld Equipment</h2>
+              <p>
+                We also carry ECHO handheld equipment, including trimmers,
                 blowers, and other outdoor power equipment. Contact us for
                 current availability and help choosing the right fit.
               </p>
 
               <div className="echo-actions">
                 <Link to="/contact" className="button button-primary">
-                  Contact Us About Echo
+                  Contact Us About ECHO
                 </Link>
 
                 <a href="tel:+12522216069" className="echo-phone">

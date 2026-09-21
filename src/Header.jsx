@@ -15,7 +15,7 @@ export default function Header() {
             className="brand-logo"
             />
             <div>
-              <div className="brand-kicker">AUTHORIZED BAD BOY DEALER</div>
+              <div className="brand-kicker">AUTHORIZED BAD BOY, FERRIS &amp; ECHO DEALER</div>
               <div className="brand-title">Intercoastal Outdoor Equipment</div>
             </div>
           </Link>

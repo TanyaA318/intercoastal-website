@@ -15,7 +15,7 @@ export default function About() {
             Built on Experience. Driven by Service.
           </h1>
           <p className="about-lead">
-            Authorized Bad Boy and Echo dealer in Camden, NC, offering new and used
+            Authorized Bad Boy, Ferris, and ECHO dealer in Camden, NC, offering new and used
             equipment, service, and repairs for customers across Northeastern
             North Carolina and the Hampton Roads area.
           </p>
@@ -27,7 +27,7 @@ export default function About() {
             <h2>Who We Are</h2>
             <p>
               We are a local outdoor equipment dealership providing new Bad Boy
-              mowers, used equipment, and professional service. Whether you are
+              and Ferris mowers, ECHO handheld equipment, used equipment, and professional service. Whether you are
               maintaining a residential property or managing commercial work, we
               help match you with equipment that performs and holds up over time.
             </p>
@@ -55,7 +55,8 @@ export default function About() {
             <h2>What We Offer</h2>
             <ul className="about-list">
   <li>New Bad Boy zero-turn mowers</li>
-  <li>Echo handheld outdoor power equipment</li>
+  <li>New Ferris zero-turn mowers</li>
+  <li>ECHO handheld outdoor power equipment</li>
   <li>Outdoor equipment service and repairs</li>
   <li>Pickup and delivery options</li>
   <li>Support for residential and commercial customers</li>
