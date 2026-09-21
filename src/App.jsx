@@ -20,7 +20,7 @@ function HomePage() {
             <div className="hero-mower-panel hero-mower-panel-badboy">
               <span className="hero-mower-brand">BAD BOY</span>
               <img
-                src="/mowers/maverickhd/1.png"
+                src="/mower-hero.jpg"
                 className="hero-mower-image hero-mower-image-badboy"
                 alt=""
               />
@@ -28,7 +28,7 @@ function HomePage() {
             <div className="hero-mower-panel hero-mower-panel-ferris">
               <span className="hero-mower-brand">FERRIS</span>
               <img
-                src="/mowers/ferris/isx3300.jpg"
+                src="/mowers/ferris/isx3300-scenic.jpg"
                 className="hero-mower-image hero-mower-image-ferris"
                 alt=""
               />
