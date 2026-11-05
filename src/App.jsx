@@ -111,44 +111,61 @@ function HomePage() {
         </section>
 
         <section className="section agri-sure-section" aria-labelledby="agri-sure-heading">
-          <div className="container agri-sure-layout">
-            <div className="agri-sure-logo-card">
+          <div className="container">
+            <div className="agri-sure-intro">
               <img
                 src="https://portal.agri-sure.com/hs-fs/hubfs/agri-sure-logo.jpg?height=615&name=agri-sure-logo.jpg&width=1000"
                 alt="Agri-Sure – America's Best Equipment Coverage"
+                className="agri-sure-brand-image"
                 loading="lazy"
               />
-            </div>
-            <div className="agri-sure-copy">
-              <p className="section-kicker">Equipment Protection Options</p>
-              <h2 id="agri-sure-heading" className="section-title">
-                Protect the mower you count on.
-              </h2>
-              <p className="section-text">
-                Ask Intercoastal Outdoor Equipment about Agri-Sure extended
-                service agreement options for eligible zero-turn mowers.
-                Depending on the machine and selected plan, options may include
-                powertrain protection or broader limited coverage to help with
-                unexpected covered repair costs.
-              </p>
-              <p className="agri-sure-disclaimer">
-                Availability, eligibility, covered components, exclusions and
-                terms vary by plan and equipment. Coverage is subject to the
-                written agreement and is not insurance.
-              </p>
-              <div className="agri-sure-actions">
-                <Link to="/contact" className="button button-primary">
-                  Ask Us About Coverage
-                </Link>
-                <a
-                  className="agri-sure-more"
-                  href="https://www.agri-sure.com/about-us"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Learn More About Agri-Sure
-                </a>
+              <div>
+                <p className="section-kicker">Agri-Sure Lifetime Protection</p>
+                <h2 id="agri-sure-heading" className="section-title">
+                  Built to work. Built to last. Backed for life.
+                </h2>
+                <p className="section-text">
+                  Ask us about Standard and Premium lifetime powertrain protection
+                  for eligible mowers and utility vehicles. Both plans offer
+                  unlimited hours and unlimited seasons, with nationwide coverage.
+                </p>
               </div>
+            </div>
+
+            <div className="agri-sure-plan-grid">
+              <article className="agri-sure-plan">
+                <p className="section-kicker">Standard Lifetime</p>
+                <h3>Essential lifetime powertrain protection</h3>
+                <ul>
+                  <li>Lifetime coverage for covered powertrain components</li>
+                  <li>Unlimited hours and unlimited seasons</li>
+                  <li><strong>$500 deductible</strong> per covered occurrence</li>
+                  <li>Nontransferable; coverage lasts while the original owner owns the machine</li>
+                  <li>Nationwide protection</li>
+                </ul>
+              </article>
+              <article className="agri-sure-plan agri-sure-plan-premium">
+                <p className="section-kicker">Premium Lifetime</p>
+                <h3>Enhanced protection with no deductible</h3>
+                <ul>
+                  <li>Lifetime coverage for covered powertrain components</li>
+                  <li>Unlimited hours and unlimited seasons</li>
+                  <li><strong>$0 deductible</strong> for covered occurrences</li>
+                  <li>Transferable with two years of coverage for a second owner, subject to plan terms</li>
+                  <li>Advertised as 50% more coverage than Standard Lifetime</li>
+                  <li>Nationwide protection</li>
+                </ul>
+              </article>
+            </div>
+            <p className="agri-sure-disclaimer">
+              Agri-Sure coverage applies only to eligible equipment. Coverage,
+              transfer rules, exclusions and limitations are subject to the written
+              agreement. Ask our team for full details before purchasing.
+            </p>
+            <div className="agri-sure-actions">
+              <Link to="/contact" className="button button-primary">
+                Ask Us About Agri-Sure Coverage
+              </Link>
             </div>
           </div>
         </section>
