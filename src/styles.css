@@ -746,7 +746,7 @@ img {
   border-radius: 1.5rem;
   padding: 28px;
   background: #ffffff;
-  border: 1px solid #e5e7eb;
+  border: 2px solid #7e9d79;
   box-shadow: 0 12px 28px rgba(23, 57, 95, 0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -772,8 +772,8 @@ img {
 
 .why-buy-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.6);
-  border-color: #d1d5db;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+  border-color: #34652c;
 }
 
 .why-buy-card .card-kicker {
