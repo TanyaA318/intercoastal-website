@@ -2474,3 +2474,38 @@ img {
     max-width: 230px;
   }
 }
+
+/* Four reasons to buy from Intercoastal */
+.why-buy-grid-four {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.25rem;
+  align-items: stretch;
+}
+.why-buy-grid-four .why-buy-card {
+  min-width: 0;
+  padding: 1.5rem;
+}
+.why-buy-grid-four .why-buy-card .card-title {
+  font-size: clamp(1.08rem, 1.35vw, 1.3rem);
+  overflow-wrap: break-word;
+}
+.why-buy-warranty-card {
+  border: 2px solid #7e9d79;
+}
+.why-buy-warranty-card .card-kicker {
+  color: #34652c;
+}
+.why-buy-warranty-card:hover {
+  border-color: #34652c;
+}
+@media (max-width: 1050px) {
+  .why-buy-grid-four {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 600px) {
+  .why-buy-grid-four {
+    grid-template-columns: 1fr;
+  }
+}
