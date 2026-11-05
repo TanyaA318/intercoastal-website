@@ -110,6 +110,67 @@ function HomePage() {
           </div>
         </section>
 
+        <section className="section agri-sure-section" aria-labelledby="agri-sure-heading">
+          <div className="container">
+            <div className="agri-sure-intro">
+              <img
+                src="https://portal.agri-sure.com/hs-fs/hubfs/agri-sure-logo.jpg?height=615&name=agri-sure-logo.jpg&width=1000"
+                alt="Agri-Sure – America's Best Equipment Coverage"
+                className="agri-sure-brand-image"
+                loading="lazy"
+              />
+              <div>
+                <p className="section-kicker">Agri-Sure Lifetime Protection</p>
+                <h2 id="agri-sure-heading" className="section-title">
+                  Built to work. Built to last. Backed for life.
+                </h2>
+                <p className="section-text">
+                  Every new mower we sell includes Agri-Sure Standard Lifetime
+                  Powertrain Protection, with the option to upgrade to Premium
+                  Lifetime Coverage. Both plans offer unlimited hours and unlimited
+                  seasons, with nationwide protection for covered equipment.
+                </p>
+              </div>
+            </div>
+
+            <div className="agri-sure-plan-grid">
+              <article className="agri-sure-plan">
+                <p className="section-kicker">Standard Lifetime</p>
+                <h3>Included with every new mower we sell</h3>
+                <ul>
+                  <li>Lifetime coverage for covered powertrain components</li>
+                  <li>Unlimited hours and unlimited seasons</li>
+                  <li><strong>$500 deductible</strong> per covered occurrence</li>
+                  <li>Nontransferable; coverage lasts while the original owner owns the machine</li>
+                  <li>Nationwide protection</li>
+                </ul>
+              </article>
+              <article className="agri-sure-plan agri-sure-plan-premium">
+                <p className="section-kicker">Premium Lifetime</p>
+                <h3>Optional upgrade for enhanced protection</h3>
+                <ul>
+                  <li>Lifetime coverage for covered powertrain components</li>
+                  <li>Unlimited hours and unlimited seasons</li>
+                  <li><strong>$0 deductible</strong> for covered occurrences</li>
+                  <li>Transferable with two years of coverage for a second owner, subject to plan terms</li>
+                  <li>50% more coverage than Standard Lifetime</li>
+                  <li>Nationwide protection</li>
+                </ul>
+              </article>
+            </div>
+            <p className="agri-sure-disclaimer">
+              Agri-Sure coverage applies only to eligible equipment. Coverage,
+              transfer rules, exclusions and limitations are subject to the written
+              agreement. Ask our team for full details before purchasing.
+            </p>
+            <div className="agri-sure-actions">
+              <Link to="/contact" className="button button-primary">
+                Ask Us About Agri-Sure Coverage
+              </Link>
+            </div>
+          </div>
+        </section>
+
         <section className="section section-tint why-buy-section">
           <div className="container">
             <div className="why-buy-intro">
@@ -123,7 +184,7 @@ function HomePage() {
               </p>
             </div>
 
-            <div className="card-grid card-grid-three why-buy-grid">
+            <div className="card-grid why-buy-grid why-buy-grid-four">
               <div className="info-card why-buy-card">
                 <p className="card-kicker">Leadership</p>
                 <h3 className="card-title">Veteran-Owned. Built on Integrity.</h3>
@@ -145,6 +206,16 @@ function HomePage() {
                 <h3 className="card-title">Sales. Service. Long-Term Support.</h3>
                 <p className="card-text">
                   From your first purchase to ongoing maintenance, we’re here to support your equipment for the long haul.
+                </p>
+              </div>
+
+              <div className="info-card why-buy-card why-buy-warranty-card">
+                <p className="card-kicker">Peace of Mind</p>
+                <h3 className="card-title">Lifetime Powertrain Protection Included</h3>
+                <p className="card-text">
+                  Every new mower we sell includes Agri-Sure Standard Lifetime
+                  Powertrain Protection, with the option to upgrade to Premium
+                  Coverage. Because your investment deserves protection that lasts.
                 </p>
               </div>
             </div>
