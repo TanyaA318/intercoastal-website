@@ -2429,14 +2429,14 @@ img {
 }
 .agri-sure-plan {
   border-radius: 1.25rem;
-  border: 1px solid #dfe8e0;
+  border: 2px solid #8fa8a0;
   background: #fff;
   padding: clamp(1.4rem, 3vw, 2rem);
   box-shadow: 0 8px 24px rgba(17, 50, 86, 0.06);
 }
 .agri-sure-plan-premium {
   background: #f3f8f0;
-  border-color: #dfe8e0;
+  border-color: #8fa8a0;
 }
 .agri-sure-plan h3 {
   font-size: clamp(1.2rem, 2vw, 1.5rem);
