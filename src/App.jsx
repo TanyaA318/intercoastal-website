@@ -125,9 +125,10 @@ function HomePage() {
                   Built to work. Built to last. Backed for life.
                 </h2>
                 <p className="section-text">
-                  Ask us about Standard and Premium lifetime powertrain protection
-                  for eligible mowers and utility vehicles. Both plans offer
-                  unlimited hours and unlimited seasons, with nationwide coverage.
+                  Every new mower we sell includes Agri-Sure Standard Lifetime
+                  Powertrain Protection, with the option to upgrade to Premium
+                  Lifetime Coverage. Both plans offer unlimited hours and unlimited
+                  seasons, with nationwide protection for covered equipment.
                 </p>
               </div>
             </div>
@@ -135,7 +136,7 @@ function HomePage() {
             <div className="agri-sure-plan-grid">
               <article className="agri-sure-plan">
                 <p className="section-kicker">Standard Lifetime</p>
-                <h3>Essential lifetime powertrain protection</h3>
+                <h3>Included with every new mower we sell</h3>
                 <ul>
                   <li>Lifetime coverage for covered powertrain components</li>
                   <li>Unlimited hours and unlimited seasons</li>
@@ -146,7 +147,7 @@ function HomePage() {
               </article>
               <article className="agri-sure-plan agri-sure-plan-premium">
                 <p className="section-kicker">Premium Lifetime</p>
-                <h3>Enhanced protection with no deductible</h3>
+                <h3>Optional upgrade for enhanced protection</h3>
                 <ul>
                   <li>Lifetime coverage for covered powertrain components</li>
                   <li>Unlimited hours and unlimited seasons</li>
