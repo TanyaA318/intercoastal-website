@@ -153,7 +153,7 @@ function HomePage() {
                   <li>Unlimited hours and unlimited seasons</li>
                   <li><strong>$0 deductible</strong> for covered occurrences</li>
                   <li>Transferable with two years of coverage for a second owner, subject to plan terms</li>
-                  <li>Advertised as 50% more coverage than Standard Lifetime</li>
+                  <li>50% more coverage than Standard Lifetime</li>
                   <li>Nationwide protection</li>
                 </ul>
               </article>
