@@ -110,6 +110,49 @@ function HomePage() {
           </div>
         </section>
 
+        <section className="section agri-sure-section" aria-labelledby="agri-sure-heading">
+          <div className="container agri-sure-layout">
+            <div className="agri-sure-logo-card">
+              <img
+                src="https://portal.agri-sure.com/hs-fs/hubfs/agri-sure-logo.jpg?height=615&name=agri-sure-logo.jpg&width=1000"
+                alt="Agri-Sure – America's Best Equipment Coverage"
+                loading="lazy"
+              />
+            </div>
+            <div className="agri-sure-copy">
+              <p className="section-kicker">Equipment Protection Options</p>
+              <h2 id="agri-sure-heading" className="section-title">
+                Protect the mower you count on.
+              </h2>
+              <p className="section-text">
+                Ask Intercoastal Outdoor Equipment about Agri-Sure extended
+                service agreement options for eligible zero-turn mowers.
+                Depending on the machine and selected plan, options may include
+                powertrain protection or broader limited coverage to help with
+                unexpected covered repair costs.
+              </p>
+              <p className="agri-sure-disclaimer">
+                Availability, eligibility, covered components, exclusions and
+                terms vary by plan and equipment. Coverage is subject to the
+                written agreement and is not insurance.
+              </p>
+              <div className="agri-sure-actions">
+                <Link to="/contact" className="button button-primary">
+                  Ask Us About Coverage
+                </Link>
+                <a
+                  className="agri-sure-more"
+                  href="https://www.agri-sure.com/about-us"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Learn More About Agri-Sure
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="section section-tint why-buy-section">
           <div className="container">
             <div className="why-buy-intro">
