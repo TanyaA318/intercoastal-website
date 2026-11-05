@@ -184,7 +184,7 @@ function HomePage() {
               </p>
             </div>
 
-            <div className="card-grid card-grid-three why-buy-grid">
+            <div className="card-grid why-buy-grid why-buy-grid-four">
               <div className="info-card why-buy-card">
                 <p className="card-kicker">Leadership</p>
                 <h3 className="card-title">Veteran-Owned. Built on Integrity.</h3>
@@ -206,6 +206,16 @@ function HomePage() {
                 <h3 className="card-title">Sales. Service. Long-Term Support.</h3>
                 <p className="card-text">
                   From your first purchase to ongoing maintenance, we’re here to support your equipment for the long haul.
+                </p>
+              </div>
+
+              <div className="info-card why-buy-card why-buy-warranty-card">
+                <p className="card-kicker">Peace of Mind</p>
+                <h3 className="card-title">Lifetime Powertrain Protection Included</h3>
+                <p className="card-text">
+                  Every new mower we sell includes Agri-Sure Standard Lifetime
+                  Powertrain Protection, with the option to upgrade to Premium
+                  Coverage. Because your investment deserves protection that lasts.
                 </p>
               </div>
             </div>
