@@ -34,7 +34,7 @@ export default function Contact() {
 
             <div className="contact-info-block contact-info-block-compact">
               <h3>Hours</h3>
-              <p className="opening-note">Opening May 1, 2026</p>
+              <p className="opening-note">Seasonal hours in effect. Regular business hours resume in March 2027.</p>
 
               <ul className="hours-list">
                 <li><span>Monday</span><span>8:00 AM - 5:00 PM</span></li>
@@ -42,7 +42,7 @@ export default function Contact() {
                 <li><span>Wednesday</span><span>8:00 AM - 5:00 PM</span></li>
                 <li><span>Thursday</span><span>8:00 AM - 5:00 PM</span></li>
                 <li><span>Friday</span><span>8:00 AM - 5:00 PM</span></li>
-                <li><span>Saturday</span><span>8:00 AM - 2:00 PM</span></li>
+                <li><span>Saturday</span><span>By appointment only</span></li>
                 <li><span>Sunday</span><span>Closed</span></li>
               </ul>
             </div>
